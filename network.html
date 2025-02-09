@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Citation Network Visualization</title>
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0;
+      }
+
+      text {
+        font-family: sans-serif;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script>
+      // Load JSON dynamically from the same directory
+      d3.json("graph.json").then(function(graph) {
+        initializeGraph(graph);
+      }).catch(error => console.log("Error loading graph data:", error));
+
+      function initializeGraph(graph) {
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+
+        var minScore = Math.min(...graph.nodes.map(n => n.modularity));
+        var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
+
+        var color = d3.scaleLinear()
+          .domain([minScore, (minScore + maxScore) / 4, (minScore + maxScore) / 2, ((minScore + maxScore) * 3) / 4, maxScore])
+          .range(["lime", "yellow", "red", "deepskyblue"]);
+
+        var svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
+        var simulation = d3.forceSimulation(graph.nodes)
+          .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+          .force("charge", d3.forceManyBody().strength(-200))
+          .force("center", d3.forceCenter(w / 2, h / 2));
+
+        var link = svg.selectAll(".link")
+          .data(graph.links)
+          .enter().append("line")
+          .attr("class", "link")
+          .style("stroke", "#888")
+          .style("stroke-width", 1.5);
+
+        var node = svg.selectAll(".node")
+          .data(graph.nodes)
+          .enter().append("circle")
+          .attr("r", 8)
+          .attr("fill", d => color(d.modularity))
+          .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+        var text = svg.selectAll(".text")
+          .data(graph.nodes)
+          .enter().append("text")
+          .attr("dx", 12)
+          .attr("dy", ".35em")
+          .style("font-size", "10px")
+          .text(d => d.label);
+
+        simulation.on("tick", function() {
+          link.attr("x1", d => d.source.x)
+              .attr("y1", d => d.source.y)
+              .attr("x2", d => d.target.x)
+              .attr("y2", d => d.target.y);
+
+          node.attr("cx", d => d.x)
+              .attr("cy", d => d.y);
+
+          text.attr("x", d => d.x)
+              .attr("y", d => d.y);
+        });
+
+        function dragstarted(event, d) {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+          d.fx = event.x;
+          d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        }
+      }
+    </script>
+  </body>
+</html>
