@@ -17,7 +17,8 @@
   </head>
 
   <body>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- Use D3 v6 -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
       // Load JSON dynamically from the same directory
       d3.json("graph.json").then(function(graph) {
@@ -32,10 +33,16 @@
         var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
 
         var color = d3.scaleLinear()
-          .domain([minScore, (minScore + maxScore) / 4, (minScore + maxScore) / 2, ((minScore + maxScore) * 3) / 4, maxScore])
-          .range(["lime", "yellow", "red", "deepskyblue"]);
+          .domain([minScore, maxScore]) // Corrected scale usage
+          .range(["lime", "deepskyblue"]);
 
-        var svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
+        // Create SVG container with responsive design
+        var svg = d3.select("body").append("svg")
+          .attr("width", w)
+          .attr("height", h)
+          .attr("viewBox", `0 0 ${w} ${h}`)
+          .attr("preserveAspectRatio", "xMidYMid meet");
+
         var simulation = d3.forceSimulation(graph.nodes)
           .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
           .force("charge", d3.forceManyBody().strength(-200))
@@ -52,7 +59,7 @@
           .data(graph.nodes)
           .enter().append("circle")
           .attr("r", 8)
-          .attr("fill", d => color(d.modularity))
+          .attr("fill", d => color(d.modularity || 0))
           .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
@@ -99,5 +106,3 @@
     </script>
   </body>
 </html>
-
-
