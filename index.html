@@ -19,138 +19,85 @@
   <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
-      // Load JSON dynamically from the GitHub Pages static file
+      // Load JSON dynamically from the same directory
       d3.json("graph.json").then(function(graph) {
-          initializeGraph(graph);
+        initializeGraph(graph);
       }).catch(error => console.log("Error loading graph data:", error));
 
       function initializeGraph(graph) {
-          var w = window.innerWidth;
-          var h = window.innerHeight;
+        var w = window.innerWidth;
+        var h = window.innerHeight;
 
-          var focusNode = null;
-          var highlightNode = null;
+        var minScore = Math.min(...graph.nodes.map(n => n.modularity));
+        var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
 
-          var textCenter = false;
-          var outline = false;
+        var color = d3.scaleLinear()
+          .domain([minScore, (minScore + maxScore) / 4, (minScore + maxScore) / 2, ((minScore + maxScore) * 3) / 4, maxScore])
+          .range(["lime", "yellow", "red", "deepskyblue"]);
 
-          var minScore = Math.min(...graph.nodes.map(n => n.modularity));
-          var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
+        var svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
+        var simulation = d3.forceSimulation(graph.nodes)
+          .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+          .force("charge", d3.forceManyBody().strength(-200))
+          .force("center", d3.forceCenter(w / 2, h / 2));
 
-          var color = d3.scaleLinear()
-              .domain([
-                  minScore,
-                  (minScore + maxScore) / 4,
-                  (minScore + maxScore) / 2,
-                  ((minScore + maxScore) * 3) / 4,
-                  maxScore,
-              ])
-              .range(["lime", "yellow", "red", "deepskyblue"]);
+        var link = svg.selectAll(".link")
+          .data(graph.links)
+          .enter().append("line")
+          .attr("class", "link")
+          .style("stroke", "#888")
+          .style("stroke-width", 1.5);
 
-          var highlightColor = "blue";
-          var highlightTrans = 0.1;
+        var node = svg.selectAll(".node")
+          .data(graph.nodes)
+          .enter().append("circle")
+          .attr("r", 8)
+          .attr("fill", d => color(d.modularity))
+          .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
 
-          const citedBy = graph.nodes
-              .map(n => n.cited_by)
-              .filter(n => n != null);
+        var text = svg.selectAll(".text")
+          .data(graph.nodes)
+          .enter().append("text")
+          .attr("dx", 12)
+          .attr("dy", ".35em")
+          .style("font-size", "10px")
+          .text(d => d.label);
 
-          const maxCitedBy = Math.max(...citedBy);
-          const minCitedBy = Math.min(...citedBy);
+        simulation.on("tick", function() {
+          link.attr("x1", d => d.source.x)
+              .attr("y1", d => d.source.y)
+              .attr("x2", d => d.target.x)
+              .attr("y2", d => d.target.y);
 
-          var size = d3.scalePow()
-              .exponent(1)
-              .domain([minCitedBy, maxCitedBy])
-              .range([8, 24]);
+          node.attr("cx", d => d.x)
+              .attr("cy", d => d.y);
 
-          var force = d3.forceSimulation(graph.nodes)
-              .force("link", d3.forceLink(graph.links).distance(h / (graph.nodes.length / 10)))
-              .force("charge", d3.forceManyBody().strength(-300))
-              .force("center", d3.forceCenter(w / 2, h / 2));
+          text.attr("x", d => d.x)
+              .attr("y", d => d.y);
+        });
 
-          var defaultNodeColor = "#ccc";
-          var defaultLinkColor = "#888";
-          var nominalBaseNodeSize = 8;
-          var nominalTextSize = 10;
-          var maxTextSize = 24;
-          var nominalStroke = 1.5;
-          var maxStroke = 4.5;
-          var maxBaseNodeSize = 36;
+        function dragstarted(event, d) {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        }
 
-          var svg = d3.select("body").append("svg")
-              .attr("width", w)
-              .attr("height", h);
+        function dragged(event, d) {
+          d.fx = event.x;
+          d.fy = event.y;
+        }
 
-          var g = svg.append("g");
-
-          var link = g.selectAll(".link")
-              .data(graph.links)
-              .enter().append("line")
-              .attr("stroke", defaultLinkColor)
-              .attr("stroke-width", nominalStroke);
-
-          var node = g.selectAll(".node")
-              .data(graph.nodes)
-              .enter().append("g")
-              .attr("class", "node")
-              .call(d3.drag()
-                  .on("start", dragStarted)
-                  .on("drag", dragged)
-                  .on("end", dragEnded));
-
-          node.on("dblclick", function(d) {
-              window.open(d.url, "_blank");
-              d3.event.stopPropagation();
-          });
-
-          node.append("circle")
-              .attr("r", d => size(d.cited_by) || nominalBaseNodeSize)
-              .attr("fill", d => isNumber(d.modularity) && d.modularity >= 0 ? color(d.modularity) : defaultNodeColor)
-              .attr("stroke", "white")
-              .attr("stroke-width", nominalStroke);
-
-          var text = g.selectAll(".text")
-              .data(graph.nodes)
-              .enter().append("text")
-              .attr("dy", ".35em")
-              .style("font-size", nominalTextSize + "px")
-              .attr("dx", d => size(d.cited_by))
-              .text(d => d.title);
-
-          force.on("tick", function () {
-              link
-                  .attr("x1", d => d.source.x)
-                  .attr("y1", d => d.source.y)
-                  .attr("x2", d => d.target.x)
-                  .attr("y2", d => d.target.y);
-
-              node
-                  .attr("transform", d => `translate(${d.x},${d.y})`);
-
-              text
-                  .attr("transform", d => `translate(${d.x},${d.y})`);
-          });
-
-          function dragStarted(d) {
-              if (!d3.event.active) force.alphaTarget(0.3).restart();
-              d.fx = d.x;
-              d.fy = d.y;
-          }
-
-          function dragged(d) {
-              d.fx = d3.event.x;
-              d.fy = d3.event.y;
-          }
-
-          function dragEnded(d) {
-              if (!d3.event.active) force.alphaTarget(0);
-              d.fx = null;
-              d.fy = null;
-          }
-
-          function isNumber(n) {
-              return !isNaN(parseFloat(n)) && isFinite(n);
-          }
+        function dragended(event, d) {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        }
       }
-  </script>  
+    </script>
   </body>
 </html>
+
+
