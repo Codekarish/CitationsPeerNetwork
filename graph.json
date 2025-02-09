@@ -9,7 +9,7 @@
             "year": "2021",
             "cited_by": 22,
             "cited_by_url": "https://scholar.google.com/scholar?cites=5664763969123002418&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "11400328201201624800",
@@ -20,7 +20,2147 @@
             "year": "2022",
             "cited_by": 116,
             "cited_by_url": "https://scholar.google.com/scholar?cites=11400328201201624800&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 9
+        },
+        {
+            "id": "5194916577055749881",
+            "label": "Network and cybersecurity applications of defense in adversarial attacks: A state-of-the-art...",
+            "url": "https://www.degruyter.com/document/doi/10.1515/jisys-2024-0153/html",
+            "title": "Network and cybersecurity applications of defense in adversarial attacks: A state-of-the-art...",
+            "authors": "YL Khaleel, MA Habeeb, AS Albahri\u2026",
+            "year": "2024",
+            "cited_by": 20,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5194916577055749881&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "12709074412739766797",
+            "label": "Emerging Trends in Applying Artificial Intelligence to Monkeypox Disease: A Bibliometric Analysis",
+            "url": "https://journals.mesopotamian.press/index.php/ADSA/article/view/511",
+            "title": "Emerging Trends in Applying Artificial Intelligence to Monkeypox Disease: A Bibliometric Analysis",
+            "authors": "YL Khaleel, MA Habeeb\u2026",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12709074412739766797&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "11510306624651675083",
+            "label": "A Systematic Review of Artificial Intelligence in Orthopaedic Disease Detection: A Taxonomy for Analysis and Trustworthiness Evaluation",
+            "url": "https://link.springer.com/article/10.1007/s44196-024-00718-y",
+            "title": "A Systematic Review of Artificial Intelligence in Orthopaedic Disease Detection: A Taxonomy for Analysis and Trustworthiness Evaluation",
+            "authors": "TJ Mohammed, C Xinying, A Alnoor, KW Khaw\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11510306624651675083&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "1716670575366043683",
+            "label": "Artificial Intelligence and Cybersecurity in Face Sale Contracts: Legal Issues and Frameworks",
+            "url": "https://mesopotamian.press/journals/index.php/CyberSecurity/article/view/543",
+            "title": "Artificial Intelligence and Cybersecurity in Face Sale Contracts: Legal Issues and Frameworks",
+            "authors": "LAE Al-saeedi, FJ Shakir, FK Hasan\u2026",
+            "year": "2024",
+            "cited_by": 8,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=1716670575366043683&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "15162352042953878108",
+            "label": "Adversarial Attacks in Machine Learning: Key Insights and Defense Approaches",
+            "url": "https://mesopotamian.press/journals/index.php/ADSA/article/view/489",
+            "title": "Adversarial Attacks in Machine Learning: Key Insights and Defense Approaches",
+            "authors": "YL Khaleel, MA Habeeb\u2026",
+            "year": "2024",
+            "cited_by": 9,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15162352042953878108&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "9164880131713272137",
+            "label": "Enhancing Security and Performance in Vehicular Adhoc Networks: A Machine Learning Approach to Combat Adversarial Attacks",
+            "url": "https://journals.mesopotamian.press/index.php/cs/article/view/526",
+            "title": "Enhancing Security and Performance in Vehicular Adhoc Networks: A Machine Learning Approach to Combat Adversarial Attacks",
+            "authors": "MA Habeeb, YL Khaleel\u2026",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9164880131713272137&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "7803571455276645592",
+            "label": "Deep Learning Model for Hand Movement Rehabilitation",
+            "url": "https://mesopotamian.press/journals/index.php/cs/article/view/554",
+            "title": "Deep Learning Model for Hand Movement Rehabilitation",
+            "authors": "RD Ismail, QA Hameed, MA Habeeb\u2026",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7803571455276645592&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "2656198218782337292",
+            "label": "Deep Learning Approaches for Gender Classification from Facial Images",
+            "url": "https://mesopotamian.press/journals/index.php/bigdata/article/view/553",
+            "title": "Deep Learning Approaches for Gender Classification from Facial Images",
+            "authors": "MA Habeeb, YL Khaleel, RD Ismail\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2656198218782337292&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "4003694647825272496",
+            "label": "Integrating Image Data Fusion and ResNet Method for Accurate Fish Freshness Classification",
+            "url": "https://ijcsm.researchcommons.org/ijcsm/vol5/iss4/21/",
+            "title": "Integrating Image Data Fusion and ResNet Method for Accurate Fish Freshness Classification",
+            "authors": "YL Khaleel, MA Habeeb\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4003694647825272496&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "10194772759802692149",
+            "label": "Introduction to Wi-Fi 7: A Review of History, Applications, Challenges, Economical Impact and Research Development",
+            "url": "https://journals.mesopotamian.press/index.php/cs/article/view/521",
+            "title": "Introduction to Wi-Fi 7: A Review of History, Applications, Challenges, Economical Impact and Research Development",
+            "authors": "SS Murad, R Badeel, BB Abdal\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10194772759802692149&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "Fk2W-Zg1R3EJ",
+            "label": "An efficient convolutional neural network based attack detection for smart grid in 5G-IOT",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1874548224000799",
+            "title": "An efficient convolutional neural network based attack detection for smart grid in 5G-IOT",
+            "authors": "MF Shaaban, A Ali",
+            "year": "2025",
+            "modularity": 4
+        },
+        {
+            "id": "12103960402029102184",
+            "label": "Enhanced Android Malware Detection through Artificial Neural Networks Technique",
+            "url": "https://mesopotamian.press/journals/index.php/CyberSecurity/article/view/707",
+            "title": "Enhanced Android Malware Detection through Artificial Neural Networks Technique",
+            "authors": "MA Habeeb, YL Khaleel",
+            "year": "2025",
+            "modularity": 4
+        },
+        {
+            "id": "2028588798980125915",
+            "label": "Leveraging Artificial Intelligent for Optimized Crop Production: An ANN-Based Approach",
+            "url": "https://mesopotamian.press/journals/index.php/cs/article/view/703",
+            "title": "Leveraging Artificial Intelligent for Optimized Crop Production: An ANN-Based Approach",
+            "authors": "YL Khaleel, FA Habeeb, MA Habeeb\u2026",
+            "year": "2025",
+            "modularity": 4
+        },
+        {
+            "id": "65443105197161401",
+            "label": "An optimized model for network intrusion detection in the network operating system environment",
+            "url": "https://mesopotamian.press/journals/index.php/CyberSecurity/article/view/583",
+            "title": "An optimized model for network intrusion detection in the network operating system environment",
+            "authors": "AA Abdulhameed, SAH Alazawi\u2026",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "11446230657182739763",
+            "label": "ARCS: Adaptive Reinforcement Learning Framework for Automated Cybersecurity Incident Response Strategy Optimization",
+            "url": "https://www.mdpi.com/2076-3417/15/2/951",
+            "title": "ARCS: Adaptive Reinforcement Learning Framework for Automated Cybersecurity Incident Response Strategy Optimization",
+            "authors": "S Ren, J Jin, G Niu, Y Liu",
+            "year": "2025",
+            "modularity": 4
+        },
+        {
+            "id": "MtfgifKqDp0J",
+            "label": "Performance Analysis of Priority Medical Events in Healthcare IoT Networks Using 3\u2010Dimension Discrete Time Markov Chain",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/itl2.626",
+            "title": "Performance Analysis of Priority Medical Events in Healthcare IoT Networks Using 3\u2010Dimension Discrete Time Markov Chain",
+            "authors": "GRR Dewa",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "4890505671557038439",
+            "label": "Effectiveness of Deep Learning Models in Cybercrime Prediction",
+            "url": "https://journal.ypidathu.or.id/index.php/technik/article/view/1561",
+            "title": "Effectiveness of Deep Learning Models in Cybercrime Prediction",
+            "authors": "M Mustofa, S Akhtar\u2026",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "evA3VFwa_v0J",
+            "label": "Strengthening Web Phishing Detection Against Adversarial Techniques",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10841615/",
+            "title": "Strengthening Web Phishing Detection Against Adversarial Techniques",
+            "authors": "R Tamilkodi, B Sujatha, J Durga\u2026",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "7i0hzNklxJkJ",
+            "label": "NAVIGATING CYBERSECURITY: A COMPREHENSIVE ANALYSIS OF MACHINE LEARNING IN CYBER ATTACK DETECTION",
+            "url": "http://www.jatit.org/volumes/Vol102No21/7Vol102No21.pdf",
+            "title": "NAVIGATING CYBERSECURITY: A COMPREHENSIVE ANALYSIS OF MACHINE LEARNING IN CYBER ATTACK DETECTION",
+            "authors": "SD RAJAN, A MANIKANDAN",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "14875437141829410661",
+            "label": "Mitigating Cybersecurity Threats: A Meta-Analysis of Machine Learning Approaches for Threat Detection and Prevention",
+            "url": "https://www.aarlj.com/index.php/AARLJ/article/view/111",
+            "title": "Mitigating Cybersecurity Threats: A Meta-Analysis of Machine Learning Approaches for Threat Detection and Prevention",
+            "authors": "A Patel, F Rahman",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "QCjcJ_NPZVgJ",
+            "label": "[CITATION][C]",
+            "title": "[CITATION][C]",
+            "authors": "AS Albahri, YL Khaleel, MA Habeeb",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "15552482983809285356",
+            "label": "Recent advancements in bamboo nanocellulose-based bioadsorbents and their potential in wastewater...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0141813024052565",
+            "title": "Recent advancements in bamboo nanocellulose-based bioadsorbents and their potential in wastewater...",
+            "authors": "JAS Othman, RA Ilyas, AH Nordin, N Ngadi\u2026",
+            "year": "2024",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15552482983809285356&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 9
+        },
+        {
+            "id": "17091831019438315076",
+            "label": "Nanocellulose-graphene hybrid composites: Fabrication, characterization, applications and environmental impact",
+            "url": "https://www.sciencedirect.com/science/article/pii/S014181302408053X",
+            "title": "Nanocellulose-graphene hybrid composites: Fabrication, characterization, applications and environmental impact",
+            "authors": "J Yusuf, AHM Firdaus, SM Sapuan, U Rashid\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=17091831019438315076&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 9
+        },
+        {
+            "id": "2498221990104459396",
+            "label": "Application of Biomass Functional Materials in the Environment",
+            "url": "https://www.mdpi.com/2073-4441/16/24/3593",
+            "title": "Application of Biomass Functional Materials in the Environment",
+            "authors": "Y Luo, R Su",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2498221990104459396&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 9
+        },
+        {
+            "id": "Sg9VnIXrzOkJ",
+            "label": "Nanocellulose-based aerogels for the adsorption and removal of heavy-metal ions from wastewater: A review",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352492825002569",
+            "title": "Nanocellulose-based aerogels for the adsorption and removal of heavy-metal ions from wastewater: A review",
+            "authors": "K Yu, L Yang, S Zhang, N Zhang",
+            "year": "2025",
+            "modularity": 9
+        },
+        {
+            "id": "KTtz5wVR7LIJ",
+            "label": "Modification of bacterial cellulose by MoBTx MBene and 1, 4-dithiothreitol for rapid and efficient adsorption of indomethacin and losartan potassium",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0141813025012942",
+            "title": "Modification of bacterial cellulose by MoBTx MBene and 1, 4-dithiothreitol for rapid and efficient adsorption of indomethacin and losartan potassium",
+            "authors": "I Ijaz, A Bukhari, A Nazir, E Gilani, H Zain\u2026",
+            "year": "2025",
+            "modularity": 9
+        },
+        {
+            "id": "972646263366833514",
+            "label": "Unveiling the Transformative Power of Smart Cellulosic Nanomaterials: Revisiting Potential Promises to Sustainable Future",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-76953-5_1",
+            "title": "Unveiling the Transformative Power of Smart Cellulosic Nanomaterials: Revisiting Potential Promises to Sustainable Future",
+            "authors": "A Singh, S Kaur, H Thakur, Rashi, S Kashyap\u2026",
+            "year": "2025",
+            "modularity": 9
+        },
+        {
+            "id": "QHjzILGVTYYJ",
+            "label": "A Comparative Review of Ceiling Boards Made from Difference Agricultural Waste Materials.",
+            "url": "https://www.researchgate.net/profile/Bamgbola-Abolarinwa/publication/387086124_A_Comparative_Review_of_Ceiling_Boards_Made_from_Difference_Agricultural_Waste_Materials/links/676016771da39f1495789f07/A-Comparative-Review-of-Ceiling-Boards-Made-from-Difference-Agricultural-Waste-Materials.pdf",
+            "title": "A Comparative Review of Ceiling Boards Made from Difference Agricultural Waste Materials.",
+            "authors": "B Abolarinwa",
+            "year": "researchgate.net",
+            "modularity": 9
+        },
+        {
+            "id": "15700265610709354988",
+            "label": "Privacy-centric AI and IoT solutions for smart rural farm monitoring and control",
+            "url": "https://www.mdpi.com/1424-8220/24/13/4157",
+            "title": "Privacy-centric AI and IoT solutions for smart rural farm monitoring and control",
+            "authors": "M Rahaman, CY Lin, P Pappachan, BB Gupta, CH Hsu",
+            "year": "2024",
+            "cited_by": 33,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15700265610709354988&as_sdt=2005&sciodt=0,5&hl=en",
             "modularity": 0
+        },
+        {
+            "id": "476498691246679775",
+            "label": "Cybersecurity threats and mitigation measures in agriculture 4.0 and 5.0",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772375524002211",
+            "title": "Cybersecurity threats and mitigation measures in agriculture 4.0 and 5.0",
+            "authors": "C Maraveas, M Rajarajan, KD Arvanitis\u2026",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=476498691246679775&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15934877005266067630",
+            "label": "Advancing sustainability: The impact of emerging technologies in agriculture",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2214662824001026",
+            "title": "Advancing sustainability: The impact of emerging technologies in agriculture",
+            "authors": "A Gamage, R Gangahagedara, S Subasinghe\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15934877005266067630&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "18322376521520547072",
+            "label": "A Physical-Layer Security Cooperative Framework for Mitigating Interference and Eavesdropping Attacks in Internet of Things Environments",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11359058/",
+            "title": "A Physical-Layer Security Cooperative Framework for Mitigating Interference and Eavesdropping Attacks in Internet of Things Environments",
+            "authors": "A Farraj, E Hammad",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=18322376521520547072&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "4088602135384423433",
+            "label": "Multi-Timeframe Forecasting Using Deep Learning Models for Solar Energy Efficiency in Smart Agriculture",
+            "url": "https://www.mdpi.com/1996-1073/17/17/4322",
+            "title": "Multi-Timeframe Forecasting Using Deep Learning Models for Solar Energy Efficiency in Smart Agriculture",
+            "authors": "S Venkatesan, Y Cho",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4088602135384423433&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15596117332386497917",
+            "label": "Research and Design of a Hybrid DV-Hop Algorithm Based on the Chaotic Crested Porcupine Optimizer for Wireless Sensor Localization in Smart Farms",
+            "url": "https://www.mdpi.com/2077-0472/14/8/1226",
+            "title": "Research and Design of a Hybrid DV-Hop Algorithm Based on the Chaotic Crested Porcupine Optimizer for Wireless Sensor Localization in Smart Farms",
+            "authors": "H Wang, L Zhang, B Liu",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15596117332386497917&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "5890489981342932539",
+            "label": "Metaverse security paradigms",
+            "url": "https://www.igi-global.com/chapter/metaverse-security-paradigms/354652",
+            "title": "Metaverse security paradigms",
+            "authors": "P Pappachan, R Bansal",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5890489981342932539&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "7181760765661711639",
+            "label": "Understanding large language models",
+            "url": "https://www.igi-global.com/chapter/understanding-large-language-models/354391",
+            "title": "Understanding large language models",
+            "authors": "S Sreerakuvandana, P Pappachan\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7181760765661711639&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "11109485466106437977",
+            "label": "Data Ethics and Privacy",
+            "url": "https://www.igi-global.com/chapter/data-ethics-and-privacy/354400",
+            "title": "Data Ethics and Privacy",
+            "authors": "T Phattanaviroj, M Moslehpour\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11109485466106437977&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "7447569158799628881",
+            "label": "The Future of Ethical AI",
+            "url": "https://www.igi-global.com/chapter/the-future-of-ethical-ai/354395",
+            "title": "The Future of Ethical AI",
+            "authors": "G Firmansyah, S Bansal, AM Walawalkar\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7447569158799628881&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "m_B9-Fwrtl4J",
+            "label": "Optimized Fertilizer Dispensing for Sustainable Agriculture Through Secured IoT-Blockchain Framework IoT-Blockchain Framework for Sustainable Agriculture.",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=2158107X&AN=180179644&h=85QDnlwIkUo4DEX%2Bdt6oeieL%2BlzrfK9ypz2dXSe1ZYBV%2Bj%2FTTq2qetnfF4Unk5mCnURK5DG%2FYl7XeyxS%2FE%2FFgg%3D%3D&crl=c",
+            "title": "Optimized Fertilizer Dispensing for Sustainable Agriculture Through Secured IoT-Blockchain Framework IoT-Blockchain Framework for Sustainable Agriculture.",
+            "authors": "BC Preethi, G Sugitha\u2026",
+            "year": "2024",
+            "modularity": 0
+        },
+        {
+            "id": "18361832680103590960",
+            "label": "Foundations of AI Ethics",
+            "url": "https://www.igi-global.com/chapter/foundations-of-ai-ethics/354393",
+            "title": "Foundations of AI Ethics",
+            "authors": "AM Walawalkar, M Moslehpour\u2026",
+            "year": "2024",
+            "modularity": 0
+        },
+        {
+            "id": "4008133518020188663",
+            "label": "Smart Agricultural Technology",
+            "url": "https://www.researchgate.net/profile/Chrysanthos-Maraveas/publication/385411338_Cybersecurity_threats_and_mitigation_measures_in_agriculture_40_and_50/links/673423d94a70511f071c8218/Cybersecurity-Threats-and-Mitigation-Measures-in-Agriculture-40-and-50.pdf",
+            "title": "Smart Agricultural Technology",
+            "authors": "C Maraveas, M Rajarajan, KG Arvanitis, A Vatsanidou",
+            "year": "researchgate.net",
+            "modularity": 0
+        },
+        {
+            "id": "uuWVtZ9iTDgJ",
+            "label": "Awareness and Acceptance of the Internet of Things (IOT) among Agropreneurs",
+            "url": "https://kwpublications.com/papers_submitted/11638/awareness-and-acceptance-of-the-internet-of-things-iot-among-agropreneurs.pdf",
+            "title": "Awareness and Acceptance of the Internet of Things (IOT) among Agropreneurs",
+            "authors": "IA Jumbri, MRM Alias, AF Fauzan, MF Ismail\u2026",
+            "year": "kwpublications.com",
+            "modularity": 0
+        },
+        {
+            "id": "ck6RcxPJ54sJ",
+            "label": "Optimized Fertilizer Dispensing for Sustainable Agriculture Through Secured IoT-Blockchain Framework",
+            "url": "https://search.proquest.com/openview/dd3f109f01d2c8d0daa088604ed98ac6/1?pq-origsite=gscholar&cbl=5444811",
+            "title": "Optimized Fertilizer Dispensing for Sustainable Agriculture Through Secured IoT-Blockchain Framework",
+            "authors": "BC Preethi, G Sugitha, TB Sivakumar",
+            "year": "search.proquest.com",
+            "modularity": 0
+        },
+        {
+            "id": "cxdL3VLtUFYJ",
+            "label": "Cryptographic Algorithms for Enhanced Security",
+            "url": "https://insights2techinfo.com/cryptographic-algorithms-for-enhanced-security/",
+            "title": "Cryptographic Algorithms for Enhanced Security",
+            "authors": "A Katiyar",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "Ok-fQLnr5p4J",
+            "label": "Information Security Issues and Challenges",
+            "url": "https://insights2techinfo.com/information-security-issues-and-challenges/",
+            "title": "Information Security Issues and Challenges",
+            "authors": "A Katiyar",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "bV8yFoAtKYIJ",
+            "label": "5G With IOT Cybersecurity: Opportunities and Threats",
+            "url": "https://insights2techinfo.com/5g-with-iot-cybersecurity-opportunities-and-threats/",
+            "title": "5G With IOT Cybersecurity: Opportunities and Threats",
+            "authors": "R Chokkappagari",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "WWm95dsUydkJ",
+            "label": "Combating Cyberattacks on IOT networks with Artificial Intelligence",
+            "url": "https://insights2techinfo.com/combating-cyberattacks-on-iot-networks-with-artificial-intelligence/",
+            "title": "Combating Cyberattacks on IOT networks with Artificial Intelligence",
+            "authors": "R Chokkappagari",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "pFb7pcsZCC4J",
+            "label": "Role of Artificial Intelligence in enhancing IOT Security",
+            "url": "https://insights2techinfo.com/role-of-artificial-intelligence-in-enhancing-iot-security/",
+            "title": "Role of Artificial Intelligence in enhancing IOT Security",
+            "authors": "R Chokkappagari",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "u1h3p0uo9fEJ",
+            "label": "Using Generative AI for Profit Prediction in Business",
+            "url": "https://insights2techinfo.com/using-generative-ai-for-profit-prediction-in-business/",
+            "title": "Using Generative AI for Profit Prediction in Business",
+            "authors": "IES Nayuni",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "m2AhjUWTXJ0J",
+            "label": "Protecting Your Network with AI Technology",
+            "url": "https://insights2techinfo.com/protecting-your-network-with-ai-technology/",
+            "title": "Protecting Your Network with AI Technology",
+            "authors": "DRC Reddy",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "jTovvhsYBQYJ",
+            "label": "AI in Network Security: What You Need to Know",
+            "url": "https://insights2techinfo.com/ai-in-network-security-what-you-need-to-know/",
+            "title": "AI in Network Security: What You Need to Know",
+            "authors": "DRC Reddy",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "fth9UIzkWVcJ",
+            "label": "AI vs. Cyber Attacks: Who Wins",
+            "url": "https://insights2techinfo.com/ai-vs-cyber-attacks-who-wins/",
+            "title": "AI vs. Cyber Attacks: Who Wins",
+            "authors": "DA Shaik",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "9b7tC1uSakEJ",
+            "label": "The Role of AI in Data Privacy and Protection",
+            "url": "https://insights2techinfo.com/the-role-of-ai-in-data-privacy-and-protection/",
+            "title": "The Role of AI in Data Privacy and Protection",
+            "authors": "DA Shaik",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "STvpWm1MDr0J",
+            "label": "AI Based Methods for Identifying Phishing Methods",
+            "url": "https://insights2techinfo.com/ai-based-methods-for-identifying-phishing-methods/",
+            "title": "AI Based Methods for Identifying Phishing Methods",
+            "authors": "AS Kasa",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "PwyoJTl5LNwJ",
+            "label": "MACHINE LEARNING FOR INTRUSION DETECTION SYSTEMS",
+            "url": "https://insights2techinfo.com/machine-learning-for-intrusion-detection-systems/",
+            "title": "MACHINE LEARNING FOR INTRUSION DETECTION SYSTEMS",
+            "authors": "SR Ali",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "om_6Wqha0q0J",
+            "label": "AI and the Future of Cybersecurity",
+            "url": "https://insights2techinfo.com/ai-and-the-future-of-cybersecurity/",
+            "title": "AI and the Future of Cybersecurity",
+            "authors": "DA Shaik",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "bPnxnkCHWwkJ",
+            "label": "AI in Predictive Healthcare: Early Detection of Diseases",
+            "url": "https://insights2techinfo.com/ai-in-predictive-healthcare-early-detection-of-diseases/",
+            "title": "AI in Predictive Healthcare: Early Detection of Diseases",
+            "authors": "SR Ali",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "DNV2K5pMIJsJ",
+            "label": "AI-Powered Tools for Spam Detection",
+            "url": "https://insights2techinfo.com/ai-powered-tools-for-spam-detection/",
+            "title": "AI-Powered Tools for Spam Detection",
+            "authors": "R Chokkappagari",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "izRg2RmKrzMJ",
+            "label": "AI and Network Safety: A Beginner's Guide",
+            "url": "https://insights2techinfo.com/ai-and-network-safety-a-beginners-guide/",
+            "title": "AI and Network Safety: A Beginner's Guide",
+            "authors": "DRC Reddy",
+            "year": "insights2techinfo.com",
+            "modularity": 0
+        },
+        {
+            "id": "12321400840200093647",
+            "label": "Green blockchain\u2013A move towards sustainability",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0959652623036995",
+            "title": "Green blockchain\u2013A move towards sustainability",
+            "authors": "YI Alzoubi, A Mishra",
+            "year": "2023",
+            "cited_by": 33,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12321400840200093647&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "2118600322105738580",
+            "label": "Green artificial intelligence initiatives: Potentials and challenges",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0959652624025393",
+            "title": "Green artificial intelligence initiatives: Potentials and challenges",
+            "authors": "YI Alzoubi, A Mishra",
+            "year": "2024",
+            "cited_by": 23,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2118600322105738580&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "6665113618193592280",
+            "label": "Blockchain, artificial intelligence, and healthcare: the tripod of future\u2014a narrative review",
+            "url": "https://link.springer.com/article/10.1007/s10462-024-10873-5",
+            "title": "Blockchain, artificial intelligence, and healthcare: the tripod of future\u2014a narrative review",
+            "authors": "A Bathula, SK Gupta, S Merugu, L Saba\u2026",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6665113618193592280&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "14701276247802246386",
+            "label": "Barriers and enablers for green concrete adoption: a scientometric aided literature review approach",
+            "url": "https://www.mdpi.com/2071-1050/16/12/5093/pdf",
+            "title": "Barriers and enablers for green concrete adoption: a scientometric aided literature review approach",
+            "authors": "A Al-Otaibi",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14701276247802246386&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "14328462311769224857",
+            "label": "Navigating the green wave: Understanding behavioral antecedents of sustainable cryptocurrency investment",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0040162524007078",
+            "title": "Navigating the green wave: Understanding behavioral antecedents of sustainable cryptocurrency investment",
+            "authors": "GB Dr\u0103gan, WB Arfi, V Tiberius, A Ammari\u2026",
+            "year": "2025",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14328462311769224857&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "15501944878732714894",
+            "label": "Global Strategies for a Low-Carbon Future: Lessons from the US, China, and EU's Pursuit of Carbon Neutrality",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0959652624020833",
+            "title": "Global Strategies for a Low-Carbon Future: Lessons from the US, China, and EU's Pursuit of Carbon Neutrality",
+            "authors": "S Evro, BA Oni, OS Tomomewo",
+            "year": "2024",
+            "cited_by": 28,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15501944878732714894&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "2926472114204618510",
+            "label": "Blockchain evolution, artificial intelligence and ferrous metal trade",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0301420724007360",
+            "title": "Blockchain evolution, artificial intelligence and ferrous metal trade",
+            "authors": "Q Mao, Y Li",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2926472114204618510&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "4208017575696338035",
+            "label": "Sustainable Consensus Algorithms Applied to Blockchain: A Systematic Literature Review",
+            "url": "https://www.mdpi.com/2071-1050/16/23/10552",
+            "title": "Sustainable Consensus Algorithms Applied to Blockchain: A Systematic Literature Review",
+            "authors": "M Pineda, D Jabba, W Nieto-Bernal, A P\u00e9rez",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4208017575696338035&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "14693659502864426737",
+            "label": "Does the carbon market signal the market efficiency of clean and dirty cryptocurrencies? An analysis of quantile directional dependence",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1544612324009437",
+            "title": "Does the carbon market signal the market efficiency of clean and dirty cryptocurrencies? An analysis of quantile directional dependence",
+            "authors": "Y Wei, R Hu, J Zhang, Q Wang",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14693659502864426737&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "3581196786456513157",
+            "label": "Green cryptocurrency and business strategies: Framework and insights from a stewardship literature review",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bse.3996",
+            "title": "Green cryptocurrency and business strategies: Framework and insights from a stewardship literature review",
+            "authors": "R Arora, M Kapoor, N Singh\u2026",
+            "year": "2025",
+            "modularity": 1
+        },
+        {
+            "id": "7363253735855457176",
+            "label": "Verifiable record of AI output for privacy protection: public space watched by AI-connected cameras as a target example",
+            "url": "https://link.springer.com/article/10.1007/s00146-024-02122-8",
+            "title": "Verifiable record of AI output for privacy protection: public space watched by AI-connected cameras as a target example",
+            "authors": "Y Fujii",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7363253735855457176&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "v495SP-w80UJ",
+            "label": "Relationship of green cryptocurrencies, energy tokens, centralized and decentralized exchange tokens with crypto policy uncertainty",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0275531924005361",
+            "title": "Relationship of green cryptocurrencies, energy tokens, centralized and decentralized exchange tokens with crypto policy uncertainty",
+            "authors": "RM Nasir, F He, I Yousaf",
+            "year": "2025",
+            "modularity": 1
+        },
+        {
+            "id": "5531249098603450562",
+            "label": "Techniques to alleviate blockchain bloat: Potentials, challenges, and recommendations",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0045790624001447",
+            "title": "Techniques to alleviate blockchain bloat: Potentials, challenges, and recommendations",
+            "authors": "YI Alzoubi, A Mishra",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5531249098603450562&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "78s7kYAjgv0J",
+            "label": "A literature review on transformative impacts of blockchain technology on manufacturing management and industrial engineering practices",
+            "url": "https://www.sciencedirect.com/science/article/pii/S294973612500003X",
+            "title": "A literature review on transformative impacts of blockchain technology on manufacturing management and industrial engineering practices",
+            "authors": "D Hariyani, P Hariyani, S Mishra, MK Sharma",
+            "year": "2025",
+            "modularity": 1
+        },
+        {
+            "id": "11472497229418422552",
+            "label": "The role of blockchain technology in facilitating finance for metal and mining resources",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0301420724007505",
+            "title": "The role of blockchain technology in facilitating finance for metal and mining resources",
+            "authors": "T Cai, X Shi, Z Shang, X Zhu, J Qi",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "6795021678415276842",
+            "label": "Blockchain Integration and Its Impact on Renewable Energy",
+            "url": "https://www.mdpi.com/2073-431X/13/4/107",
+            "title": "Blockchain Integration and Its Impact on Renewable Energy",
+            "authors": "H Taherdoost",
+            "year": "2024",
+            "cited_by": 7,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6795021678415276842&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "3675576974576005051",
+            "label": "Implementing Immersive Worlds for Metaverse-Based Participatory Design through Photogrammetry and Blockchain",
+            "url": "https://www.mdpi.com/2220-9964/13/6/211",
+            "title": "Implementing Immersive Worlds for Metaverse-Based Participatory Design through Photogrammetry and Blockchain",
+            "authors": "N Abramov, H Lankegowda, S Liu, L Barazzetti\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3675576974576005051&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "xlsLV0Zxj2AJ",
+            "label": "A Framework for Blockchain-Enabled Internet of Electric Vehicle Charging Station Sustainability Performance Evaluation",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10766423/",
+            "title": "A Framework for Blockchain-Enabled Internet of Electric Vehicle Charging Station Sustainability Performance Evaluation",
+            "authors": "M Naik, AP Singh, NR Pradhan\u2026",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "11662613217849524264",
+            "label": "Blockchain in energy: literature review in the context of sustainability",
+            "url": "https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-942c26f8-766b-4a01-a231-5d5fb64887ee",
+            "title": "Blockchain in energy: literature review in the context of sustainability",
+            "authors": "\u0141J Kozar, M Wodnicka",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11662613217849524264&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "10448133577470760128",
+            "label": "Overcoming the Technological Barriers in the Blockchain Supply Chain for Small Carriers",
+            "url": "https://www.mdpi.com/2076-3417/14/11/4452",
+            "title": "Overcoming the Technological Barriers in the Blockchain Supply Chain for Small Carriers",
+            "authors": "M Gogola, D Rovnanikova, M Cerny",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10448133577470760128&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "8154949815541164082",
+            "label": "Harnessing the Potential of Green Cryptocurrencies: A Path Toward Climate Change Mitigation",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-56419-2_14",
+            "title": "Harnessing the Potential of Green Cryptocurrencies: A Path Toward Climate Change Mitigation",
+            "authors": "N Del Sarto, E Scali, R Barontini",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8154949815541164082&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "8814271347266554612",
+            "label": "The Impact of The Transition to The Circular Economy Implementations in The Financial Industry: Recommendations for Good Practice",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/s1569-375920240000114011/full/html",
+            "title": "The Impact of The Transition to The Circular Economy Implementations in The Financial Industry: Recommendations for Good Practice",
+            "authors": "L Nzama-Sithole, SB Kahyaoglu",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "NbGkTCOP0f8J",
+            "label": "Exploring the Relative Impact of Blockchain-enabled Information on Consumers' Trust, Purchase Intention, and Repeat Purchase Intentions",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10856993/",
+            "title": "Exploring the Relative Impact of Blockchain-enabled Information on Consumers' Trust, Purchase Intention, and Repeat Purchase Intentions",
+            "authors": "K Xue-L\u00f8nmo, A Fagerstr\u00f8m\u2026",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "10722706094077503339",
+            "label": "Strategic Blockchain Adoption for Anti-Greenwashing",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670906",
+            "title": "Strategic Blockchain Adoption for Anti-Greenwashing",
+            "authors": "S Guo, H Huang, F Liu, S Sethi, X Xing\u2026",
+            "year": "2023",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10722706094077503339&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "13474427873616319348",
+            "label": "Green Blockchain technology for Organization Performance without Risky Activities: Natural-Resource-Based View",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10596568/",
+            "title": "Green Blockchain technology for Organization Performance without Risky Activities: Natural-Resource-Based View",
+            "authors": "KP Patil, D Pramod, S Joseph",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "1045488302719306991",
+            "label": "Green Blockchain Technology for an Eco-Friendly Environment",
+            "url": "https://www.igi-global.com/chapter/green-blockchain-technology-for-an-eco-friendly-environment/348571",
+            "title": "Green Blockchain Technology for an Eco-Friendly Environment",
+            "authors": "J Yomboi, M Majeed, E Asiedu, C Nangpiire\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=1045488302719306991&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "7374352961216435040",
+            "label": "Securing Large Healthcare Files in Cloud-Blockchain Integration: A Comprehensive Review",
+            "url": "https://www.preprints.org/manuscript/202402.0453",
+            "title": "Securing Large Healthcare Files in Cloud-Blockchain Integration: A Comprehensive Review",
+            "authors": "LJR Lopez, DF Millan, LH Martinez, A Carbonell\u2026",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "f-u1QV4DTlwJ",
+            "label": "A blockchain-based blood donation system: Enhancing transparency, accountability, and sustainability in healthcare",
+            "url": "https://library.acadlore.com/HF/2024/2/3/HF_02.03_03.pdf",
+            "title": "A blockchain-based blood donation system: Enhancing transparency, accountability, and sustainability in healthcare",
+            "authors": "A Sevin\u00e7, F \u00d6zyurt",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "QTQrJvB0hNwJ",
+            "label": "Decentralized Ledger Technologies: Exploring the Landscape and Diverse Applications of Blockchain",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10829422/",
+            "title": "Decentralized Ledger Technologies: Exploring the Landscape and Diverse Applications of Blockchain",
+            "authors": "N Sharma, M Khenwar, S Agrawal",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "dDR2lPVDcfAJ",
+            "label": "Exploring Non Fungible Tokens in the Digital Economy: Stakeholders, Ecosystem, Risks, and Opportunity",
+            "url": "https://analysisdata.co.id/index.php/JEBI/article/view/181",
+            "title": "Exploring Non Fungible Tokens in the Digital Economy: Stakeholders, Ecosystem, Risks, and Opportunity",
+            "authors": "I Prayogo",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "kWIJAMInapUJ",
+            "label": "NFTs for Artists: Hype or a Whole New Business Paradigm?",
+            "url": "https://lup.lub.lu.se/student-papers/search/publication/9179003",
+            "title": "NFTs for Artists: Hype or a Whole New Business Paradigm?",
+            "authors": "A Bikic",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "3808609484188844727",
+            "label": "Enhancing cyber governance in Islamic banks: The influence of artificial intelligence and...",
+            "url": "https://m.growingscience.com/beta/ijds/6483-enhancing-cyber-governance-in-islamic-banks-the-influence-of-artificial-intelligence-and-the-moderating-effect-of-covid-19-pandemic.html",
+            "title": "Enhancing cyber governance in Islamic banks: The influence of artificial intelligence and...",
+            "authors": "M Alghadi, H Alqudah, A Lutfi\u2026",
+            "year": "2024",
+            "cited_by": 18,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3808609484188844727&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "8035593007001819005",
+            "label": "Artificial Intelligence in Retail Marketing: Research Agenda Based on Bibliometric Reflection and Content Analysis (2000\u20132023)",
+            "url": "https://www.mdpi.com/2227-9709/11/4/74",
+            "title": "Artificial Intelligence in Retail Marketing: Research Agenda Based on Bibliometric Reflection and Content Analysis (2000\u20132023)",
+            "authors": "A Haque, N Akther, I Khan, K Agarwal, N Uddin",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8035593007001819005&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "15188081317933820028",
+            "label": "The role of digital supply chain on inventory management effectiveness within engineering companies in Jordan",
+            "url": "https://www.mdpi.com/2071-1050/16/18/8031",
+            "title": "The role of digital supply chain on inventory management effectiveness within engineering companies in Jordan",
+            "authors": "AAA Ali, AAS Fayad, A Alomair, AS Al Naim",
+            "year": "2024",
+            "cited_by": 4,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15188081317933820028&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "1784063440447899022",
+            "label": "Technology factors and ERP system efficiency in the Jordanian industrial firms: does company size matter?",
+            "url": "https://www.nature.com/articles/s41599-024-03198-9",
+            "title": "Technology factors and ERP system efficiency in the Jordanian industrial firms: does company size matter?",
+            "authors": "A Lutfi, H Alqudah, KI Al-Daoud, N Zaqeeba\u2026",
+            "year": "2024",
+            "cited_by": 8,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=1784063440447899022&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "4620314662075175808",
+            "label": "A decade of green economic literature: an analysis-based bibliometric",
+            "url": "https://www.zbw.eu/econis-archiv/bitstream/11159/653665/1/1889903434_0.pdf",
+            "title": "A decade of green economic literature: an analysis-based bibliometric",
+            "authors": "H Alqudah, MZ Al Qudah, Y Abu Huson, A Lutfi\u2026",
+            "year": "2024",
+            "cited_by": 20,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4620314662075175808&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "6772229679179127950",
+            "label": "The impact of using types of artificial intelligence technology in monitoring tax payments",
+            "url": "http://m.growingscience.com/beta/ijds/6914-the-impact-of-using-types-of-artificial-intelligence-technology-in-monitoring-tax-payments.html",
+            "title": "The impact of using types of artificial intelligence technology in monitoring tax payments",
+            "authors": "N Zaqeeba, H Alqudah, A Alshirah\u2026",
+            "year": "2024",
+            "cited_by": 8,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6772229679179127950&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "9922020129757323133",
+            "label": "The Measurement of Blockchain Technology in Financial Reports in Commercial Banks",
+            "url": "https://www.hightechjournal.org/index.php/HIJ/article/view/781",
+            "title": "The Measurement of Blockchain Technology in Financial Reports in Commercial Banks",
+            "authors": "N Zaqeeba, H Alqudah, BS Rawashdeh\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9922020129757323133&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "5184866174552171850",
+            "label": "The moderation of trust on the relationship between TOE factors and generalized audit software usage and financial performance",
+            "url": "http://growingscience.com/beta/uscm/6859-the-moderation-of-trust-on-the-relationship-between-toe-factors-and-generalized-audit-software-usage-and-financial-performance.html",
+            "title": "The moderation of trust on the relationship between TOE factors and generalized audit software usage and financial performance",
+            "authors": "A Marei",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5184866174552171850&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "127003381117153378",
+            "label": "Navigating digital transformation in accounting system: Challenges and opportunities",
+            "url": "http://m.growingscience.com/beta/ijds/6676-navigating-digital-transformation-in-accounting-system-challenges-and-opportunities.html",
+            "title": "Navigating digital transformation in accounting system: Challenges and opportunities",
+            "authors": "M Obaid",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=127003381117153378&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "4607796578968859739",
+            "label": "Enhancing the Internal Auditors' Effectiveness in Jordanian Companies: The Impact of Cloud-based Accounting Usage and the Moderating Role of Digital\u00a0\u2026",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2451958824000757",
+            "title": "Enhancing the Internal Auditors' Effectiveness in Jordanian Companies: The Impact of Cloud-based Accounting Usage and the Moderating Role of Digital\u00a0\u2026",
+            "authors": "H Alqudah, BS Rawashdeh, A Lutfi, T Al Barrak\u2026",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4607796578968859739&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "7698674313588641948",
+            "label": "Comparative Analysis of the Financial Performance of Jordanian-listed Companies during and after the covid-19 Pandemic",
+            "url": "https://www.wseas.com/journals/bae/2024/c485107-2701.pdf",
+            "title": "Comparative Analysis of the Financial Performance of Jordanian-listed Companies during and after the covid-19 Pandemic",
+            "authors": "A Lutfi, NA Almasria, HH Aldboush\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7698674313588641948&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "YVvUjHIOchEJ",
+            "label": "An analysis of extreme risk spillover effects and their determinants between AI-related assets and Islamic banking indices",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/imefm-09-2024-0453/full/html",
+            "title": "An analysis of extreme risk spillover effects and their determinants between AI-related assets and Islamic banking indices",
+            "authors": "M Billah",
+            "year": "2025",
+            "modularity": 6
+        },
+        {
+            "id": "8723122447242332631",
+            "label": "The Mediating Role of Digital Competency between Top Management Support and the Electronic Internal Audit Tasks' Effectiveness",
+            "url": "https://www.researchgate.net/profile/Hamza-Alqudah/publication/378144375_The_Mediating_Role_of_Digital_Competency_between_Top_Management_Support_and_the_Electronic_Internal_Audit_Tasks'_Effectiveness/links/65c9f0b41e1ec12eff885849/The-Mediating-Role-of-Digital-Competency-between-Top-Management-Support-and-the-Electronic-Internal-Audit-Tasks-Effectiveness.pdf",
+            "title": "The Mediating Role of Digital Competency between Top Management Support and the Electronic Internal Audit Tasks' Effectiveness",
+            "authors": "HM Alqudah",
+            "year": "2023",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8723122447242332631&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "11875903188610384364",
+            "label": "The Role of Cloud-Based Accounting in Improving the Cost-Reduction Methods in Jordanian Industrial Companies: An Empirical Analysis",
+            "url": "https://www.researchgate.net/profile/Hamza-Alqudah/publication/381996532_The_Role_of_Cloud-Based_Accounting_in_Improving_the_Cost-_Reduction_Methods_in_Jordanian_Industrial_Companies_An_Empirical_Analysis/links/66871f45f3b61c4e2cafc044/The-Role-of-Cloud-Based-Accounting-in-Improving-the-Cost-Reduction-Methods-in-Jordanian-Industrial-Companies-An-Empirical-Analysis.pdf",
+            "title": "The Role of Cloud-Based Accounting in Improving the Cost-Reduction Methods in Jordanian Industrial Companies: An Empirical Analysis",
+            "authors": "HM Alqudah",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11875903188610384364&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "535229325813930784",
+            "label": "Empowering internal auditors' creativity in Jordanian ministries: the effect of knowledge sharing and job satisfaction",
+            "url": "https://www.researchgate.net/profile/Hamza-Alqudah/publication/378653735_Empowering_Internal_Auditors'_Creativity_in_Jordanian_Ministries_The_Effect_of_Knowledge_Sharing_and_Job_Satisfaction/links/65f5733cc05fd2688019dfc1/Empowering-Internal-Auditors-Creativity-in-Jordanian-Ministries-The-Effect-of-Knowledge-Sharing-and-Job-Satisfaction.pdf",
+            "title": "Empowering internal auditors' creativity in Jordanian ministries: the effect of knowledge sharing and job satisfaction",
+            "authors": "H Alqudah",
+            "year": "2023",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=535229325813930784&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "8472636070323772210",
+            "label": "The role of artificial intelligence in the cybersecurity system of banking institutions in the conditions of instability",
+            "url": "https://www.jatit.org/volumes/Vol102No19/8Vol102No19.pdf",
+            "title": "The role of artificial intelligence in the cybersecurity system of banking institutions in the conditions of instability",
+            "authors": "M DUBYNA, R SHCHUR, O SHYSHKINA\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8472636070323772210&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "7610384114825077244",
+            "label": "Improving Financial Performance through Participative Management: The Impact of Transactional Leadership in Jordanian Telecommunications Companies",
+            "url": "http://kurdishstudies.net/menu-script/index.php/KS/article/view/1995",
+            "title": "Improving Financial Performance through Participative Management: The Impact of Transactional Leadership in Jordanian Telecommunications Companies",
+            "authors": "A Marei",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7610384114825077244&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "18042937002402190201",
+            "label": "ROLE OF ARTIFICIAL INTELLIGENCE AND BIG DATA CAPABILITIES ON FINTECH SERVICES: VALuE CO-CREATION THEORY",
+            "url": "https://www.researchgate.net/profile/Hasan-Alhanatleh/publication/387262505_Role_of_artificial_intelligence_and_BIG_DATA_capabilities_on_fintech_services_Value_co-creation_theory/links/67656c3bc1b0135465eacad1/Role-of-artificial-intelligence-and-BIG-DATA-capabilities-on-fintech-services-Value-co-creation-theory.pdf",
+            "title": "ROLE OF ARTIFICIAL INTELLIGENCE AND BIG DATA CAPABILITIES ON FINTECH SERVICES: VALuE CO-CREATION THEORY",
+            "authors": "A Khaddam, H Alhanatleh",
+            "year": "2024",
+            "modularity": 6
+        },
+        {
+            "id": "5ntvLKShDTAJ",
+            "label": "Applied Statistical Analysis: Regression Analysis of Islamic Banking Asset Growth and Conventional Banking Growth 2021-2022",
+            "url": "https://proceedings.ums.ac.id/iseth/article/view/5261",
+            "title": "Applied Statistical Analysis: Regression Analysis of Islamic Banking Asset Growth and Conventional Banking Growth 2021-2022",
+            "authors": "R Risdayani, I Isman, S Hidayat\u2026",
+            "year": "2023",
+            "modularity": 6
+        },
+        {
+            "id": "2031553025185532535",
+            "label": "Techno-Prevention in Counterterrorism: Between Countering Crime and Human Rights Protection",
+            "url": "https://pdfs.semanticscholar.org/b655/72df3e578dbd4e4ca1fa33728677100f7332.pdf",
+            "title": "Techno-Prevention in Counterterrorism: Between Countering Crime and Human Rights Protection",
+            "authors": "A Masyhar, SO Emovwodo",
+            "year": "2023",
+            "cited_by": 17,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2031553025185532535&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "9095794654052769163",
+            "label": "Establishing Consumer Trust Through Data Protection Law as a Competitive Advantage in Indonesia and India",
+            "url": "https://jhcls.org/index.php/JHCLS/article/view/200",
+            "title": "Establishing Consumer Trust Through Data Protection Law as a Competitive Advantage in Indonesia and India",
+            "authors": "RA Prastyanti, R Sharma",
+            "year": "2024",
+            "cited_by": 14,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9095794654052769163&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "4293938206683246946",
+            "label": "The Legal Issues Concerning the Operation of Fin-Tech in Nigeria",
+            "url": "https://journal.umy.ac.id/index.php/jmh/article/view/18337",
+            "title": "The Legal Issues Concerning the Operation of Fin-Tech in Nigeria",
+            "authors": "PA Aidonojie, TA Majekodunmi\u2026",
+            "year": "2023",
+            "cited_by": 21,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4293938206683246946&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "5821140504453151854",
+            "label": "Counterterrorism prevention concept to support government policy in Indonesia",
+            "url": "https://www.journal-iasssf.com/index.php/GG/article/view/1223",
+            "title": "Counterterrorism prevention concept to support government policy in Indonesia",
+            "authors": "A Bimantara, AA Supriyadi",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5821140504453151854&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "1RKFrEzxSlcJ",
+            "label": "The Ex-Terrorist Social Reintegration Based on Community Participation Through a Corporate Social Responsibility Program",
+            "url": "https://ejournal.umm.ac.id/index.php/audito/article/view/33258",
+            "title": "The Ex-Terrorist Social Reintegration Based on Community Participation Through a Corporate Social Responsibility Program",
+            "authors": "IGAA Pratama, A Madjid, N Aprilianda\u2026",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "4754251714677209209",
+            "label": "The Indonesian Government's Dilemma in Repatriating Former ISIS Members: Balancing Advocacy, Citizenship Status, and Human Rights",
+            "url": "https://journal.unnes.ac.id/sju/ijals/article/view/78523",
+            "title": "The Indonesian Government's Dilemma in Repatriating Former ISIS Members: Balancing Advocacy, Citizenship Status, and Human Rights",
+            "authors": "DS Puteri, DC Wahono, RJ Firdaus\u2026",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "fAK4JSO04FoJ",
+            "label": "How Ex-Terrorists Should be Accepted in the Community? A CSR Point of View",
+            "url": "https://ejournal.umm.ac.id/index.php/ilrej/article/view/33206",
+            "title": "How Ex-Terrorists Should be Accepted in the Community? A CSR Point of View",
+            "authors": "IGA Pratama, A Madjid, N Aprilianda\u2026",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "4394848656129687475",
+            "label": "The Regulation of Integrity Zone and the Corruption-Free Zone in Indonesia and Rusia",
+            "url": "https://scholar.archive.org/work/eqwuhxrd2vb6zn52sbf6dpv6pi/access/wayback/https://jurnal.uns.ac.id/bestuur/article/download/76306/pdf",
+            "title": "The Regulation of Integrity Zone and the Corruption-Free Zone in Indonesia and Rusia",
+            "authors": "A Widyawati, D Latifiani, R Arifin, G Ompoy\u2026",
+            "year": "2023",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4394848656129687475&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "2179874369823806846",
+            "label": "Enhancing National Security: Strategic Policy Development in Defense Management",
+            "url": "http://glorespublication.org/index.php/jupenus/article/view/524",
+            "title": "Enhancing National Security: Strategic Policy Development in Defense Management",
+            "authors": "A Sarjito",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2179874369823806846&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "D7BHa-XROG8J",
+            "label": "Digital transformation on national security strategy: A bibliometric analysis",
+            "url": "https://www.researchgate.net/profile/Andi-Prianto/publication/383457914_Digital_transformation_on_national_security_strategy_A_bibliometric_analysis/links/66ce51f52390e50b2c1abd8a/Digital-transformation-on-national-security-strategy-A-bibliometric-analysis.pdf",
+            "title": "Digital transformation on national security strategy: A bibliometric analysis",
+            "authors": "AL Prianto, AR Amri, G Ilik",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "6102920637500736548",
+            "label": "Deradicalization of Terrorism Based on a Progressive Legal Approach",
+            "url": "https://www.atlantis-press.com/proceedings/ic-law-23/125998643",
+            "title": "Deradicalization of Terrorism Based on a Progressive Legal Approach",
+            "authors": "MM Alkhuseri, H Hartiwiningsih\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6102920637500736548&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "12815281318761821940",
+            "label": "Legal Reform for The Rights Of Money Laundering Victims through the Ultimum Remedium Concept",
+            "url": "https://www.atlantis-press.com/proceedings/ic-law-23/125998659",
+            "title": "Legal Reform for The Rights Of Money Laundering Victims through the Ultimum Remedium Concept",
+            "authors": "F Tarigan, H Hartiwiningsih\u2026",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "qG_iXQ_ou-QJ",
+            "label": "Kinerja Polisi Perairan Kepolisian Daerah Kepulauan Bangka Belitung Dalam Menciptakan Keamanan dan Ketertiban Masyarakat Nelayan di Kota Pangkalpinang.",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=27457141&AN=180543081&h=dClLoFjlcm0pCuTTm1rEh3Hf9Z9QEHhZ77MwSnV%2BYqlhCejsTvVddAt%2BaMmuPTNLYEXMRc%2FmtJP7N%2Fy5uyEFCQ%3D%3D&crl=c",
+            "title": "Kinerja Polisi Perairan Kepolisian Daerah Kepulauan Bangka Belitung Dalam Menciptakan Keamanan dan Ketertiban Masyarakat Nelayan di Kota Pangkalpinang.",
+            "authors": "T Setiawan, A Santosa",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "7618463224603868471",
+            "label": "Tindak Pidana Pelanggaran Hak Asasi Manusia Berat sebagai Kejahatan Luar Biasa di Indonesia",
+            "url": "https://journal.pubmedia.id/index.php/lawjustice/article/view/2375",
+            "title": "Tindak Pidana Pelanggaran Hak Asasi Manusia Berat sebagai Kejahatan Luar Biasa di Indonesia",
+            "authors": "RA Zahra, L Abdurrahman\u2026",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7618463224603868471&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 7
+        },
+        {
+            "id": "1733346373267987118",
+            "label": "Strategi Indonesia melalui Badan Siber dan Sandi Negara dalam Menghadapi Eskalasi Serangan Siber",
+            "url": "http://repository.uki.ac.id/15195/",
+            "title": "Strategi Indonesia melalui Badan Siber dan Sandi Negara dalam Menghadapi Eskalasi Serangan Siber",
+            "authors": "JC Doria",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "K2A4lHyiwuAJ",
+            "label": "The Pivotal Role of Red Teaming in Cybersecurity Drill Tests in Enhancing Indonesia's Cyber Defenses",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4793872",
+            "title": "The Pivotal Role of Red Teaming in Cybersecurity Drill Tests in Enhancing Indonesia's Cyber Defenses",
+            "authors": "S Yulianto, B Soewito, GF Lumban\u2026",
+            "year": "Available at SSRN\u00a0\u2026",
+            "modularity": 7
+        },
+        {
+            "id": "12304009137165347844",
+            "label": "The Effectiveness of Sanctions on Social Media Pornography Content",
+            "url": "https://www.pjlss.edu.pk/pdf_files/2024_1/5235-5240.pdf",
+            "title": "The Effectiveness of Sanctions on Social Media Pornography Content",
+            "authors": "PAJ Januarditama, WG Wiryawan, IWE Artajaya\u2026",
+            "year": "pjlss.edu.pk",
+            "modularity": 7
+        },
+        {
+            "id": "18243750311918674271",
+            "label": "The Role of International Treaties in Combating Cyber Terrorism: A Legal Analysis",
+            "url": "https://www.jlsda.com/index.php/lsda/article/view/16",
+            "title": "The Role of International Treaties in Combating Cyber Terrorism: A Legal Analysis",
+            "authors": "F Karamifar, S Tabibian, SA Rezaei",
+            "year": "2023",
+            "modularity": 7
+        },
+        {
+            "id": "13647773559345164217",
+            "label": "Exploring cybersecurity education and training techniques: a comprehensive review of traditional,...",
+            "url": "https://www.mdpi.com/2073-8994/15/12/2175",
+            "title": "Exploring cybersecurity education and training techniques: a comprehensive review of traditional,...",
+            "authors": "AM Alnajim, S Habib, M Islam, HS AlRawashdeh\u2026",
+            "year": "2023",
+            "cited_by": 40,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13647773559345164217&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "11862550481466033466",
+            "label": "Cybersecurity awareness and education programs: a review of employee engagement and accountability",
+            "url": "https://www.fepbl.com/index.php/csitrj/article/view/708",
+            "title": "Cybersecurity awareness and education programs: a review of employee engagement and accountability",
+            "authors": "TO Abrahams, OA Farayola, S Kaggwa\u2026",
+            "year": "2024",
+            "cited_by": 53,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11862550481466033466&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "18128043115747076272",
+            "label": "A review of cybersecurity strategies in modern organizations: examining the evolution and effectiveness of cybersecurity measures for data protection",
+            "url": "https://www.fepbl.com/index.php/csitrj/article/view/699",
+            "title": "A review of cybersecurity strategies in modern organizations: examining the evolution and effectiveness of cybersecurity measures for data protection",
+            "authors": "TO Abrahams, SK Ewuga, SO Dawodu\u2026",
+            "year": "2024",
+            "cited_by": 40,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=18128043115747076272&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "3111145917933640856",
+            "label": "Assessing the role of augmented reality in enhancing employee operational engagement and knowledge retention in UAE business training",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/GKMC-05-2024-0287/full/html",
+            "title": "Assessing the role of augmented reality in enhancing employee operational engagement and knowledge retention in UAE business training",
+            "authors": "F Shwedeh, A Aburayya, O Gbemisola\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3111145917933640856&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "8648129716409185405",
+            "label": "Providing security for flash loan system using cryptocurrency wallets supported by XSalsa20 in a blockchain environment",
+            "url": "https://www.mdpi.com/2076-3417/14/14/6361",
+            "title": "Providing security for flash loan system using cryptocurrency wallets supported by XSalsa20 in a blockchain environment",
+            "authors": "M Al-Zubaidie, WA Jebbar",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8648129716409185405&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "218622812631018596",
+            "label": "A deep dive into cybersecurity solutions for AI-driven IoT-enabled smart cities in advanced communication networks",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0140366424003475",
+            "title": "A deep dive into cybersecurity solutions for AI-driven IoT-enabled smart cities in advanced communication networks",
+            "authors": "J Ali, SK Singh, W Jiang, AM Alenezi, M Islam\u2026",
+            "year": "2025",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=218622812631018596&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "5784424093385739806",
+            "label": "A survey on immersive cyber situational awareness systems",
+            "url": "https://arxiv.org/abs/2408.07456",
+            "title": "A survey on immersive cyber situational awareness systems",
+            "authors": "H Ahmad, F Ullah, R Jafri",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5784424093385739806&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "7802794827286867971",
+            "label": "Understanding User Behavior for Enhancing Cybersecurity Training with Immersive Gamified Platforms",
+            "url": "https://www.mdpi.com/2078-2489/15/12/814",
+            "title": "Understanding User Behavior for Enhancing Cybersecurity Training with Immersive Gamified Platforms",
+            "authors": "N Donekal Chandrashekar, A Lee, M Azab, D Gracanin",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7802794827286867971&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "13514821658995297443",
+            "label": "Enhancing Cybersecurity with Extended Reality: A Systematic Review",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/08874417.2024.2367523",
+            "title": "Enhancing Cybersecurity with Extended Reality: A Systematic Review",
+            "authors": "F Abu Deeb",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13514821658995297443&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "14512570504972646838",
+            "label": "CyberSecurity Education for Industry and Academia",
+            "url": "https://kclpure.kcl.ac.uk/portal/en/publications/cybersecurity-education-for-industry-and-academia",
+            "title": "CyberSecurity Education for Industry and Academia",
+            "authors": "V Santa Barletta, F Caruso, T Di Mascio\u2026",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14512570504972646838&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "560820232988235875",
+            "label": "Preventing and Combating Cybercrime in Indonesia",
+            "url": "https://cybercrimejournal.com/menuscript/index.php/cybercrimejournal/article/view/225",
+            "title": "Preventing and Combating Cybercrime in Indonesia",
+            "authors": "MF Imran",
+            "year": "2023",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=560820232988235875&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "12361330706098843349",
+            "label": "Emerging Trends in Cybersecurity for Critical Infrastructure Protection: A Comprehensive Review",
+            "url": "https://fepbl.com/index.php/csitrj/article/view/872",
+            "title": "Emerging Trends in Cybersecurity for Critical Infrastructure Protection: A Comprehensive Review",
+            "authors": "SA Daniel, SS Victor",
+            "year": "2024",
+            "cited_by": 16,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12361330706098843349&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "16249449272765370834",
+            "label": "[CITATION][C]",
+            "title": "[CITATION][C]",
+            "authors": "AT Oyewole, OB Adeoye\u2026",
+            "year": "2024",
+            "cited_by": 28,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16249449272765370834&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "16200892443847242271",
+            "label": "Leveraging AI-driven training programs for enhanced organizational security awareness",
+            "url": "https://www.researchgate.net/profile/Ayobami-Olatunji/publication/383875651_Leveraging_AI-driven_training_programs_for_enhanced_organizational_security_awareness/links/66df2a55b1606e24c21cdbee/Leveraging-AI-driven-training-programs-for-enhanced-organizational-security-awareness.pdf",
+            "title": "Leveraging AI-driven training programs for enhanced organizational security awareness",
+            "authors": "AP Olatunji, OS Ajibola\u2026",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16200892443847242271&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "17852180128008066502",
+            "label": "Towards immersive cybersecurity workforce development for mission-critical IoT Systems",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10754707/",
+            "title": "Towards immersive cybersecurity workforce development for mission-critical IoT Systems",
+            "authors": "F Sarshartehrani, A Lee, M Azab\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=17852180128008066502&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "7136301335118855163",
+            "label": "The Application of 6G and Augmented Reality Technology in Education and Training",
+            "url": "https://link.springer.com/article/10.1007/s11277-024-11038-x",
+            "title": "The Application of 6G and Augmented Reality Technology in Education and Training",
+            "authors": "Y Zhang, MFAB Azizui, C Yan",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7136301335118855163&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "16668614223710850658",
+            "label": "Mapping the landscape of smart technology in learning: a bibliometric analysis of research trends and influential factors",
+            "url": "https://www.inderscienceonline.com/doi/abs/10.1504/IJSMARTTL.2024.142177",
+            "title": "Mapping the landscape of smart technology in learning: a bibliometric analysis of research trends and influential factors",
+            "authors": "MN Islam",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "ebB_ZFwg81oJ",
+            "label": "Revolutionizing Cybersecurity Training: An Empirical Study on the Relationship Between Traditional Methods and Interest in Virtual Reality Modules",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10807914/",
+            "title": "Revolutionizing Cybersecurity Training: An Empirical Study on the Relationship Between Traditional Methods and Interest in Virtual Reality Modules",
+            "authors": "S Rana, R Chicone",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "4088252644652295668",
+            "label": "The Impact of Cybersecurity Threats on National Security: Strategies",
+            "url": "https://ijhssm.org/issue_dcp/The%20Impact%20of%20Cybersecurity%20Threats%20on%20National%20Security%20%20Strategies.pdf",
+            "title": "The Impact of Cybersecurity Threats on National Security: Strategies",
+            "authors": "B Basak",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4088252644652295668&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "12153141938254947720",
+            "label": "Personalized Construction Safety Training System Using Conversational Ai-Based Virtual Reality",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5043158",
+            "title": "Personalized Construction Safety Training System Using Conversational Ai-Based Virtual Reality",
+            "authors": "A Sabir, R Hussain, A Pedro, C Park",
+            "year": "Available at SSRN 5043158",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12153141938254947720&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "k8IddFHKzhcJ",
+            "label": "Assessment of the Impact of Cyber-Attacks and Security Breaches in Diagnostic Systems on the Healthcare Sector",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10679475/",
+            "title": "Assessment of the Impact of Cyber-Attacks and Security Breaches in Diagnostic Systems on the Healthcare Sector",
+            "authors": "K Srivastava, K Faist, B Lickert, K Neville\u2026",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "2746002198021340984",
+            "label": "Measuring Human Resource Engagement in Information Security Practices in Technology-Based Business Contexts",
+            "url": "https://journal.literasisainsnusantara.com/index.php/tacit/article/view/152",
+            "title": "Measuring Human Resource Engagement in Information Security Practices in Technology-Based Business Contexts",
+            "authors": "YJ Purnomo",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2746002198021340984&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "wetcZ2my2TMJ",
+            "label": "Cybersecurity threats in Virtual Reality Environments: A Literature Review",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10778838/",
+            "title": "Cybersecurity threats in Virtual Reality Environments: A Literature Review",
+            "authors": "AN Ramaseri-Chandra\u2026",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "5047030137974928009",
+            "label": "Immersed in Reality Secured by Design--A Comprehensive Analysis of Security Measures in AR/VR Environments",
+            "url": "https://arxiv.org/abs/2404.16839",
+            "title": "Immersed in Reality Secured by Design--A Comprehensive Analysis of Security Measures in AR/VR Environments",
+            "authors": "S Chauhan, L Sachdeva",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5047030137974928009&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "1990226425327204251",
+            "label": "CyberSecurity Education for Industry and Academia (CSE4IA 2024)",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3656650.3660536",
+            "title": "CyberSecurity Education for Industry and Academia (CSE4IA 2024)",
+            "authors": "VS Barletta, F Caruso, T Di Mascio, F Greco\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=1990226425327204251&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "5008293592193537794",
+            "label": "The Risks of the US Cyber Crisis",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=138033",
+            "title": "The Risks of the US Cyber Crisis",
+            "authors": "T Lim",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "qg_toIYYB2AJ",
+            "label": "KINAITICS: Enhancing Cybersecurity Education Using AI-Based Tools and Gamification",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3702163.3702183",
+            "title": "KINAITICS: Enhancing Cybersecurity Education Using AI-Based Tools and Gamification",
+            "authors": "F Zola, X Echeberria, J Petisco, N Vakakis\u2026",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "11197789685960847834",
+            "label": "Framework for Implementing STEM Learning Technologies: Addressing Students' Challenges of Developing 21st-Century Skills",
+            "url": "https://www.igi-global.com/chapter/framework-for-implementing-stem-learning-technologies/358801",
+            "title": "Framework for Implementing STEM Learning Technologies: Addressing Students' Challenges of Developing 21st-Century Skills",
+            "authors": "D Chasokela",
+            "year": "2025",
+            "modularity": 2
+        },
+        {
+            "id": "16891091267449656732",
+            "label": "Virtual Reality for Environmental Engineering and Sustainability",
+            "url": "https://www.igi-global.com/chapter/virtual-reality-for-environmental-engineering-and-sustainability/351542",
+            "title": "Virtual Reality for Environmental Engineering and Sustainability",
+            "authors": "RS Amshavalli, M Kanipriya, N Priyanka\u2026",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "7366782507371236304",
+            "label": "An XR-Driven Digital Twin Platform for Cybersecurity Education",
+            "url": "https://vtechworks.lib.vt.edu/items/c009fa69-2f0a-4fe8-892c-70a82e5d02ab",
+            "title": "An XR-Driven Digital Twin Platform for Cybersecurity Education",
+            "authors": "ASN Lee",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "pL6MlYTYqMUJ",
+            "label": "Building Cyber-savvy Generation: 15 Years of Research on Cybersecurity Education and Future Research Agendas",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5004673",
+            "title": "Building Cyber-savvy Generation: 15 Years of Research on Cybersecurity Education and Future Research Agendas",
+            "authors": "R Oktavianto, B Erik Sibarani",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "16548497358836395890",
+            "label": "AI-Augmented Public Health Administration in sub-Saharan Africa: Addressing Challenges in...",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah-2/publication/375603641_AI-Augmented_Public_Health_Administration_in_sub-Saharan_Africa_Addressing_Challenges_in_Ghana's_Cyberlaws_Regimes_for_Smooth_and_Effective_Use/links/655256053fa26f66f4fde16c/AI-Augmented-Public-Health-Administration-in-sub-Saharan-Africa-Addressing-Challenges-in-Ghanas-Cyberlaws-Regimes-for-Smooth-and-Effective-Use.pdf",
+            "title": "AI-Augmented Public Health Administration in sub-Saharan Africa: Addressing Challenges in...",
+            "authors": "GB Mensah",
+            "year": "2023",
+            "cited_by": 43,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16548497358836395890&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "16248345840710701823",
+            "label": "Analyzing Ghana's Pharmacy Act, 1994 (Act 489) Regarding Quality Control and Negligence Liability Measures for Artificial Intelligence Pharmacy Systems",
+            "url": "https://journals.mesopotamian.press/index.php/BJAI/article/view/286",
+            "title": "Analyzing Ghana's Pharmacy Act, 1994 (Act 489) Regarding Quality Control and Negligence Liability Measures for Artificial Intelligence Pharmacy Systems",
+            "authors": "GB Mensah, MM Mijwil\u2026",
+            "year": "2024",
+            "cited_by": 47,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16248345840710701823&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "2304697979655001462",
+            "label": "Critical issues for Regulating AI Use in Mental Healthcare and Medical Negligence",
+            "url": "https://www.researchgate.net/profile/Africa-Institute-For-Regulatory-Affairs-Lbg/publication/380848246_Critical_issues_for_Regulating_AI_Use_in_Mental_Healthcare_and_Medical_Negligence/links/6650ba69bc86444c72ff2856/Critical-issues-for-Regulating-AI-Use-in-Mental-Healthcare-and-Medical-Negligence.pdf",
+            "title": "Critical issues for Regulating AI Use in Mental Healthcare and Medical Negligence",
+            "authors": "GB Mensah, A Addy",
+            "year": "2024",
+            "cited_by": 29,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2304697979655001462&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "15652066357275300581",
+            "label": "The Essence of Artificial Intelligence Techniques in Ghana's Mental Health Act, 2012 (Act 846): A Survey in Mental Healthcare and Negligence Issues",
+            "url": "https://journals.tultech.eu/index.php/ijitis/article/view/176",
+            "title": "The Essence of Artificial Intelligence Techniques in Ghana's Mental Health Act, 2012 (Act 846): A Survey in Mental Healthcare and Negligence Issues",
+            "authors": "GB Mensah, MMM Mijwil\u2026",
+            "year": "2024",
+            "cited_by": 18,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15652066357275300581&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "2712008837603686473",
+            "label": "Regulating Malpractice in Telemedicine and Digital Health",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381458734_Regulating_Malpractice_in_Telemedicine_and_Digital_Health/links/666dde15a54c5f0b946621ee/Regulating-Malpractice-in-Telemedicine-and-Digital-Health.pdf",
+            "title": "Regulating Malpractice in Telemedicine and Digital Health",
+            "authors": "GB Mensah",
+            "year": "2024",
+            "cited_by": 28,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2712008837603686473&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "15468120218348145638",
+            "label": "AI and Medical Negligence",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381426889_AI_and_Medical_Negligence/links/666c6aeca54c5f0b9465202e/AI-and-Medical-Negligence.pdf",
+            "title": "AI and Medical Negligence",
+            "authors": "GB Mensah",
+            "year": "2024",
+            "cited_by": 32,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15468120218348145638&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "10089400497831376481",
+            "label": "The Legal, Ethical, and Regulatory Implications of Integrating Artificial Intelligence in Healthcare Delivery, Medical Negligence, and Public Health Administration\u00a0\u2026",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah-2/publication/379758700_The_Legal_Ethical_and_Regulatory_Implications_of_Integrating_Artificial_Intelligence_in_Healthcare_Delivery_Medical_Negligence_and_Public_Health_Administration_in_Ghana_A_Multidisciplinary_Perspective/links/6619089639e7641c0bae3abb/The-Legal-Ethical-and-Regulatory-Implications-of-Integrating-Artificial-Intelligence-in-Healthcare-Delivery-Medical-Negligence-and-Public-Health-Administration-in-Ghana-A-Multidisciplinary-Perspec.pdf",
+            "title": "The Legal, Ethical, and Regulatory Implications of Integrating Artificial Intelligence in Healthcare Delivery, Medical Negligence, and Public Health Administration\u00a0\u2026",
+            "authors": "GB Mensah, F Nyante, A Addy\u2026",
+            "year": "2024",
+            "cited_by": 32,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10089400497831376481&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "9131196341199603011",
+            "label": "Harnessing Innovation for Vaccine Delivery: Ghana's Regulations on AI and Vaccines",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah-2/publication/379910419_Addy_et_al_2024_AJFLDR_preprint/links/662176bb43f8df018d194af0/Addy-et-al-2024-AJFLDR-preprint.pdf",
+            "title": "Harnessing Innovation for Vaccine Delivery: Ghana's Regulations on AI and Vaccines",
+            "authors": "A Addy, A Gborfuh, PA Brempong\u2026",
+            "year": "2023",
+            "cited_by": 13,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9131196341199603011&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "16599426778485318356",
+            "label": "Privacy, Security, and Compliance in AI Telemedicine",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381584030_Privacy_Security_and_Compliance_in_AI_Telemedicine/links/66754457d21e220d89c5767c/Privacy-Security-and-Compliance-in-AI-Telemedicine.pdf",
+            "title": "Privacy, Security, and Compliance in AI Telemedicine",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 25,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16599426778485318356&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "4712095858351518378",
+            "label": "Demystifying the Black Box: A Technical Analysis of Transparency Requirements in Clinical AI Systems",
+            "url": "https://www.researchgate.net/profile/Africa-Institute-For-Regulatory-Affairs-Lbg/publication/385698300_Demystifying_the_Black_Box_A_Technical_Analysis_of_Transparency_Requirements_in_Clinical_AI_Systems/links/673109c75852dd723cb57344/Demystifying-the-Black-Box-A-Technical-Analysis-of-Transparency-Requirements-in-Clinical-AI-Systems.pdf",
+            "title": "Demystifying the Black Box: A Technical Analysis of Transparency Requirements in Clinical AI Systems",
+            "authors": "P Chavula, A Addy, F Kayusi\u2026",
+            "year": "2024",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4712095858351518378&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "14416468420693276779",
+            "label": "Ethics, Bias, and Risks in AI diagnosis",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381584371_Ethics_Bias_and_Risks_in_AI_diagnosis/links/667550f11dec0c3c6f986b17/Ethics-Bias-and-Risks-in-AI-diagnosis.pdf",
+            "title": "Ethics, Bias, and Risks in AI diagnosis",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 24,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14416468420693276779&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "16419588778316886419",
+            "label": "Exploring the Therapeutic Frontier: A Comprehensive Assessment of AI Applications in Mental Healthcare Delivery",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/387501500_Exploring_the_Therapeutic_Frontier_A_Comprehensive_Assessment_of_AI_Applications_in_Mental_Healthcare_Delivery/links/6771268a117f340ec3e07ba3/Exploring-the-Therapeutic-Frontier-A-Comprehensive-Assessment-of-AI-Applications-in-Mental-Healthcare-Delivery.pdf",
+            "title": "Exploring the Therapeutic Frontier: A Comprehensive Assessment of AI Applications in Mental Healthcare Delivery",
+            "authors": "A Addy, P Chavula, F Kayusi, G Benneh Mensah",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16419588778316886419&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "4385497375859009850",
+            "label": "Regulations and Guidelines for AI Health Apps",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381584477_Regulations_and_Guidelines_for_AI_Health_Apps/links/66755dd18408575b837d18af/Regulations-and-Guidelines-for-AI-Health-Apps.pdf",
+            "title": "Regulations and Guidelines for AI Health Apps",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 22,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4385497375859009850&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "4848493641110477628",
+            "label": "Addressing AI Bias in Remote Patient Monitoring Systems",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381614411_Addressing_AI_Bias_in_Remote_Patient_Monitoring_Systems/links/6676a6bf1846ca33b845185f/Addressing-AI-Bias-in-Remote-Patient-Monitoring-Systems.pdf",
+            "title": "Addressing AI Bias in Remote Patient Monitoring Systems",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 10,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4848493641110477628&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "16966230109993770531",
+            "label": "Consent and Patient Autonomy in AI Telemedicine",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381585015_Consent_and_Patient_Autonomy_in_AI_Telemedicine/links/667566491dec0c3c6f9872d4/Consent-and-Patient-Autonomy-in-AI-Telemedicine.pdf",
+            "title": "Consent and Patient Autonomy in AI Telemedicine",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 21,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16966230109993770531&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "6082614560693397290",
+            "label": "Protecting Sensitive Health Data in AI-based Research and Development",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381614760_Protecting_Sensitive_Health_Data_in_AI-based_Research_and_Development/links/6676af0a1846ca33b8451e32/Protecting-Sensitive-Health-Data-in-AI-based-Research-and-Development.pdf",
+            "title": "Protecting Sensitive Health Data in AI-based Research and Development",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 8,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6082614560693397290&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "16301176031327742036",
+            "label": "Access, Equity, and Disparities in AI Health",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381591907_Access_Equity_and_Disparities_in_AI_Health/links/667581ca1846ca33b842d352/Access-Equity-and-Disparities-in-AI-Health.pdf",
+            "title": "Access, Equity, and Disparities in AI Health",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 19,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16301176031327742036&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "10373604898126902775",
+            "label": "Navigating the Fragmented Landscape: A Clarion Call for the Consolidation of Ghana's AI Governance Framework",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah-2/publication/380173722_Navigating_the_Fragmented_Landscape_A_Clarion_Call_for_the_Consolidation_of_Ghana's_AI_Governance_Framework/links/662f90fe7091b94e93e59e2c/Navigating-the-Fragmented-Landscape-A-Clarion-Call-for-the-Consolidation-of-Ghanas-AI-Governance-Framework.pdf",
+            "title": "Navigating the Fragmented Landscape: A Clarion Call for the Consolidation of Ghana's AI Governance Framework",
+            "authors": "GB Mensah, F Nyante, A Addy\u2026",
+            "year": "2024",
+            "cited_by": 4,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10373604898126902775&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "12509761565662455386",
+            "label": "Liability, Accountability, and Errors in AI Telemedicine",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381600327_Liability_Accountability_and_Errors_in_AI_Telemedicine/links/66758cc38408575b837d2f75/Liability-Accountability-and-Errors-in-AI-Telemedicine.pdf",
+            "title": "Liability, Accountability, and Errors in AI Telemedicine",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 18,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12509761565662455386&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "5526229975551849366",
+            "label": "Ethical Considerations in using AI for Mental Health Support",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381615121_Ethical_Considerations_in_using_AI_for_Mental_Health_Support/links/6676b78d8408575b838227e0/Ethical-Considerations-in-using-AI-for-Mental-Health-Support.pdf",
+            "title": "Ethical Considerations in using AI for Mental Health Support",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5526229975551849366&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "3181957851787216279",
+            "label": "Ethics and Privacy in AI Predictive Health",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381605457_Ethics_and_Privacy_in_AI_Predictive_Health/links/667598cd1dec0c3c6f98868d/Ethics-and-Privacy-in-AI-Predictive-Health.pdf",
+            "title": "Ethics and Privacy in AI Predictive Health",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 17,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3181957851787216279&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "8985757642552253655",
+            "label": "Trust and Transparency in AI Health Tools",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381609214_Trust_and_Transparency_in_AI_Health_Tools/links/6675cef71846ca33b84399dc/Trust-and-Transparency-in-AI-Health-Tools.pdf",
+            "title": "Trust and Transparency in AI Health Tools",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 16,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8985757642552253655&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "5135478657486865819",
+            "label": "Ensuring AI Algorithm Fairness in Healthcare Decision-Making",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381609289_Ensuring_AI_Algorithm_Fairness_in_Healthcare_Decision-Making/links/6675e1ba8408575b8381c19a/Ensuring-AI-Algorithm-Fairness-in-Healthcare-Decision-Making.pdf",
+            "title": "Ensuring AI Algorithm Fairness in Healthcare Decision-Making",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 15,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5135478657486865819&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "139213915711020882",
+            "label": "Ensuring AI Explainability in Clinical Decision Support Systems",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/381614058_Ensuring_AI_Explainability_in_Clinical_Decision_Support_Systems/links/66768e811846ca33b8450ae3/Ensuring-AI-Explainability-in-Clinical-Decision-Support-Systems.pdf",
+            "title": "Ensuring AI Explainability in Clinical Decision Support Systems",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "cited_by": 13,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=139213915711020882&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "60521896248162117",
+            "label": "The role of AI in Improving the Management of Chronic Diseases in Developing Countries",
+            "url": "https://gjnmid.com/index.php/gjnmid/article/view/18",
+            "title": "The role of AI in Improving the Management of Chronic Diseases in Developing Countries",
+            "authors": "S Seidu, AK Owusu-Agyeman, M Ibrahim\u2026",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "11359113919758076225",
+            "label": "A Comparative Literature Review of Nursing Education Standards across Cultures: Focusing on Baccalaureate Transitions in Developing Nations",
+            "url": "https://gjnmid.com/index.php/gjnmid/article/view/10",
+            "title": "A Comparative Literature Review of Nursing Education Standards across Cultures: Focusing on Baccalaureate Transitions in Developing Nations",
+            "authors": "JMS Selorm, R Asamoah-Atakorah, D Opare\u2026",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "2775514036866343884",
+            "label": "The role of AI in Enhancing Disease Surveillance and Outbreak Response in Developing Countries",
+            "url": "https://gjnmid.com/index.php/gjnmid/article/view/19",
+            "title": "The role of AI in Enhancing Disease Surveillance and Outbreak Response in Developing Countries",
+            "authors": "R Boatemaa, SO Asare, SC Akabadin\u2026",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "x76qi_dGIuUJ",
+            "label": "Digital Sovereignty in the Age of AI: Reconciling National Data Control with Cross-Border AI Innovation",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/387959552_Digital_Sovereignty_in_the_Age_of_AI_Reconciling_National_Data_Control_with_Cross-Border_AI_Innovation/links/6784eb692fcfd011cc695c78/Digital-Sovereignty-in-the-Age-of-AI-Reconciling-National-Data-Control-with-Cross-Border-AI-Innovation.pdf",
+            "title": "Digital Sovereignty in the Age of AI: Reconciling National Data Control with Cross-Border AI Innovation",
+            "authors": "GB Mensah",
+            "year": "environment",
+            "modularity": 3
+        },
+        {
+            "id": "7gBwy958_yEJ",
+            "label": "The Right to Algorithmic Opacity: Examining the Emerging Tension Between AI Transparency and Individual Privacy",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/387959654_The_Right_to_Algorithmic_Opacity_Examining_the_Emerging_Tension_Between_AI_Transparency_and_Individual_Privacy/links/6784f5fc3e33dd0be901f202/The-Right-to-Algorithmic-Opacity-Examining-the-Emerging-Tension-Between-AI-Transparency-and-Individual-Privacy.pdf",
+            "title": "The Right to Algorithmic Opacity: Examining the Emerging Tension Between AI Transparency and Individual Privacy",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "modularity": 3
+        },
+        {
+            "id": "spTkvsbbl-sJ",
+            "label": "The Right to Human Intervention: Legal Frameworks for Challenging Automated Decisions in Critical Sectors",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/387991133_The_Right_to_Human_Intervention_Legal_Frameworks_for_Challenging_Automated_Decisions_in_Critical_Sectors/links/67861ab755274940f1262609/The-Right-to-Human-Intervention-Legal-Frameworks-for-Challenging-Automated-Decisions-in-Critical-Sectors.pdf",
+            "title": "The Right to Human Intervention: Legal Frameworks for Challenging Automated Decisions in Critical Sectors",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "modularity": 3
+        },
+        {
+            "id": "cBSlO6xc4MwJ",
+            "label": "Digital Identity Rights in the Metaverse: Legal Frameworks for Avatar Protection and Virtual Property",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/387962571_Digital_Identity_Rights_in_the_Metaverse_Legal_Frameworks_for_Avatar_Protection_and_Virtual_Property/links/67852d0fd587995ad102cd8c/Digital-Identity-Rights-in-the-Metaverse-Legal-Frameworks-for-Avatar-Protection-and-Virtual-Property.pdf",
+            "title": "Digital Identity Rights in the Metaverse: Legal Frameworks for Avatar Protection and Virtual Property",
+            "authors": "GB Mensah",
+            "year": "researchgate.net",
+            "modularity": 3
+        },
+        {
+            "id": "16155031525430395079",
+            "label": "Cyber threats classifications and countermeasures in banking and financial sector",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10292652/",
+            "title": "Cyber threats classifications and countermeasures in banking and financial sector",
+            "authors": "AA Darem, AA Alhashmi, TM Alkhaldi\u2026",
+            "year": "2023",
+            "cited_by": 28,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16155031525430395079&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "13639823032459176469",
+            "label": "Analyzing defense strategies against cyber risks in the energy sector: Enhancing the security of renewable energy sources",
+            "url": "https://www.researchgate.net/profile/Oluwatosin-Ilori-3/publication/383377711_Analyzing_defense_strategies_against_cyber_risks_in_the_energy_sector_Enhancing_the_security_of_renewable_energy_sources/links/66c9fca8920e05672e4d0a1c/Analyzing-defense-strategies-against-cyber-risks-in-the-energy-sector-Enhancing-the-security-of-renewable-energy-sources.pdf",
+            "title": "Analyzing defense strategies against cyber risks in the energy sector: Enhancing the security of renewable energy sources",
+            "authors": "AB Ige, E Kupa, O Ilori",
+            "year": "2024",
+            "cited_by": 62,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13639823032459176469&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "14807919136267625054",
+            "label": "Predictive Analytics for Cyber Threat Intelligence in Fintech Using Big Data and Machine Learning",
+            "url": "https://www.researchgate.net/profile/Foluke-Ekundayo/publication/386144447_Predictive_Analytics_for_Cyber_Threat_Intelligence_in_Fintech_Using_Big_Data_and_Machine_Learning/links/67469330f309a268c00e696c/Predictive-Analytics-for-Cyber-Threat-Intelligence-in-Fintech-Using-Big-Data-and-Machine-Learning.pdf",
+            "title": "Predictive Analytics for Cyber Threat Intelligence in Fintech Using Big Data and Machine Learning",
+            "authors": "F Ekundayo, I Atoyebi, A Soyele, E Ogunwobi",
+            "year": "2024",
+            "cited_by": 36,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14807919136267625054&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "1841694691122932278",
+            "label": "Cybersecurity risk assessment in banking: methodologies and best practices",
+            "url": "https://fepbl.com/index.php/csitrj/article/view/659",
+            "title": "Cybersecurity risk assessment in banking: methodologies and best practices",
+            "authors": "SO Dawodu, A Omotosho, OJ Akindote\u2026",
+            "year": "2023",
+            "cited_by": 21,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=1841694691122932278&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "918706185874106334",
+            "label": "FinSafeNet: securing digital transactions using optimized deep learning and multi-kernel PCA (MKPCA) with Nystr\u00f6m approximation",
+            "url": "https://www.nature.com/articles/s41598-024-76214-2",
+            "title": "FinSafeNet: securing digital transactions using optimized deep learning and multi-kernel PCA (MKPCA) with Nystr\u00f6m approximation",
+            "authors": "AR Khan, SS Ahamad, S Mishra, MAR Khan\u2026",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=918706185874106334&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "2192061643769311911",
+            "label": "We need to aim at the top: Factors associated with cybersecurity awareness of cyber and information security decision-makers",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0312266",
+            "title": "We need to aim at the top: Factors associated with cybersecurity awareness of cyber and information security decision-makers",
+            "authors": "S Vrhovec, B Markelj",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2192061643769311911&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "13256149217877108053",
+            "label": "AI-Powered Cyber Threats: A Systematic Review",
+            "url": "https://mesopotamian.press/journals/index.php/CyberSecurity/article/view/648",
+            "title": "AI-Powered Cyber Threats: A Systematic Review",
+            "authors": "M Alanezi, RMA AL-Azzawi",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "3782598139874190547",
+            "label": "AI-enhanced detection and mitigation of cybersecurity threats in digital banking",
+            "url": "https://www.researchgate.net/profile/Suri-Babu-Nuthalapati/publication/382636955_AI-Enhanced_Detection_and_Mitigation_of_Cybersecurity_Threats_in_Digital_Banking/links/66a69a75c6e41359a8468f5a/AI-Enhanced-Detection-and-Mitigation-of-Cybersecurity-Threats-in-Digital-Banking.pdf",
+            "title": "AI-enhanced detection and mitigation of cybersecurity threats in digital banking",
+            "authors": "S babu Nuthalapati",
+            "year": "2023",
+            "cited_by": 9,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3782598139874190547&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "oOVvQINICcEJ",
+            "label": "Assessing cybersecurity awareness among bank employees: A multi-stage analytical approach using PLS-SEM, ANN, and fsQCA in a developing country context",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404824005145",
+            "title": "Assessing cybersecurity awareness among bank employees: A multi-stage analytical approach using PLS-SEM, ANN, and fsQCA in a developing country context",
+            "authors": "RC Chanda, A Vafaei-Zadeh, H Hanifah, D Nikbin",
+            "year": "2025",
+            "modularity": 5
+        },
+        {
+            "id": "NHtlaa-1TCoJ",
+            "label": "Profiling the victim-cyber risk in commercial banks",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404824005807",
+            "title": "Profiling the victim-cyber risk in commercial banks",
+            "authors": "P Smaga",
+            "year": "2025",
+            "modularity": 5
+        },
+        {
+            "id": "2854486954668073453",
+            "label": "Beyond Technical Barriers: A Multidimensional Conceptual Framework for Understanding and Countering Cyber Scam Susceptibility",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2024.2415750",
+            "title": "Beyond Technical Barriers: A Multidimensional Conceptual Framework for Understanding and Countering Cyber Scam Susceptibility",
+            "authors": "AA Darem, TM Alkhaldi, M Alahmari\u2026",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "jRawRwslSLwJ",
+            "label": "Handling imbalanced data in intrusion detection using time weighted Adaboost support vector machine classifier and crossover boosted Dwarf Mongoose\u00a0\u2026",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1568494624011013",
+            "title": "Handling imbalanced data in intrusion detection using time weighted Adaboost support vector machine classifier and crossover boosted Dwarf Mongoose\u00a0\u2026",
+            "authors": "H Chandrasekaran, K Murugesan, SC Mana\u2026",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "10886529823885709836",
+            "label": "[CITATION][C]",
+            "title": "[CITATION][C]",
+            "authors": "K Meduri",
+            "year": "2024",
+            "cited_by": 31,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10886529823885709836&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "H4TgD29ozvAJ",
+            "label": "Integrating sustainability into cybersecurity: insights from machine learning based topic modeling",
+            "url": "https://link.springer.com/article/10.1007/s43621-024-00754-w",
+            "title": "Integrating sustainability into cybersecurity: insights from machine learning based topic modeling",
+            "authors": "K Achuthan, S Sankaran, S Roy, R Raman",
+            "year": "2025",
+            "modularity": 5
+        },
+        {
+            "id": "2472467216611735102",
+            "label": "A Dynamic and Incremental Graphical Grid Authentication Technique for Mobile and Web Applications",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10762890/",
+            "title": "A Dynamic and Incremental Graphical Grid Authentication Technique for Mobile and Web Applications",
+            "authors": "J Gong, ON Akande, CC Lin, S Agarwal",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "12789557168130423905",
+            "label": "Cyberfraud, usage intention, and cybersecurity awareness among e-banking users in India: an integrated model approach",
+            "url": "https://link.springer.com/article/10.1057/s41264-024-00279-3",
+            "title": "Cyberfraud, usage intention, and cybersecurity awareness among e-banking users in India: an integrated model approach",
+            "authors": "M Afzal, MS Ansari, N Ahmad, M Shahid\u2026",
+            "year": "2024",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12789557168130423905&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "14191824195887227286",
+            "label": "Navigating the nexus of security and privacy in modern financial technologies",
+            "url": "https://gsconlinepress.com/journals/gscarr/content/navigating-nexus-security-and-privacy-modern-financial-technologies",
+            "title": "Navigating the nexus of security and privacy in modern financial technologies",
+            "authors": "F Olweny",
+            "year": "2024",
+            "cited_by": 12,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14191824195887227286&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "6523775069674341772",
+            "label": "Development and Evaluation on Cybersecurity Behaviour Measurement Instruments for Undergraduate Students",
+            "url": "https://cybercrimejournal.com/menuscript/index.php/cybercrimejournal/article/view/351",
+            "title": "Development and Evaluation on Cybersecurity Behaviour Measurement Instruments for Undergraduate Students",
+            "authors": "P Ngamcharoen, N Sakdapat\u2026",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "2839202010041062925",
+            "label": "Will Central Bank Digital Currencies (CBDC) and Blockchain Cryptocurrencies Coexist in the Post Quantum Era?",
+            "url": "https://arxiv.org/abs/2411.06362",
+            "title": "Will Central Bank Digital Currencies (CBDC) and Blockchain Cryptocurrencies Coexist in the Post Quantum Era?",
+            "authors": "AI Weinberg, P Petratos, A Faccia",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "qEwhAPdrVngJ",
+            "label": "A Secure Authentication Indexed Choice-Based Graphical Password Scheme for Web Applications and ATMs.",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02676192&AN=182329861&h=RmNYYcR5aRi7hSmnTm7TRkS0%2F7WbUm5st%2BU6iFczXIIhbaaRgn1CnG2vWrm4sLt2FkW8bO%2ByiTay4EZnps9D3Q%3D%3D&crl=c",
+            "title": "A Secure Authentication Indexed Choice-Based Graphical Password Scheme for Web Applications and ATMs.",
+            "authors": "S Zarif, H Moawad, K Amin, A Alharbi\u2026",
+            "year": "2025",
+            "modularity": 5
+        },
+        {
+            "id": "13265415255797793239",
+            "label": "The Moderation Effect of Information Security Orientation on the Relationship Between Information Technology Enablement and Supply Chains Agility Performance",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10505787/",
+            "title": "The Moderation Effect of Information Security Orientation on the Relationship Between Information Technology Enablement and Supply Chains Agility Performance",
+            "authors": "A Elsaleiby",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13265415255797793239&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "13556087258716739154",
+            "label": "Enhancing cybersecurity protocols in modern healthcare systems: Strategies and best practices",
+            "url": "https://www.igi-global.com/chapter/enhancing-cybersecurity-protocols-in-modern-healthcare-systems/342829",
+            "title": "Enhancing cybersecurity protocols in modern healthcare systems: Strategies and best practices",
+            "authors": "MU Tariq",
+            "year": "2024",
+            "cited_by": 47,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13556087258716739154&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 9
         },
         {
             "id": "16351647686925767264",
@@ -31,7 +2171,7 @@
             "year": "2024",
             "cited_by": 21,
             "cited_by_url": "https://scholar.google.com/scholar?cites=16351647686925767264&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "17635215336687556104",
@@ -42,7 +2182,7 @@
             "year": "2024",
             "cited_by": 1,
             "cited_by_url": "https://scholar.google.com/scholar?cites=17635215336687556104&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "15996909732421992712",
@@ -53,7 +2193,7 @@
             "year": "2024",
             "cited_by": 1,
             "cited_by_url": "https://scholar.google.com/scholar?cites=15996909732421992712&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "BdEVLCNGPHcJ",
@@ -62,7 +2202,7 @@
             "title": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development",
             "authors": "L Tabansky, P Cornish, E Lichterman",
             "year": "2025",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "13379152248788263237",
@@ -73,7 +2213,7 @@
             "year": "2022",
             "cited_by": 9,
             "cited_by_url": "https://scholar.google.com/scholar?cites=13379152248788263237&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "14217255490166536868",
@@ -84,7 +2224,7 @@
             "year": "2022",
             "cited_by": 5,
             "cited_by_url": "https://scholar.google.com/scholar?cites=14217255490166536868&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "6855590743360696516",
@@ -95,7 +2235,7 @@
             "year": "2022",
             "cited_by": 3,
             "cited_by_url": "https://scholar.google.com/scholar?cites=6855590743360696516&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "8793047655659909556",
@@ -106,7 +2246,7 @@
             "year": "2023",
             "cited_by": 3,
             "cited_by_url": "https://scholar.google.com/scholar?cites=8793047655659909556&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 8
         },
         {
             "id": "XadzYK6uuTsJ",
@@ -115,13 +2255,857 @@
             "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
             "authors": "R Vecellio Segate",
             "year": "2024",
-            "modularity": 0
+            "modularity": 8
         }
     ],
     "links": [
         {
             "source": "11400328201201624800",
             "target": "5664763969123002418"
+        },
+        {
+            "source": "5194916577055749881",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "12709074412739766797",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "11510306624651675083",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "1716670575366043683",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "15162352042953878108",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "9164880131713272137",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "7803571455276645592",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "2656198218782337292",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "4003694647825272496",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "10194772759802692149",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "Fk2W-Zg1R3EJ",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "12103960402029102184",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "2028588798980125915",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "65443105197161401",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "11446230657182739763",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "MtfgifKqDp0J",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "4890505671557038439",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "evA3VFwa_v0J",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "7i0hzNklxJkJ",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "14875437141829410661",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "QCjcJ_NPZVgJ",
+            "target": "5194916577055749881"
+        },
+        {
+            "source": "15552482983809285356",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "17091831019438315076",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "2498221990104459396",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "Sg9VnIXrzOkJ",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "KTtz5wVR7LIJ",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "972646263366833514",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "QHjzILGVTYYJ",
+            "target": "15552482983809285356"
+        },
+        {
+            "source": "15700265610709354988",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "476498691246679775",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "15934877005266067630",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "18322376521520547072",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "4088602135384423433",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "15596117332386497917",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "5890489981342932539",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "7181760765661711639",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "11109485466106437977",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "7447569158799628881",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "m_B9-Fwrtl4J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "18361832680103590960",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "4008133518020188663",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "uuWVtZ9iTDgJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "ck6RcxPJ54sJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "cxdL3VLtUFYJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "Ok-fQLnr5p4J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "bV8yFoAtKYIJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "WWm95dsUydkJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "pFb7pcsZCC4J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "u1h3p0uo9fEJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "m2AhjUWTXJ0J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "jTovvhsYBQYJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "fth9UIzkWVcJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "9b7tC1uSakEJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "STvpWm1MDr0J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "PwyoJTl5LNwJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "om_6Wqha0q0J",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "bPnxnkCHWwkJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "DNV2K5pMIJsJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "izRg2RmKrzMJ",
+            "target": "15700265610709354988"
+        },
+        {
+            "source": "12321400840200093647",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "2118600322105738580",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "6665113618193592280",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "14701276247802246386",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "14328462311769224857",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "15501944878732714894",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "2926472114204618510",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "4208017575696338035",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "14693659502864426737",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "3581196786456513157",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "7363253735855457176",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "v495SP-w80UJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "5531249098603450562",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "78s7kYAjgv0J",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "11472497229418422552",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "6795021678415276842",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "3675576974576005051",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "xlsLV0Zxj2AJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "11662613217849524264",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "10448133577470760128",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "8154949815541164082",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "8814271347266554612",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "NbGkTCOP0f8J",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "10722706094077503339",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "13474427873616319348",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "1045488302719306991",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "7374352961216435040",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "f-u1QV4DTlwJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "QTQrJvB0hNwJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "dDR2lPVDcfAJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "kWIJAMInapUJ",
+            "target": "12321400840200093647"
+        },
+        {
+            "source": "3808609484188844727",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "8035593007001819005",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "15188081317933820028",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "1784063440447899022",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "4620314662075175808",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "6772229679179127950",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "9922020129757323133",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "5184866174552171850",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "127003381117153378",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "4607796578968859739",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "7698674313588641948",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "YVvUjHIOchEJ",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "8723122447242332631",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "11875903188610384364",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "535229325813930784",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "8472636070323772210",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "7610384114825077244",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "18042937002402190201",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "5ntvLKShDTAJ",
+            "target": "3808609484188844727"
+        },
+        {
+            "source": "2031553025185532535",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "9095794654052769163",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "4293938206683246946",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "5821140504453151854",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "1RKFrEzxSlcJ",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "4754251714677209209",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "fAK4JSO04FoJ",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "4394848656129687475",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "2179874369823806846",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "D7BHa-XROG8J",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "6102920637500736548",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "12815281318761821940",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "qG_iXQ_ou-QJ",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "7618463224603868471",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "1733346373267987118",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "K2A4lHyiwuAJ",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "12304009137165347844",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "18243750311918674271",
+            "target": "2031553025185532535"
+        },
+        {
+            "source": "13647773559345164217",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "11862550481466033466",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "18128043115747076272",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "3111145917933640856",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "8648129716409185405",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "218622812631018596",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "5784424093385739806",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "7802794827286867971",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "13514821658995297443",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "14512570504972646838",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "560820232988235875",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "12361330706098843349",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "16249449272765370834",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "16200892443847242271",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "17852180128008066502",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "7136301335118855163",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "16668614223710850658",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "ebB_ZFwg81oJ",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "4088252644652295668",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "12153141938254947720",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "k8IddFHKzhcJ",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "2746002198021340984",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "wetcZ2my2TMJ",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "5047030137974928009",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "1990226425327204251",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "5008293592193537794",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "qg_toIYYB2AJ",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "11197789685960847834",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "16891091267449656732",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "7366782507371236304",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "pL6MlYTYqMUJ",
+            "target": "13647773559345164217"
+        },
+        {
+            "source": "16548497358836395890",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "16248345840710701823",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "2304697979655001462",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "15652066357275300581",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "2712008837603686473",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "15468120218348145638",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "10089400497831376481",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "9131196341199603011",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "16599426778485318356",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "4712095858351518378",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "14416468420693276779",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "16419588778316886419",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "4385497375859009850",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "4848493641110477628",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "16966230109993770531",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "6082614560693397290",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "16301176031327742036",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "10373604898126902775",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "12509761565662455386",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "5526229975551849366",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "3181957851787216279",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "8985757642552253655",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "5135478657486865819",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "139213915711020882",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "60521896248162117",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "11359113919758076225",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "2775514036866343884",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "x76qi_dGIuUJ",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "7gBwy958_yEJ",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "spTkvsbbl-sJ",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "cBSlO6xc4MwJ",
+            "target": "16548497358836395890"
+        },
+        {
+            "source": "16155031525430395079",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "13639823032459176469",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "14807919136267625054",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "1841694691122932278",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "918706185874106334",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "2192061643769311911",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "13256149217877108053",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "3782598139874190547",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "oOVvQINICcEJ",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "NHtlaa-1TCoJ",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "2854486954668073453",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "jRawRwslSLwJ",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "10886529823885709836",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "H4TgD29ozvAJ",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "2472467216611735102",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "12789557168130423905",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "14191824195887227286",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "6523775069674341772",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "2839202010041062925",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "qEwhAPdrVngJ",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "13265415255797793239",
+            "target": "16155031525430395079"
+        },
+        {
+            "source": "13556087258716739154",
+            "target": "11400328201201624800"
         },
         {
             "source": "16351647686925767264",
