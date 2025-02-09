@@ -19,83 +19,180 @@
   <body>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
-      // Load JSON dynamically from the same directory
+      // Load JSON dynamically from the GitHub Pages static file
       d3.json("graph.json").then(function(graph) {
-        initializeGraph(graph);
+          initializeGraph(graph);
       }).catch(error => console.log("Error loading graph data:", error));
-
+  
       function initializeGraph(graph) {
-        var w = window.innerWidth;
-        var h = window.innerHeight;
-
-        var minScore = Math.min(...graph.nodes.map(n => n.modularity));
-        var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
-
-        var color = d3.scaleLinear()
-          .domain([minScore, (minScore + maxScore) / 4, (minScore + maxScore) / 2, ((minScore + maxScore) * 3) / 4, maxScore])
-          .range(["lime", "yellow", "red", "deepskyblue"]);
-
-        var svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
-        var simulation = d3.forceSimulation(graph.nodes)
-          .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
-          .force("charge", d3.forceManyBody().strength(-200))
-          .force("center", d3.forceCenter(w / 2, h / 2));
-
-        var link = svg.selectAll(".link")
-          .data(graph.links)
-          .enter().append("line")
-          .attr("class", "link")
-          .style("stroke", "#888")
-          .style("stroke-width", 1.5);
-
-        var node = svg.selectAll(".node")
-          .data(graph.nodes)
-          .enter().append("circle")
-          .attr("r", 8)
-          .attr("fill", d => color(d.modularity))
-          .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
-
-        var text = svg.selectAll(".text")
-          .data(graph.nodes)
-          .enter().append("text")
-          .attr("dx", 12)
-          .attr("dy", ".35em")
-          .style("font-size", "10px")
-          .text(d => d.label);
-
-        simulation.on("tick", function() {
-          link.attr("x1", d => d.source.x)
-              .attr("y1", d => d.source.y)
-              .attr("x2", d => d.target.x)
-              .attr("y2", d => d.target.y);
-
-          node.attr("cx", d => d.x)
-              .attr("cy", d => d.y);
-
-          text.attr("x", d => d.x)
-              .attr("y", d => d.y);
-        });
-
-        function dragstarted(event, d) {
-          if (!event.active) simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
-        }
-
-        function dragged(event, d) {
-          d.fx = event.x;
-          d.fy = event.y;
-        }
-
-        function dragended(event, d) {
-          if (!event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-        }
+          var w = window.innerWidth;
+          var h = window.innerHeight;
+  
+          var focusNode = null;
+          var highlightNode = null;
+  
+          var textCenter = false;
+          var outline = false;
+  
+          var minScore = Math.min(...graph.nodes.map(n => n.modularity));
+          var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
+  
+          var color = d3.scale
+              .linear()
+              .domain([
+                  minScore,
+                  (minScore + maxScore) / 4,
+                  (minScore + maxScore) / 2,
+                  ((minScore + maxScore) * 3) / 4,
+                  maxScore,
+              ])
+              .range(["lime", "yellow", "red", "deepskyblue"]);
+  
+          var highlightColor = "blue";
+          var highlightTrans = 0.1;
+  
+          const citedBy = graph.nodes
+              .map(n => n.cited_by)
+              .filter(n => n != null);
+  
+          const maxCitedBy = Math.max(...citedBy);
+          const minCitedBy = Math.min(...citedBy);
+  
+          var size = d3.scale
+              .pow()
+              .exponent(1)
+              .domain([minCitedBy, maxCitedBy])
+              .range([8, 24]);
+  
+          var force = d3.layout
+              .force()
+              .linkDistance(h / (graph.nodes.length / 10))
+              .charge(-300)
+              .size([w, h]);
+  
+          var defaultNodeColor = "#ccc";
+          var defaultLinkColor = "#888";
+          var nominalBaseNodeSize = 8;
+          var nominalTextSize = 10;
+          var maxTextSize = 24;
+          var nominalStroke = 1.5;
+          var maxStroke = 4.5;
+          var maxBaseNodeSize = 36;
+          var minZoom = 0.1;
+          var maxZoom = 7;
+          var svg = d3.select("body").append("svg");
+          var zoom = d3.behavior.zoom().scaleExtent([minZoom, maxZoom]);
+          var g = svg.append("g");
+          svg.style("cursor", "move");
+  
+          var linkedByIndex = {};
+          graph.links.forEach(function(d) {
+              linkedByIndex[d.source + "," + d.target] = true;
+          });
+  
+          function isConnected(a, b) {
+              return (
+                  linkedByIndex[a.index + "," + b.index] ||
+                  linkedByIndex[b.index + "," + a.index] ||
+                  a.index == b.index
+              );
+          }
+  
+          force.size([w, h]);
+  
+          force
+              .nodes(graph.nodes)
+              .links(graph.links)
+              .start();
+  
+          function getLine(data) {
+              const x1 = data.source.x;
+              const y1 = data.source.y;
+              const x2 = data.target.x;
+              const y2 = data.target.y;
+  
+              const r = size(data.target.cited_by) + 1;
+  
+              const c = Math.sqrt(Math.pow((y2 - y1), 2) + Math.pow((x2 - x1), 2));
+              const a = y2 - y1;
+              const cos = a / c;
+              const a2 = cos * r;
+              const b2 = Math.sqrt(Math.pow(r, 2) - Math.pow(a2, 2));
+  
+              const x = x2 > x1 ? x2 - b2 : x2 + b2;
+              const y = y2 - a2;
+  
+              return `M ${data.source.x},${data.source.y} L ${x},${y}`;
+          }
+  
+          var link = g
+              .selectAll(".link")
+              .data(graph.links)
+              .enter()
+              .append("svg:path")
+              .attr("d", getLine)
+              .attr("stroke", defaultLinkColor)
+              .attr("fill", "red")
+              .style("stroke-width", nominalStroke)
+              .style("marker-end", "url(#end)");
+  
+          var node = g
+              .selectAll(".node")
+              .data(graph.nodes)
+              .enter()
+              .append("g")
+              .attr("class", "node")
+              .call(force.drag);
+  
+          node.on("dblclick", function(d) {
+              window.open(d.url, "_blank");
+              d3.event.stopPropagation();
+          });
+  
+          var circle = node
+              .append("path")
+              .attr(
+                  "d",
+                  d3.svg.symbol().size(d => Math.PI * Math.pow(size(d.cited_by) || nominalBaseNodeSize, 2))
+              )
+              .style("fill", d => isNumber(d.modularity) && d.modularity >= 0 ? color(d.modularity) : defaultNodeColor)
+              .style("stroke-width", nominalStroke)
+              .style("stroke", "white");
+  
+          svg.append("svg:defs").selectAll("marker")
+              .data(["end"])
+              .enter().append("svg:marker")
+              .attr("id", String)
+              .attr("viewBox", "0 -5 10 10")
+              .attr("refX", 10)
+              .attr("refY", 0)
+              .attr("markerWidth", 6)
+              .attr("markerHeight", 6)
+              .attr("orient", "auto")
+              .style("fill", defaultLinkColor)
+              .append("svg:path")
+              .attr("d", "M 0,-5 L 10,0 L 0,5")
+              .style("stroke", defaultLinkColor);
+  
+          force.on("tick", function() {
+              node.attr("transform", d => `translate(${d.x},${d.y})`);
+              link.attr("d", getLine);
+          });
+  
+          function resize() {
+              var width = window.innerWidth, height = window.innerHeight;
+              svg.attr("width", width).attr("height", height);
+              force.size([force.size()[0] + (width - w) / zoom.scale(), force.size()[1] + (height - h) / zoom.scale()]).resume();
+              w = width;
+              h = height;
+          }
+  
+          function isNumber(n) {
+              return !isNaN(parseFloat(n)) && isFinite(n);
+          }
+  
+          d3.select(window).on("resize", resize);
       }
-    </script>
+  </script>  
   </body>
 </html>
