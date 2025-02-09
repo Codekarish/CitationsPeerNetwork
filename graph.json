@@ -1,163 +1,163 @@
 {
-  "nodes": [
-    {
-      "id": "5664763969123002418",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2021.1948582",
-      "title": "Understanding cybersecurity capacity building and its relationship to norms and confidence...",
-      "authors": "R Collett",
-      "year": "2021",
-      "cited_by": 22,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=5664763969123002418&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Understanding cybersecurity capacity building and its relationship to norms and confidence..."
-    },
-    {
-      "id": "11400328201201624800",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0167404822002140",
-      "title": "Attributes impacting cybersecurity policy development: An evidence from seven nations",
-      "authors": "A Mishra, YI Alzoubi, MJ Anwar, AQ Gill",
-      "year": "2022",
-      "cited_by": 115,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=11400328201201624800&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Attributes impacting cybersecurity policy development: An evidence from seven nations"
-    },
-    {
-      "id": "16351647686925767264",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/13501763.2023.2295523",
-      "title": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy",
-      "authors": "J Carver",
-      "year": "2024",
-      "cited_by": 21,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=16351647686925767264&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy"
-    },
-    {
-      "id": "17635215336687556104",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/13523260.2024.2430021",
-      "title": "Developing digital \u201cperipheries\" for strategic advantage: Capacity building assistance and strategic competition in Africa",
-      "authors": "J Carver",
-      "year": "2024",
-      "cited_by": 1,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=17635215336687556104&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Developing digital \u201cperipheries\" for strategic advantage: Capacity building assistance and strategic competition in Africa"
-    },
-    {
-      "id": "15996909732421992712",
-      "url": "https://journals.sagepub.com/doi/abs/10.1177/23477970241261432",
-      "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
-      "authors": "RV Segate",
-      "year": "2024",
-      "cited_by": 1,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=15996909732421992712&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach"
-    },
-    {
-      "id": "BdEVLCNGPHcJ",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2025.2451779",
-      "title": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development",
-      "authors": "L Tabansky, P Cornish, E Lichterman",
-      "year": "2025",
-      "modularity": 0,
-      "label": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development"
-    },
-    {
-      "id": "13379152248788263237",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/03932729.2022.2095824",
-      "title": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection",
-      "authors": "LM Hurel",
-      "year": "2022",
-      "cited_by": 9,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=13379152248788263237&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection"
-    },
-    {
-      "id": "14217255490166536868",
-      "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00233919&AN=158944633&h=bJyG%2F9LnvfgAXipD9FvBK0O3eoGMqg%2FVu6NS%2FQ201L3eY0IJ4ugrbgXpLyQb1OwlPZAXD5hX1CFicVDsOisvgA%3D%3D&crl=c",
-      "title": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026",
-      "authors": "IT Yoo",
-      "year": "2022",
-      "cited_by": 5,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=14217255490166536868&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026"
-    },
-    {
-      "id": "6855590743360696516",
-      "url": "https://www.jstor.org/stable/48682324",
-      "title": "Three Conditions for Cyber Countermeasures",
-      "authors": "N Katagiri",
-      "year": "2022",
-      "cited_by": 3,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=6855590743360696516&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "Three Conditions for Cyber Countermeasures"
-    },
-    {
-      "id": "8793047655659909556",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2023.2245417",
-      "title": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime",
-      "authors": "J Billow",
-      "year": "2023",
-      "cited_by": 3,
-      "cited_by_url": "https://scholar.google.com/scholar?cites=8793047655659909556&as_sdt=2005&sciodt=0,5&hl=en",
-      "modularity": 0,
-      "label": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime"
-    },
-    {
-      "id": "XadzYK6uuTsJ",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943804",
-      "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
-      "authors": "R Vecellio Segate",
-      "year": "2024",
-      "modularity": 0,
-      "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach"
-    }
-  ],
-  "links": [
-    {
-      "source": "11400328201201624800",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "16351647686925767264",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "17635215336687556104",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "15996909732421992712",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "BdEVLCNGPHcJ",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "13379152248788263237",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "14217255490166536868",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "6855590743360696516",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "8793047655659909556",
-      "target": "5664763969123002418"
-    },
-    {
-      "source": "XadzYK6uuTsJ",
-      "target": "5664763969123002418"
-    }
-  ]
+    "nodes": [
+        {
+            "id": "5664763969123002418",
+            "label": "Understanding cybersecurity capacity building and its relationship to norms and confidence...",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2021.1948582",
+            "title": "Understanding cybersecurity capacity building and its relationship to norms and confidence...",
+            "authors": "R Collett",
+            "year": "2021",
+            "cited_by": 22,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5664763969123002418&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "11400328201201624800",
+            "label": "Attributes impacting cybersecurity policy development: An evidence from seven nations",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404822002140",
+            "title": "Attributes impacting cybersecurity policy development: An evidence from seven nations",
+            "authors": "A Mishra, YI Alzoubi, MJ Anwar, AQ Gill",
+            "year": "2022",
+            "cited_by": 116,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=11400328201201624800&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "16351647686925767264",
+            "label": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/13501763.2023.2295523",
+            "title": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy",
+            "authors": "J Carver",
+            "year": "2024",
+            "cited_by": 21,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16351647686925767264&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "17635215336687556104",
+            "label": "Developing digital \u201cperipheries\" for strategic advantage: Capacity building assistance and strategic competition in Africa",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/13523260.2024.2430021",
+            "title": "Developing digital \u201cperipheries\" for strategic advantage: Capacity building assistance and strategic competition in Africa",
+            "authors": "J Carver",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=17635215336687556104&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15996909732421992712",
+            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/23477970241261432",
+            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "authors": "RV Segate",
+            "year": "2024",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15996909732421992712&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "BdEVLCNGPHcJ",
+            "label": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2025.2451779",
+            "title": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development",
+            "authors": "L Tabansky, P Cornish, E Lichterman",
+            "year": "2025",
+            "modularity": 0
+        },
+        {
+            "id": "13379152248788263237",
+            "label": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/03932729.2022.2095824",
+            "title": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection",
+            "authors": "LM Hurel",
+            "year": "2022",
+            "cited_by": 9,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13379152248788263237&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "14217255490166536868",
+            "label": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00233919&AN=158944633&h=bJyG%2F9LnvfgAXipD9FvBK0O3eoGMqg%2FVu6NS%2FQ201L3eY0IJ4ugrbgXpLyQb1OwlPZAXD5hX1CFicVDsOisvgA%3D%3D&crl=c",
+            "title": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026",
+            "authors": "IT Yoo",
+            "year": "2022",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14217255490166536868&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "6855590743360696516",
+            "label": "Three Conditions for Cyber Countermeasures",
+            "url": "https://www.jstor.org/stable/48682324",
+            "title": "Three Conditions for Cyber Countermeasures",
+            "authors": "N Katagiri",
+            "year": "2022",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6855590743360696516&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "8793047655659909556",
+            "label": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2023.2245417",
+            "title": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime",
+            "authors": "J Billow",
+            "year": "2023",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8793047655659909556&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "XadzYK6uuTsJ",
+            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943804",
+            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "authors": "R Vecellio Segate",
+            "year": "2024",
+            "modularity": 0
+        }
+    ],
+    "links": [
+        {
+            "source": "11400328201201624800",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "16351647686925767264",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "17635215336687556104",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "15996909732421992712",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "BdEVLCNGPHcJ",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "13379152248788263237",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "14217255490166536868",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "6855590743360696516",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "8793047655659909556",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "XadzYK6uuTsJ",
+            "target": "5664763969123002418"
+        }
+    ]
 }
