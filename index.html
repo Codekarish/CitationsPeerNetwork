@@ -45,7 +45,7 @@
 
         var simulation = d3.forceSimulation(graph.nodes)
           .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
-          .force("charge", d3.forceManyBody().strength(-500))
+          .force("charge", d3.forceManyBody().strength(-200))
           .force("center", d3.forceCenter(w / 2, h / 2));
 
         var link = svg.selectAll(".link")
@@ -58,7 +58,7 @@
         var node = svg.selectAll(".node")
           .data(graph.nodes)
           .enter().append("circle")
-          .attr("r", 16)
+          .attr("r", 8)
           .attr("fill", d => color(d.modularity || 0))
           .call(d3.drag()
             .on("start", dragstarted)
