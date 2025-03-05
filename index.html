@@ -1,110 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
+<head>
+    <meta charset="utf-8">
     <title>Citation Network Visualization</title>
     <style>
-      body {
-        overflow: hidden;
-        margin: 0;
-      }
-
-      text {
-        font-family: sans-serif;
-        pointer-events: none;
-      }
+        body {
+            overflow: hidden;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        text {
+            pointer-events: none;
+        }
+        svg {
+            width: 100%;
+            height: 100vh;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
-    <!-- Use D3 v6 -->
+<body>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
-      // Load JSON dynamically from the same directory
-      d3.json("graph.json").then(function(graph) {
-        initializeGraph(graph);
-      }).catch(error => console.log("Error loading graph data:", error));
-
-      function initializeGraph(graph) {
-        var w = window.innerWidth;
-        var h = window.innerHeight;
-
-        var minScore = Math.min(...graph.nodes.map(n => n.modularity));
-        var maxScore = Math.max(...graph.nodes.map(n => n.modularity));
-
-        var color = d3.scaleLinear()
-          .domain([minScore, maxScore]) // Corrected scale usage
-          .range(["lime", "deepskyblue"]);
-
-        // Create SVG container with responsive design
-        var svg = d3.select("body").append("svg")
-          .attr("width", w)
-          .attr("height", h)
-          .attr("viewBox", `0 0 ${w} ${h}`)
-          .attr("preserveAspectRatio", "xMidYMid meet");
-
-        var simulation = d3.forceSimulation(graph.nodes)
-          .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
-          .force("charge", d3.forceManyBody().strength(-200))
-          .force("center", d3.forceCenter(w / 2, h / 2));
-
-        var link = svg.selectAll(".link")
-          .data(graph.links)
-          .enter().append("line")
-          .attr("class", "link")
-          .style("stroke", "#888")
-          .style("stroke-width", 1.5);
-
-        var node = svg.selectAll(".node")
-          .data(graph.nodes)
-          .enter().append("circle")
-          .attr("r", 8)
-          .attr("fill", d => color(d.modularity || 0))
-          .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
-
-        var text = svg.selectAll(".text")
-          .data(graph.nodes)
-          .enter().append("text")
-          .attr("dx", 12)
-          .attr("dy", ".35em")
-          .style("font-size", "10px")
-          .text(d => d.label);
-
-        simulation.on("tick", function() {
-          link.attr("x1", d => d.source.x)
-              .attr("y1", d => d.source.y)
-              .attr("x2", d => d.target.x)
-              .attr("y2", d => d.target.y);
-
-          node.attr("cx", d => d.x)
-              .attr("cy", d => d.y);
-
-          text.attr("x", d => d.x)
-              .attr("y", d => d.y);
-        });
-
-        function dragstarted(event, d) {
-          if (!event.active) simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
+        function loadGraph() {
+            fetch("/assets/graph.json") // Loads dynamically from Dash assets folder
+                .then(response => response.json())
+                .then(graph => initializeGraph(graph))
+                .catch(error => console.log("Error loading graph data:", error));
         }
 
-        function dragged(event, d) {
-          d.fx = event.x;
-          d.fy = event.y;
+        function initializeGraph(graph) {
+            d3.select("svg").remove(); // Remove previous graph before reloading
+
+            var width = window.innerWidth, height = window.innerHeight;
+
+            var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            var simulation = d3.forceSimulation(graph.nodes)
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-200))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            var link = svg.selectAll(".link")
+                .data(graph.links)
+                .enter().append("line")
+                .attr("class", "link")
+                .style("stroke", "#888")
+                .style("stroke-width", 1.5);
+
+            var node = svg.selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("circle")
+                .attr("r", 8)
+                .attr("fill", d => colorScale(d.modularity || 0))
+                .call(d3.drag()
+                    .on("start", dragStarted)
+                    .on("drag", dragged)
+                    .on("end", dragEnded));
+
+            var text = svg.selectAll(".text")
+                .data(graph.nodes)
+                .enter().append("text")
+                .attr("dx", 12)
+                .attr("dy", ".35em")
+                .style("font-size", "10px")
+                .text(d => d.label);
+
+            simulation.on("tick", function () {
+                link.attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node.attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
+
+                text.attr("x", d => d.x)
+                    .attr("y", d => d.y);
+            });
+
+            function dragStarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragEnded(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
         }
 
-        function dragended(event, d) {
-          if (!event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-        }
-      }
+        // Reload the graph when the page loads
+        loadGraph();
+
+        // Refresh every 5 seconds to check for new updates
+        setInterval(loadGraph, 5000);
     </script>
-  </body>
+</body>
 </html>
-
-

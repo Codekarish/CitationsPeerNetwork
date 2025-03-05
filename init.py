@@ -6,18 +6,17 @@ import random
 import argparse
 import networkx as nx
 from pathlib import Path
-from string import Template
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import quote_plus, urlparse, parse_qs
 from networkx.algorithms.community.modularity_max import greedy_modularity_communities
 from requests_html import HTMLSession
 
-# Global Variables
-seen = set()
+# Initialize session
 session = HTMLSession()
+seen = set()
 
 def main():
     parser = argparse.ArgumentParser(description="Google Scholar Citation Scraper & Network Visualizer")
-    parser.add_argument("url", help="Starting Google Scholar search URL")
+    parser.add_argument("query", help="Article title or Google Scholar search URL")
     parser.add_argument("--depth", type=int, default=1, help="Depth of the crawl")
     parser.add_argument("--pages", type=int, default=1, help="Number of pages to scrape")
     parser.add_argument("--output", type=str, default="output", help="Output file prefix")
@@ -25,11 +24,17 @@ def main():
 
     args = parser.parse_args()
 
+    # Check if input is a title (convert to Google Scholar search URL)
+    if not args.query.startswith("http"):
+        search_query = quote_plus(args.query)
+        args.query = f"https://scholar.google.com/scholar?q={search_query}"
+        print(f"Generated Google Scholar URL: {args.query}")
+
     # Create directed graph
     g = nx.DiGraph()
 
     # Crawl and build the graph
-    for from_pub, to_pub in get_citations(args.url, depth=args.depth, pages=args.pages):
+    for from_pub, to_pub in get_citations(args.query, depth=args.depth, pages=args.pages):
         g.add_node(from_pub['id'], label=from_pub['title'], **remove_nones(from_pub))
         if to_pub:
             g.add_node(to_pub['id'], label=to_pub['title'], **remove_nones(to_pub))
@@ -74,16 +79,10 @@ def get_html(url):
     response = session.get(url)
 
     # Print part of the HTML response for debugging
-    html_text = response.html.html[:1000]
-    print(html_text)
-
-    # Check if Google is blocking the request
-    if "captcha" in html_text.lower() or "recaptcha" in html_text.lower():
-        print("Google Scholar is blocking the request with a CAPTCHA.")
-        sys.exit("Solve the CAPTCHA manually in a browser before proceeding.")
+    if "captcha" in response.html.html.lower():
+        sys.exit("Google Scholar is blocking the request with a CAPTCHA. Solve it manually before proceeding.")
 
     return response.html
-
 
 def get_metadata(e, to_pub):
     """ Extract publication metadata """
@@ -92,7 +91,7 @@ def get_metadata(e, to_pub):
         return None
 
     a = e.find('.gs_rt a', first=True)
-    title, url = (a.text, a.attrs['href']) if a else (e.find('.gs_rt .gs_ctu', first=True).text, None)
+    title, url = (a.text, a.attrs['href']) if a else ("Unknown Title", None)
 
     meta = e.find('.gs_a', first=True).text
     authors, source, year = parse_meta(meta)
@@ -121,7 +120,7 @@ def parse_meta(meta):
     return authors, source, year
 
 def get_id(e):
-    """ Extract the Google Scholar cluster ID """
+    """ Extract Google Scholar cluster ID """
     for a in e.find('.gs_fl a'):
         if 'Cited by' in a.text or 'versions' in a.text:
             return get_cluster_id(a.attrs['href'])
@@ -170,5 +169,3 @@ def to_json(g):
 
 if __name__ == "__main__":
     main()
-
-

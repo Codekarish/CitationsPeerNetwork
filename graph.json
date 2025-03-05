@@ -7,9 +7,9 @@
             "title": "Understanding cybersecurity capacity building and its relationship to norms and confidence...",
             "authors": "R Collett",
             "year": "2021",
-            "cited_by": 22,
+            "cited_by": 23,
             "cited_by_url": "https://scholar.google.com/scholar?cites=5664763969123002418&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 2
         },
         {
             "id": "11400328201201624800",
@@ -18,20 +18,306 @@
             "title": "Attributes impacting cybersecurity policy development: An evidence from seven nations",
             "authors": "A Mishra, YI Alzoubi, MJ Anwar, AQ Gill",
             "year": "2022",
-            "cited_by": 117,
+            "cited_by": 121,
             "cited_by_url": "https://scholar.google.com/scholar?cites=11400328201201624800&as_sdt=2005&sciodt=0,5&hl=en",
             "modularity": 0
         },
         {
-            "id": "16351647686925767264",
-            "label": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy",
+            "id": "13647773559345164217",
+            "label": "Exploring cybersecurity education and training techniques: A comprehensive review of traditional, virtual reality, and augmented reality approaches",
+            "url": "https://www.mdpi.com/2073-8994/15/12/2175",
+            "title": "Exploring cybersecurity education and training techniques: A comprehensive review of traditional, virtual reality, and augmented reality approaches",
+            "authors": "AM Alnajim, S Habib, M Islam, HS AlRawashdeh\u2026",
+            "year": "2023",
+            "cited_by": 42,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13647773559345164217&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "6467851976209657704",
+            "label": "Research trends in deep learning and machine learning for cloud computing security",
+            "url": "https://link.springer.com/article/10.1007/s10462-024-10776-5",
+            "title": "Research trends in deep learning and machine learning for cloud computing security",
+            "authors": "YI Alzoubi, A Mishra, AE Topcu",
+            "year": "2024",
+            "cited_by": 14,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=6467851976209657704&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15700265610709354988",
+            "label": "Privacy-centric AI and IoT solutions for smart rural farm monitoring and control",
+            "url": "https://www.mdpi.com/1424-8220/24/13/4157",
+            "title": "Privacy-centric AI and IoT solutions for smart rural farm monitoring and control",
+            "authors": "M Rahaman, CY Lin, P Pappachan, BB Gupta, CH Hsu",
+            "year": "2024",
+            "cited_by": 38,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15700265610709354988&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "12321400840200093647",
+            "label": "Green blockchain\u2013A move towards sustainability",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0959652623036995",
+            "title": "Green blockchain\u2013A move towards sustainability",
+            "authors": "YI Alzoubi, A Mishra",
+            "year": "2023",
+            "cited_by": 37,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12321400840200093647&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "13556087258716739154",
+            "label": "Enhancing cybersecurity protocols in modern healthcare systems: Strategies and best practices",
+            "url": "https://www.igi-global.com/chapter/enhancing-cybersecurity-protocols-in-modern-healthcare-systems/342829",
+            "title": "Enhancing cybersecurity protocols in modern healthcare systems: Strategies and best practices",
+            "authors": "MU Tariq",
+            "year": "2024",
+            "cited_by": 47,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13556087258716739154&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "16548497358836395890",
+            "label": "AI-Augmented Public Health Administration in sub-Saharan Africa: Addressing Challenges in Ghana's Cyberlaws Regimes for Smooth and Effective Use",
+            "url": "https://www.researchgate.net/profile/George-Benneh-Mensah/publication/375603641_AI-Augmented_Public_Health_Administration_in_sub-Saharan_Africa_Addressing_Challenges_in_Ghana's_Cyberlaws_Regimes_for_Smooth_and_Effective_Use/links/655256053fa26f66f4fde16c/AI-Augmented-Public-Health-Administration-in-sub-Saharan-Africa-Addressing-Challenges-in-Ghanas-Cyberlaws-Regimes-for-Smooth-and-Effective-Use.pdf",
+            "title": "AI-Augmented Public Health Administration in sub-Saharan Africa: Addressing Challenges in Ghana's Cyberlaws Regimes for Smooth and Effective Use",
+            "authors": "GB Mensah",
+            "year": "2023",
+            "cited_by": 44,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16548497358836395890&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "3154755485225455416",
+            "label": "Cybercrime Unmasked: Investigating cases and digital evidence",
+            "url": "https://pdfs.semanticscholar.org/9d91/d55029a4ebbe92e52602b0f4185eb0e4a27d.pdf",
+            "title": "Cybercrime Unmasked: Investigating cases and digital evidence",
+            "authors": "H Azam, MI Dulloo, MH Majeed\u2026",
+            "year": "2023",
+            "cited_by": 28,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=3154755485225455416&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "16155031525430395079",
+            "label": "Cyber threats classifications and countermeasures in banking and financial sector",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10292652/",
+            "title": "Cyber threats classifications and countermeasures in banking and financial sector",
+            "authors": "AA Darem, AA Alhashmi, TM Alkhaldi\u2026",
+            "year": "2023",
+            "cited_by": 29,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16155031525430395079&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "5194916577055749881",
+            "label": "Network and cybersecurity applications of defense in adversarial attacks: A state-of-the-art using machine learning and deep learning methods",
+            "url": "https://www.degruyter.com/document/doi/10.1515/jisys-2024-0153/html",
+            "title": "Network and cybersecurity applications of defense in adversarial attacks: A state-of-the-art using machine learning and deep learning methods",
+            "authors": "YL Khaleel, MA Habeeb, AS Albahri\u2026",
+            "year": "2024",
+            "cited_by": 21,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5194916577055749881&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15552482983809285356",
+            "label": "Recent advancements in bamboo nanocellulose-based bioadsorbents and their potential in wastewater applications: A review",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0141813024052565",
+            "title": "Recent advancements in bamboo nanocellulose-based bioadsorbents and their potential in wastewater applications: A review",
+            "authors": "JAS Othman, RA Ilyas, AH Nordin, N Ngadi\u2026",
+            "year": "2024",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15552482983809285356&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15939703469093718602",
+            "label": "The evolving role of artificial intelligence in the future of distance learning: Exploring the next frontier",
+            "url": "https://journals.mesopotamian.press/index.php/cs/article/view/89",
+            "title": "The evolving role of artificial intelligence in the future of distance learning: Exploring the next frontier",
+            "authors": "MM Mijwil, G Ali, E Sad\u0131ko\u011flu",
+            "year": "2023",
+            "cited_by": 23,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15939703469093718602&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "8152915213544806704",
+            "label": "Social Changes that Occurred on the European Continent Due to the War in Ukraine.",
+            "url": "https://www.ceeol.com/search/article-detail?id=1175931",
+            "title": "Social Changes that Occurred on the European Continent Due to the War in Ukraine.",
+            "authors": "I Kovtunyk, Y Ishchenko, Y Yuvsechko\u2026",
+            "year": "2023",
+            "cited_by": 23,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8152915213544806704&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "2031553025185532535",
+            "label": "Techno-Prevention in Counterterrorism: Between Countering Crime and Human Rights Protection",
+            "url": "https://pdfs.semanticscholar.org/b655/72df3e578dbd4e4ca1fa33728677100f7332.pdf",
+            "title": "Techno-Prevention in Counterterrorism: Between Countering Crime and Human Rights Protection",
+            "authors": "A Masyhar, SO Emovwodo",
+            "year": "2023",
+            "cited_by": 18,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=2031553025185532535&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "16817168537119783552",
+            "label": "Towards Improved Threat Mitigation In Digital Environments: A Comprehensive Framework For Cybersecurity Enhancement",
+            "url": "https://clok.uclan.ac.uk/51845/",
+            "title": "Towards Improved Threat Mitigation In Digital Environments: A Comprehensive Framework For Cybersecurity Enhancement",
+            "authors": "H Balisane, EI Egho-Promise, E Lyada\u2026",
+            "year": "2024",
+            "cited_by": 14,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16817168537119783552&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "16901428119969900117",
+            "label": "Understanding local government cybersecurity policy: A concept map and framework",
+            "url": "https://www.mdpi.com/2078-2489/15/6/342",
+            "title": "Understanding local government cybersecurity policy: A concept map and framework",
+            "authors": "ST Hossain, T Yigitcanlar, K Nguyen, Y Xu",
+            "year": "2024",
+            "cited_by": 4,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=16901428119969900117&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "12789557168130423905",
+            "label": "Cyberfraud, usage intention, and cybersecurity awareness among e-banking users in India: an integrated model approach",
+            "url": "https://link.springer.com/article/10.1057/s41264-024-00279-3",
+            "title": "Cyberfraud, usage intention, and cybersecurity awareness among e-banking users in India: an integrated model approach",
+            "authors": "M Afzal, MS Ansari, N Ahmad, M Shahid\u2026",
+            "year": "2024",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=12789557168130423905&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "13460670123318060672",
+            "label": "Investigating the influence of governance determinants on reporting cybersecurity incidents to police: Evidence from Canadian organizations' perspectives",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0160791X23001148",
+            "title": "Investigating the influence of governance determinants on reporting cybersecurity incidents to police: Evidence from Canadian organizations' perspectives",
+            "authors": "KR Agbodoh-Falschau, BH Ravaonorohanta",
+            "year": "2023",
+            "cited_by": 11,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13460670123318060672&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "15867800507897276334",
+            "label": "The legal policy of criminal justice bureaucracy cybercrime",
+            "url": "https://jurnal.uns.ac.id/bestuur/article/view/64498",
+            "title": "The legal policy of criminal justice bureaucracy cybercrime",
+            "authors": "A Raharjo, RW Bintoro, NAT Utami",
+            "year": "2022",
+            "cited_by": 15,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15867800507897276334&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "23295672064731472",
+            "label": "Building a thematic framework of cybersecurity: a systematic literature review approach",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/jsit-07-2023-0132/full/html",
+            "title": "Building a thematic framework of cybersecurity: a systematic literature review approach",
+            "authors": "TY Khaw, A Amran, AP Teoh",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=23295672064731472&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "17081289653014445548",
+            "label": "Social media zero-day attack detection using TensorFlow",
+            "url": "https://www.mdpi.com/2079-9292/12/17/3554",
+            "title": "Social media zero-day attack detection using TensorFlow",
+            "authors": "AE Topcu, YI Alzoubi, E Elbasi, E Camalan",
+            "year": "2023",
+            "cited_by": 12,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=17081289653014445548&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 0
+        },
+        {
+            "id": "14786098452174071978",
+            "label": "More bark than bite? European digital sovereignty discourse and changes to the European Union\u2019s...",
             "url": "https://www.tandfonline.com/doi/abs/10.1080/13501763.2023.2295523",
-            "title": "More bark than bite? European digital sovereignty discourse and changes to the European Union's external relations policy",
+            "title": "More bark than bite? European digital sovereignty discourse and changes to the European Union\u2019s...",
             "authors": "J Carver",
             "year": "2024",
-            "cited_by": 22,
-            "cited_by_url": "https://scholar.google.com/scholar?cites=16351647686925767264&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "cited_by": 24,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14786098452174071978&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "17595303916489103575",
+            "label": "EU AI sovereignty: For whom, to what end, and to whose benefit?",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/13501763.2024.2318475",
+            "title": "EU AI sovereignty: For whom, to what end, and to whose benefit?",
+            "authors": "D M\u00fcgge",
+            "year": "2024",
+            "cited_by": 31,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=17595303916489103575&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "18095430350567160151",
+            "label": "Democratic erosion of data-opolies: Decentralized Web3 technological paradigm shift amidst AI disruption",
+            "url": "https://www.mdpi.com/2504-2289/8/3/26",
+            "title": "Democratic erosion of data-opolies: Decentralized Web3 technological paradigm shift amidst AI disruption",
+            "authors": "I Calzada",
+            "year": "2024",
+            "cited_by": 12,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=18095430350567160151&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "9789600173795991958",
+            "label": "Decentralized web3 reshaping internet governance: Towards the emergence of new forms of nation-statehood?",
+            "url": "https://www.mdpi.com/1999-5903/16/10/361",
+            "title": "Decentralized web3 reshaping internet governance: Towards the emergence of new forms of nation-statehood?",
+            "authors": "I Calzada",
+            "year": "2024",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9789600173795991958&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "5270013073206668141",
+            "label": "Digital sovereignty-Rhetoric and reality",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/13501763.2024.2358984",
+            "title": "Digital sovereignty-Rhetoric and reality",
+            "authors": "G Falkner, S Heidebrecht, A Obendiek\u2026",
+            "year": "2024",
+            "cited_by": 32,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5270013073206668141&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "15204147634867722850",
+            "label": "The evolution of EU\u2013US cybersecurity law and policy: on drivers of convergence",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/07036337.2024.2411240",
+            "title": "The evolution of EU\u2013US cybersecurity law and policy: on drivers of convergence",
+            "authors": "E Fahey",
+            "year": "2024",
+            "cited_by": 7,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=15204147634867722850&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
+        },
+        {
+            "id": "4525566578723637726",
+            "label": "The false promise of individual digital sovereignty in Europe: Comparing artificial intelligence and data regulations in China and the European Union",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/poi3.424",
+            "title": "The false promise of individual digital sovereignty in Europe: Comparing artificial intelligence and data regulations in China and the European Union",
+            "authors": "R Nanni, PG Bizzaro, M Napolitano",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4525566578723637726&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 1
         },
         {
             "id": "17635215336687556104",
@@ -42,18 +328,322 @@
             "year": "2024",
             "cited_by": 1,
             "cited_by_url": "https://scholar.google.com/scholar?cites=17635215336687556104&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 3
+        },
+        {
+            "id": "10477906192280104663",
+            "label": "Finance, Strategy and European Autonomy",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/00396338.2025.2459014",
+            "title": "Finance, Strategy and European Autonomy",
+            "authors": "E Hellendoorn",
+            "year": "2025",
+            "modularity": 1
+        },
+        {
+            "id": "14056648643392543745",
+            "label": "EU Policies on Human Security, Environmental Sustainability, Strategic Foresight, and Digital Transition in EU Candidate Countries: Moldova and Ukraine",
+            "url": "https://www.ees-journal.com/index.php/journal/article/view/270",
+            "title": "EU Policies on Human Security, Environmental Sustainability, Strategic Foresight, and Digital Transition in EU Candidate Countries: Moldova and Ukraine",
+            "authors": "AP Olimid, CM Georgescu\u2026",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "dCUVnOJHkRUJ",
+            "label": "Decentralizing Power? Data Sovereignty in the Age of AI and Web3",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5081504",
+            "title": "Decentralizing Power? Data Sovereignty in the Age of AI and Web3",
+            "authors": "I Calzada",
+            "year": "2025",
+            "modularity": 1
+        },
+        {
+            "id": "6236028159999724360",
+            "label": "Digital Policy and the Strengthened Role of the European Central Executive. An Introductory Overview",
+            "url": "https://osf.io/download/66e4127ca9557e4de6ec96fc/",
+            "title": "Digital Policy and the Strengthened Role of the European Central Executive. An Introductory Overview",
+            "authors": "S Heidebrecht",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "tUBP72MDkHkJ",
+            "label": "Cyber Normativity-A Qualitative Case Study Explaining the European Union's Normative Power in the 2020 Cybersecurity Strategy",
+            "url": "https://lup.lub.lu.se/student-papers/search/publication/9152573",
+            "title": "Cyber Normativity-A Qualitative Case Study Explaining the European Union's Normative Power in the 2020 Cybersecurity Strategy",
+            "authors": "F Moisiola",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "zDBMVJ0-4doJ",
+            "label": "Adoption Challenges and Incentives for IoT and AI in Agriculture",
+            "url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003570219-18/adoption-challenges-incentives-iot-ai-agriculture-ansari-sheetanshu-gupta-dhirendra-kumar-barkat-hussain",
+            "title": "Adoption Challenges and Incentives for IoT and AI in Agriculture",
+            "authors": "MN Ansari, S Gupta, D Kumar, B Hussain",
+            "year": "Agriculture 4.0",
+            "modularity": 1
+        },
+        {
+            "id": "1ZmS2p6CJMQJ",
+            "label": "The problem of ensuring the sovereignty of EU members states in modern legal and public discourse",
+            "url": "https://lawjournal.com.ua/web/uploads/pdf/Law_Journal_of_the_NAIA_Vol.14_No.4_2024-54-65.pdf",
+            "title": "The problem of ensuring the sovereignty of EU members states in modern legal and public discourse",
+            "authors": "Y Novikov",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "223723393211437254",
+            "label": "Public Policies in Data Security in the European Union: A Literature Review",
+            "url": "http://techhubresearch.com/index.php/journal/article/view/128",
+            "title": "Public Policies in Data Security in the European Union: A Literature Review",
+            "authors": "CA Gherghin",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "7Xk52fsNi9IJ",
+            "label": "The problem of ensuring the sovereignty of EU members states in modern legal and public discourse. \u0417\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f \u0441\u0443\u0432\u0435\u0440\u0435\u043d\u0456\u0442\u0435\u0442\u0443 \u0434\u0435\u0440\u0436\u0430\u0432\u2013\u0447\u043b\u0435\u043d\u0456\u0432 \u0404\u0421 \u0443 \u0441\u0443\u0447\u0430\u0441\u043d\u043e\u043c\u0443\u00a0\u2026",
+            "url": "https://elar.naiau.kiev.ua/items/b50a01e7-fbe9-4545-8e6c-27738fe9c7b6",
+            "title": "The problem of ensuring the sovereignty of EU members states in modern legal and public discourse. \u0417\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f \u0441\u0443\u0432\u0435\u0440\u0435\u043d\u0456\u0442\u0435\u0442\u0443 \u0434\u0435\u0440\u0436\u0430\u0432\u2013\u0447\u043b\u0435\u043d\u0456\u0432 \u0404\u0421 \u0443 \u0441\u0443\u0447\u0430\u0441\u043d\u043e\u043c\u0443\u00a0\u2026",
+            "authors": "\u0404 \u041d\u043e\u0432\u0456\u043a\u043e\u0432",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "jk05Uq3hIRgJ",
+            "label": "National macrofinancial stability in the context of cyber threats",
+            "url": "https://periodicals.karazin.ua/apdu/article/view/25291",
+            "title": "National macrofinancial stability in the context of cyber threats",
+            "authors": "Y Zhyvylo",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "3633079683100573514",
+            "label": "\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u0415\u0421 \u043f\u043e \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u0438\u0438 \u043e\u0442 \u041a\u041d\u0420: \u043c\u0435\u0436\u0434\u0443 \u041f\u0435\u043a\u0438\u043d\u043e\u043c, \u0412\u0430\u0448\u0438\u043d\u0433\u0442\u043e\u043d\u043e\u043c \u0438 \u041d\u044c\u044e-\u0414\u0435\u043b\u0438",
+            "url": "https://cyberleninka.ru/article/n/politika-es-po-dostizheniyu-tehnologicheskoy-avtonomii-ot-knr-mezhdu-pekinom-vashingtonom-i-nyu-deli",
+            "title": "\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u0415\u0421 \u043f\u043e \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044e \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u0438\u0438 \u043e\u0442 \u041a\u041d\u0420: \u043c\u0435\u0436\u0434\u0443 \u041f\u0435\u043a\u0438\u043d\u043e\u043c, \u0412\u0430\u0448\u0438\u043d\u0433\u0442\u043e\u043d\u043e\u043c \u0438 \u041d\u044c\u044e-\u0414\u0435\u043b\u0438",
+            "authors": "\u0418\u0412 \u0414\u0430\u043d\u0438\u043b\u0438\u043d, \u0418\u0412 \u041a\u0438\u0440\u0438\u0447\u0435\u043d\u043a\u043e\u2026",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "N45bQkmTK80J",
+            "label": "\u041f\u0423\u0411\u041b\u0418\u0427\u041d\u041e-\u041f\u0420\u0410\u0412\u041e\u0412\u042b\u0415 \u041e\u0421\u041d\u041e\u0412\u042b \u0426\u0418\u0424\u0420\u041e\u0412\u041e\u0413\u041e \u0421\u0423\u0412\u0415\u0420\u0415\u041d\u0418\u0422\u0415\u0422\u0410: \u041e\u041f\u042b\u0422 \u0424\u0420\u0410\u041d\u0426\u0418\u0418",
+            "url": "https://cyberleninka.ru/article/n/publichno-pravovye-osnovy-tsifrovogo-suvereniteta-opyt-frantsii",
+            "title": "\u041f\u0423\u0411\u041b\u0418\u0427\u041d\u041e-\u041f\u0420\u0410\u0412\u041e\u0412\u042b\u0415 \u041e\u0421\u041d\u041e\u0412\u042b \u0426\u0418\u0424\u0420\u041e\u0412\u041e\u0413\u041e \u0421\u0423\u0412\u0415\u0420\u0415\u041d\u0418\u0422\u0415\u0422\u0410: \u041e\u041f\u042b\u0422 \u0424\u0420\u0410\u041d\u0426\u0418\u0418",
+            "authors": "\u0412\u0413 \u0420\u043e\u043c\u0430\u043d\u043e\u0432\u0441\u043a\u0438\u0439",
+            "year": "2024",
+            "modularity": 1
+        },
+        {
+            "id": "IvKkrDeONOgJ",
+            "label": "International Development in the Field of Cybersecurity",
+            "url": "https://libstore.ugent.be/fulltxt/RUG01/003/214/046/RUG01-003214046_2024_0001_AC.pdf",
+            "title": "International Development in the Field of Cybersecurity",
+            "authors": "L Papritz",
+            "year": "libstore.ugent.be",
+            "modularity": 3
+        },
+        {
+            "id": "Yx8jp4xlqeAJ",
+            "label": "CHATBOTS AS A TOOL FOR PROMOTING STUDENT MENTAL HEALTH The following are the names of the children of the most beautiful and most beautiful women",
+            "url": "https://ejournal.unuja.ac.id/index.php/icesh/article/view/10077",
+            "title": "CHATBOTS AS A TOOL FOR PROMOTING STUDENT MENTAL HEALTH The following are the names of the children of the most beautiful and most beautiful women",
+            "authors": "TM Sukriyah, UQ Jaannah, F Husna\u2026",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "13379152248788263237",
+            "label": "Interrogating the cybersecurity development agenda: A critical reflection",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/03932729.2022.2095824",
+            "title": "Interrogating the cybersecurity development agenda: A critical reflection",
+            "authors": "LM Hurel",
+            "year": "2022",
+            "cited_by": 9,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=13379152248788263237&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "4726637917453855329",
+            "label": "Cybersecurity and the politics of knowledge production: towards a reflexive practice",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2023.2287687",
+            "title": "Cybersecurity and the politics of knowledge production: towards a reflexive practice",
+            "authors": "F Cristiano, X Kurowska, T Stevens, LM Hurel\u2026",
+            "year": "2023",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4726637917453855329&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
         },
         {
             "id": "15996909732421992712",
-            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China,...",
             "url": "https://journals.sagepub.com/doi/abs/10.1177/23477970241261432",
-            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China,...",
             "authors": "RV Segate",
             "year": "2024",
             "cited_by": 1,
             "cited_by_url": "https://scholar.google.com/scholar?cites=15996909732421992712&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 3
+        },
+        {
+            "id": "7263603115211390398",
+            "label": "Contesting western and non-western approaches to global cyber governance beyond westlessness",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/03932729.2022.2101231",
+            "title": "Contesting western and non-western approaches to global cyber governance beyond westlessness",
+            "authors": "X Chen, Y Yang",
+            "year": "2022",
+            "cited_by": 6,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7263603115211390398&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 3
+        },
+        {
+            "id": "XadzYK6uuTsJ",
+            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943804",
+            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
+            "authors": "R Vecellio Segate",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "5340324326451880979",
+            "label": "Strategies and Methods Used by Information Technology Security Professionals to Secure Cloud Access Infrastructure",
+            "url": "https://search.proquest.com/openview/e8d6e474957bec284cb15db734b43467/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "title": "Strategies and Methods Used by Information Technology Security Professionals to Secure Cloud Access Infrastructure",
+            "authors": "O Fontem",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "D7BHa-XROG8J",
+            "label": "Digital transformation on national security strategy: A bibliometric analysis",
+            "url": "https://www.researchgate.net/profile/Andi-Prianto/publication/383457914_Digital_transformation_on_national_security_strategy_A_bibliometric_analysis/links/66ce51f52390e50b2c1abd8a/Digital-transformation-on-national-security-strategy-A-bibliometric-analysis.pdf",
+            "title": "Digital transformation on national security strategy: A bibliometric analysis",
+            "authors": "AL Prianto, AR Amri, G Ilik",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "15465050162997598262",
+            "label": "Cybersecurity Regulation. Systematic Literature Review",
+            "url": "https://search.proquest.com/openview/f1e1947224a9808e0f083e0c8d24d05f/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+            "title": "Cybersecurity Regulation. Systematic Literature Review",
+            "authors": "BP Santos",
+            "year": "2023",
+            "modularity": 3
+        },
+        {
+            "id": "qnqbmIqonJ4J",
+            "label": "\" SPACE TECHNOLOGIES, APPLICATIONS AND SERVICES (STAR)",
+            "url": "https://pergamos.lib.uoa.gr/uoa/dl/object/3450279/file.pdf",
+            "title": "\" SPACE TECHNOLOGIES, APPLICATIONS AND SERVICES (STAR)",
+            "authors": "KGT Papadopoulou",
+            "year": "2024",
+            "modularity": 3
+        },
+        {
+            "id": "8793047655659909556",
+            "label": "No country is an island: embracing international law enforcement cooperation to reduce the...",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2023.2245417",
+            "title": "No country is an island: embracing international law enforcement cooperation to reduce the...",
+            "authors": "J Billow",
+            "year": "2024",
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=8793047655659909556&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "9163695104720834633",
+            "label": "Ransomware Threat Mitigation Strategies for Protecting Critical Infrastructure Assets",
+            "url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003469506-10/ransomware-threat-mitigation-strategies-protecting-critical-infrastructure-assets-kassim-kalinaki",
+            "title": "Ransomware Threat Mitigation Strategies for Protecting Critical Infrastructure Assets",
+            "authors": "K Kalinaki",
+            "year": "2025",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9163695104720834633&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 5
+        },
+        {
+            "id": "BqaN7WxZMtYJ",
+            "label": "Strategies and tricks of candidate leaders during elections in Islam",
+            "url": "https://journalregy.com/index.php/uvw/article/view/10",
+            "title": "Strategies and tricks of candidate leaders during elections in Islam",
+            "authors": "IC Anggraeni, N Maspupah\u2026",
+            "year": "2024",
+            "modularity": 5
+        },
+        {
+            "id": "9892723991407326529",
+            "label": "It'sa fraudster's world",
+            "url": "https://dam.santander.co.uk/content/dam/publish/media-relations/Its-a-fraudsters-world-Sept2024.pdf",
+            "title": "It'sa fraudster's world",
+            "authors": "R Hyde, JA Gibson",
+            "year": "dam.santander.co.uk",
+            "modularity": 5
+        },
+        {
+            "id": "14217255490166536868",
+            "label": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity...",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00233919&AN=158944633&h=bJyG%2F9LnvfgAXipD9FvBK0O3eoGMqg%2FVu6NS%2FQ201L3eY0IJ4ugrbgXpLyQb1OwlPZAXD5hX1CFicVDsOisvgA%3D%3D&crl=c",
+            "title": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity...",
+            "authors": "IT Yoo",
+            "year": "2022",
+            "cited_by": 5,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=14217255490166536868&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "9668455925383179202",
+            "label": "A Critical Analytical View of Control Theory and the Geopolitical and Economic Drivers Affecting Cyber Security Warfare",
+            "url": "https://www.igi-global.com/chapter/a-critical-analytical-view-of-control-theory-and-the-geopolitical-and-economic-drivers-affecting-cyber-security-warfare/331639",
+            "title": "A Critical Analytical View of Control Theory and the Geopolitical and Economic Drivers Affecting Cyber Security Warfare",
+            "authors": "EJ Lewis, MD Baez",
+            "year": "2023",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9668455925383179202&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "615196984342077475",
+            "label": "Cyber criminology and human security: An Analysis of ASEAN Countries Police's Paradigm",
+            "url": "https://jhumansecurity.com/menuscript/index.php/jhe/article/view/125",
+            "title": "Cyber criminology and human security: An Analysis of ASEAN Countries Police's Paradigm",
+            "authors": "MF Imran",
+            "year": "2022",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=615196984342077475&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 4
+        },
+        {
+            "id": "2581212482692176200",
+            "label": "Integrating Criminological Theories in Cybersecurity Risk Assessment: A Study of the TRACI Framework's Application to Critical Infrastructure",
+            "url": "https://search.proquest.com/openview/56fa5c8ff926932b542e8bfaee346113/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "title": "Integrating Criminological Theories in Cybersecurity Risk Assessment: A Study of the TRACI Framework's Application to Critical Infrastructure",
+            "authors": "CS Martin",
+            "year": "2024",
+            "modularity": 4
+        },
+        {
+            "id": "17873429509313667216",
+            "label": "Measures to Strengthen Korea-Japan Cyber Security Cooperation: Focusing on Joint Response to North Korean Cyber Threats",
+            "url": "https://koreascience.kr/article/JAKO202313864573323.page",
+            "title": "Measures to Strengthen Korea-Japan Cyber Security Cooperation: Focusing on Joint Response to North Korean Cyber Threats",
+            "authors": "TJ Chung",
+            "year": "2023",
+            "modularity": 4
+        },
+        {
+            "id": "6884215078489495500",
+            "label": "\uc0ac\uc774\ubc84 \uc548\ubcf4\uc640 \uac1c\ubc1c\ud611\ub825 \uc5f0\uacc4 \uc811\uadfc\uc5d0 \uad00\ud55c \uc5f0\uad6c: \uc601\uad6d\uacfc \ud55c\uad6d \uc0ac\ub840 \ube44\uad50",
+            "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11342791",
+            "title": "\uc0ac\uc774\ubc84 \uc548\ubcf4\uc640 \uac1c\ubc1c\ud611\ub825 \uc5f0\uacc4 \uc811\uadfc\uc5d0 \uad00\ud55c \uc5f0\uad6c: \uc601\uad6d\uacfc \ud55c\uad6d \uc0ac\ub840 \ube44\uad50",
+            "authors": "\uc774\uc9c0\uc120\uff0c \uae40\uc18c\uc815",
+            "year": "2023",
+            "modularity": 4
         },
         {
             "id": "BdEVLCNGPHcJ",
@@ -62,29 +652,74 @@
             "title": "Making PROGRESS: a sectoral approach to cyber resilience and its application in sustainable development",
             "authors": "L Tabansky, P Cornish, E Lichterman",
             "year": "2025",
-            "modularity": 0
+            "modularity": 2
         },
         {
-            "id": "13379152248788263237",
-            "label": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection",
-            "url": "https://www.tandfonline.com/doi/abs/10.1080/03932729.2022.2095824",
-            "title": "Interrogating the Cybersecurity Development Agenda: A Critical Reflection",
-            "authors": "LM Hurel",
-            "year": "2022",
-            "cited_by": 9,
-            "cited_by_url": "https://scholar.google.com/scholar?cites=13379152248788263237&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "id": "10848976041137320427",
+            "label": "Why Soft Measures Are Too Soft: International Law and Norms",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-54561-0_5",
+            "title": "Why Soft Measures Are Too Soft: International Law and Norms",
+            "authors": "N Katagiri",
+            "year": "2024",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10848976041137320427&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
         },
         {
-            "id": "14217255490166536868",
-            "label": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026",
-            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=00233919&AN=158944633&h=bJyG%2F9LnvfgAXipD9FvBK0O3eoGMqg%2FVu6NS%2FQ201L3eY0IJ4ugrbgXpLyQb1OwlPZAXD5hX1CFicVDsOisvgA%3D%3D&crl=c",
-            "title": "Cybersecurity Crisscrossing International Development Cooperation: Unraveling the Cyber Capacity Building of East Asian Middle Powers Amid Rising Great Power\u00a0\u2026",
-            "authors": "IT Yoo",
+            "id": "d9abNiWtdoAJ",
+            "label": "STRENGTHENING CYBERSECURITY IN NIGERIA: A HOLISTIC APPROACH",
+            "url": "https://journal.scsa.ge/papers/strengthening-cybersecurity-in-nigeria-a-holistic-approach/",
+            "title": "STRENGTHENING CYBERSECURITY IN NIGERIA: A HOLISTIC APPROACH",
+            "authors": "MMA Adekunle Emmanuel\u00a0\u2026",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "2416229484196694049",
+            "label": "STRENGTHENING CYBERSECURITY IN NIGERIA: A HOLISTIC APPROACH",
+            "url": "https://journal.scsa.ge/wp-content/uploads/2024/07/0026_strengthening-cybersecurity-in-nigeria.pdf",
+            "title": "STRENGTHENING CYBERSECURITY IN NIGERIA: A HOLISTIC APPROACH",
+            "authors": "AE Makanjuola, MM Ayantunji",
+            "year": "journal.scsa.ge",
+            "modularity": 2
+        },
+        {
+            "id": "7952952232377490146",
+            "label": "Responding to large-scale cyberattacks: a toolbox for policymakers",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2022.2116345",
+            "title": "Responding to large-scale cyberattacks: a toolbox for policymakers",
+            "authors": "S van der Meer",
             "year": "2022",
-            "cited_by": 5,
-            "cited_by_url": "https://scholar.google.com/scholar?cites=14217255490166536868&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "cited_by": 3,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=7952952232377490146&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 6
+        },
+        {
+            "id": "16031867816403634137",
+            "label": "Bytes and Battles: Pathways to De-escalation in the Cyber Conflict Arena",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-66635-3_25",
+            "title": "Bytes and Battles: Pathways to De-escalation in the Cyber Conflict Arena",
+            "authors": "L Royakkers",
+            "year": "2024",
+            "modularity": 6
+        },
+        {
+            "id": "14271970703604642043",
+            "label": "Perception of Cyber Threats in Polish Cyber Security Policy on the Example of Strategic Documents in the Period 2013\u20132024",
+            "url": "https://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_15804_rop2024302",
+            "title": "Perception of Cyber Threats in Polish Cyber Security Policy on the Example of Strategic Documents in the Period 2013\u20132024",
+            "authors": "M G\u00f3rka, M Kamola-Cie\u015blik",
+            "year": "2024",
+            "modularity": 6
+        },
+        {
+            "id": "1451652013704261257",
+            "label": "PERCEPTION OF CYBER THREATS IN POLISH CYBER SECURITY POLICY ON THE EXAMPLE OF STRATEGIC DOCUMENTS IN THE PERIOD",
+            "url": "https://www.ceeol.com/search/article-detail?id=1288837",
+            "title": "PERCEPTION OF CYBER THREATS IN POLISH CYBER SECURITY POLICY ON THE EXAMPLE OF STRATEGIC DOCUMENTS IN THE PERIOD",
+            "authors": "M G\u00f3rka, M Kamola-Cie\u015blik",
+            "year": "ceeol.com",
+            "modularity": 6
         },
         {
             "id": "6855590743360696516",
@@ -95,27 +730,141 @@
             "year": "2022",
             "cited_by": 3,
             "cited_by_url": "https://scholar.google.com/scholar?cites=6855590743360696516&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
+            "modularity": 7
         },
         {
-            "id": "8793047655659909556",
-            "label": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime",
-            "url": "https://www.tandfonline.com/doi/abs/10.1080/23738871.2023.2245417",
-            "title": "No country is an island: embracing international law enforcement cooperation to reduce the impact of cybercrime",
-            "authors": "J Billow",
-            "year": "2023",
-            "cited_by": 3,
-            "cited_by_url": "https://scholar.google.com/scholar?cites=8793047655659909556&as_sdt=2005&sciodt=0,5&hl=en",
-            "modularity": 0
-        },
-        {
-            "id": "XadzYK6uuTsJ",
-            "label": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
-            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4943804",
-            "title": "Drafting a Cybersecurity Standard for Outer Space Missions: On Critical Infrastructure, China, and the Indispensability of a Global Inclusive Approach",
-            "authors": "R Vecellio Segate",
+            "id": "7VB89RgaPtoJ",
+            "label": "Between fragmentation and integration: the United Nations and global cybersecurity regulation",
+            "url": "https://cris.maastrichtuniversity.nl/files/217707397/i8437.pdf",
+            "title": "Between fragmentation and integration: the United Nations and global cybersecurity regulation",
+            "authors": "X Fan",
             "year": "2024",
-            "modularity": 0
+            "modularity": 7
+        },
+        {
+            "id": "9138465121522919384",
+            "label": "Great Power Cyberpolitics: Re-interpreting Offensive Realism and Power Transition Theory for Cyber Deterrence",
+            "url": "https://search.proquest.com/openview/7b36cb2f9f8b5cfc539cd95106012345/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "title": "Great Power Cyberpolitics: Re-interpreting Offensive Realism and Power Transition Theory for Cyber Deterrence",
+            "authors": "Y Akda\u01e7",
+            "year": "2023",
+            "modularity": 7
+        },
+        {
+            "id": "16507325497094037794",
+            "label": "Identifying Artificial Intelligence Cyber Security Challenges in Smart Medicine",
+            "url": "https://healthlawjournal.ir/browse.php?a_id=61&sid=1&slc_lang=en",
+            "title": "Identifying Artificial Intelligence Cyber Security Challenges in Smart Medicine",
+            "authors": "M Abbasi, M Teymouri",
+            "year": "2024",
+            "modularity": 7
+        },
+        {
+            "id": "9944997737842925874",
+            "label": "Global governance and regulation of cybersecurity: Towards coherence or fragmentation?",
+            "url": "https://research.utwente.nl/en/publications/global-governance-and-regulation-of-cybersecurity-towards-coheren",
+            "title": "Global governance and regulation of cybersecurity: Towards coherence or fragmentation?",
+            "authors": "TN Heim",
+            "year": "2023",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=9944997737842925874&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "PnsxzYtwtwsJ",
+            "label": "Auditor\u00eda de sistemas de informaci\u00f3n para la seguridad y eficiencia organizacional",
+            "url": "https://ojs.aden.org/experior/article/view/51",
+            "title": "Auditor\u00eda de sistemas de informaci\u00f3n para la seguridad y eficiencia organizacional",
+            "authors": "CV Bruce",
+            "year": "2025",
+            "modularity": 2
+        },
+        {
+            "id": "9085958517387320799",
+            "label": "Cyber arms control and counter proliferation: the limits of the possible",
+            "url": "https://www.elgaronline.com/edcollchap/book/9781803924854/book-part-9781803924854-29.xml",
+            "title": "Cyber arms control and counter proliferation: the limits of the possible",
+            "authors": "J Devanny, G Christopher",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "SnRkeswUAqEJ",
+            "label": "Least Developed Countries' Digital Access: A Survey of Sustainable Development Goal 9 and Cyber Diplomacy",
+            "url": "https://search.proquest.com/openview/cebd17444cf1679153a917cdafd475f2/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "title": "Least Developed Countries' Digital Access: A Survey of Sustainable Development Goal 9 and Cyber Diplomacy",
+            "authors": "EL Clanton",
+            "year": "2024",
+            "modularity": 2
+        },
+        {
+            "id": "4mpB_sxweC0J",
+            "label": "Cybersecurity Capacities for the Application of UN Cyber Norms",
+            "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5089805",
+            "title": "Cybersecurity Capacities for the Application of UN Cyber Norms",
+            "authors": "P Esteve-Gonzalez, L Axon, S Creese\u2026",
+            "year": "2025",
+            "modularity": 2
+        },
+        {
+            "id": "1941766854431586792",
+            "label": "Structured Field Coding and its Applications to National Risk and Cybersecurity Assessments",
+            "url": "https://www.ceeol.com/search/article-detail?id=1219166",
+            "title": "Structured Field Coding and its Applications to National Risk and Cybersecurity Assessments",
+            "authors": "WH Dutton, R Shillair, L Axon, C Weisser",
+            "year": "2023",
+            "modularity": 2
+        },
+        {
+            "id": "5102703327512875492",
+            "label": "\uacbd\uc7c1\uc801 \uc0ac\uc774\ubc84 \uc548\ubcf4 \ub2e4\uc790\uc8fc\uc758\uc758 \ucd9c\ud604: 2004 \ub144 \uc720\uc5d4 \uc815\ubd80\uc804\ubb38\uac00 \uadf8\ub8f9\ubd80\ud130...",
+            "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11045786",
+            "title": "\uacbd\uc7c1\uc801 \uc0ac\uc774\ubc84 \uc548\ubcf4 \ub2e4\uc790\uc8fc\uc758\uc758 \ucd9c\ud604: 2004 \ub144 \uc720\uc5d4 \uc815\ubd80\uc804\ubb38\uac00 \uadf8\ub8f9\ubd80\ud130...",
+            "authors": "\uc720\uc778\ud0dc",
+            "year": "2022",
+            "cited_by": 2,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=5102703327512875492&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 8
+        },
+        {
+            "id": "10722651966485208480",
+            "label": "\uad6d\uac00\uac00 \uc5f0\ub8e8\ub41c \ube44\uad6d\uac00\ud589\uc704\uc790\uc758 \uc0ac\uc774\ubc84\uacf5\uaca9\uc5d0 \ub300\ud55c \uad6d\uac00\ucc45\uc784 \uadc0\uc18d\uc131",
+            "url": "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11169370",
+            "title": "\uad6d\uac00\uac00 \uc5f0\ub8e8\ub41c \ube44\uad6d\uac00\ud589\uc704\uc790\uc758 \uc0ac\uc774\ubc84\uacf5\uaca9\uc5d0 \ub300\ud55c \uad6d\uac00\ucc45\uc784 \uadc0\uc18d\uc131",
+            "authors": "\uae40\ud6a8\uad8c",
+            "year": "2022",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=10722651966485208480&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 8
+        },
+        {
+            "id": "rAn1huSS4owJ",
+            "label": "\uc0ac\uc774\ubc84 \uacf5\uac04\uc5d0\uc11c \uc0c1\ub2f9\uc8fc\uc758 \uc758\ubb34 (due diligence) \uc758 \uc801\uc6a9 \uac00\ub2a5\uc131",
+            "url": "https://s-space.snu.ac.kr/bitstream/10371/196765/1/000000178115.pdf",
+            "title": "\uc0ac\uc774\ubc84 \uacf5\uac04\uc5d0\uc11c \uc0c1\ub2f9\uc8fc\uc758 \uc758\ubb34 (due diligence) \uc758 \uc801\uc6a9 \uac00\ub2a5\uc131",
+            "authors": "\uae40\uc18c\ud76c",
+            "year": "2023",
+            "modularity": 8
+        },
+        {
+            "id": "4885641904396092029",
+            "label": "Multilateral Approaches to Cyber Security Capacity Building: The Rise of Non-Traditional Actors.",
+            "url": "https://epub.ub.uni-muenchen.de/91373/1/Band_Open_Access_Hannah%20Weber.pdf",
+            "title": "Multilateral Approaches to Cyber Security Capacity Building: The Rise of Non-Traditional Actors.",
+            "authors": "HS Weber",
+            "year": "2022",
+            "cited_by": 1,
+            "cited_by_url": "https://scholar.google.com/scholar?cites=4885641904396092029&as_sdt=2005&sciodt=0,5&hl=en",
+            "modularity": 2
+        },
+        {
+            "id": "lq19AP4devwJ",
+            "label": "Smart Healthcare Applications: Detecting DDoS Attacks Efficiently using Hybrid Firefly Algorithm",
+            "url": "https://etasr.com/index.php/ETASR/article/view/9760",
+            "title": "Smart Healthcare Applications: Detecting DDoS Attacks Efficiently using Hybrid Firefly Algorithm",
+            "authors": "G Sripriyanka, A Mahendran",
+            "year": "2025",
+            "modularity": 2
         }
     ],
     "links": [
@@ -124,40 +873,364 @@
             "target": "5664763969123002418"
         },
         {
-            "source": "16351647686925767264",
+            "source": "13647773559345164217",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "6467851976209657704",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "15700265610709354988",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "12321400840200093647",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "13556087258716739154",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "16548497358836395890",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "3154755485225455416",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "16155031525430395079",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "5194916577055749881",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "15552482983809285356",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "15939703469093718602",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "8152915213544806704",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "2031553025185532535",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "16817168537119783552",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "16901428119969900117",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "12789557168130423905",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "13460670123318060672",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "15867800507897276334",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "23295672064731472",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "17081289653014445548",
+            "target": "11400328201201624800"
+        },
+        {
+            "source": "14786098452174071978",
             "target": "5664763969123002418"
+        },
+        {
+            "source": "17595303916489103575",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "18095430350567160151",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "9789600173795991958",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "5270013073206668141",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "15204147634867722850",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "4525566578723637726",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "17635215336687556104",
+            "target": "14786098452174071978"
         },
         {
             "source": "17635215336687556104",
             "target": "5664763969123002418"
         },
         {
-            "source": "15996909732421992712",
+            "source": "17635215336687556104",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "10477906192280104663",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "14056648643392543745",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "dCUVnOJHkRUJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "6236028159999724360",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "tUBP72MDkHkJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "tUBP72MDkHkJ",
             "target": "5664763969123002418"
         },
         {
-            "source": "BdEVLCNGPHcJ",
-            "target": "5664763969123002418"
+            "source": "zDBMVJ0-4doJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "1ZmS2p6CJMQJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "223723393211437254",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "7Xk52fsNi9IJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "jk05Uq3hIRgJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "3633079683100573514",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "N45bQkmTK80J",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "IvKkrDeONOgJ",
+            "target": "14786098452174071978"
+        },
+        {
+            "source": "IvKkrDeONOgJ",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "Yx8jp4xlqeAJ",
+            "target": "17635215336687556104"
         },
         {
             "source": "13379152248788263237",
             "target": "5664763969123002418"
         },
         {
-            "source": "14217255490166536868",
+            "source": "4726637917453855329",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "15996909732421992712",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "15996909732421992712",
             "target": "5664763969123002418"
         },
         {
-            "source": "6855590743360696516",
+            "source": "7263603115211390398",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "XadzYK6uuTsJ",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "XadzYK6uuTsJ",
             "target": "5664763969123002418"
+        },
+        {
+            "source": "5340324326451880979",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "D7BHa-XROG8J",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "15465050162997598262",
+            "target": "13379152248788263237"
+        },
+        {
+            "source": "qnqbmIqonJ4J",
+            "target": "15996909732421992712"
         },
         {
             "source": "8793047655659909556",
             "target": "5664763969123002418"
         },
         {
-            "source": "XadzYK6uuTsJ",
+            "source": "9163695104720834633",
+            "target": "8793047655659909556"
+        },
+        {
+            "source": "BqaN7WxZMtYJ",
+            "target": "8793047655659909556"
+        },
+        {
+            "source": "9892723991407326529",
+            "target": "8793047655659909556"
+        },
+        {
+            "source": "14217255490166536868",
             "target": "5664763969123002418"
+        },
+        {
+            "source": "9668455925383179202",
+            "target": "14217255490166536868"
+        },
+        {
+            "source": "615196984342077475",
+            "target": "14217255490166536868"
+        },
+        {
+            "source": "2581212482692176200",
+            "target": "14217255490166536868"
+        },
+        {
+            "source": "17873429509313667216",
+            "target": "14217255490166536868"
+        },
+        {
+            "source": "6884215078489495500",
+            "target": "14217255490166536868"
+        },
+        {
+            "source": "BdEVLCNGPHcJ",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "10848976041137320427",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "d9abNiWtdoAJ",
+            "target": "10848976041137320427"
+        },
+        {
+            "source": "2416229484196694049",
+            "target": "10848976041137320427"
+        },
+        {
+            "source": "7952952232377490146",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "16031867816403634137",
+            "target": "7952952232377490146"
+        },
+        {
+            "source": "14271970703604642043",
+            "target": "7952952232377490146"
+        },
+        {
+            "source": "1451652013704261257",
+            "target": "7952952232377490146"
+        },
+        {
+            "source": "6855590743360696516",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "7VB89RgaPtoJ",
+            "target": "6855590743360696516"
+        },
+        {
+            "source": "9138465121522919384",
+            "target": "6855590743360696516"
+        },
+        {
+            "source": "16507325497094037794",
+            "target": "6855590743360696516"
+        },
+        {
+            "source": "9944997737842925874",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "PnsxzYtwtwsJ",
+            "target": "9944997737842925874"
+        },
+        {
+            "source": "9085958517387320799",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "SnRkeswUAqEJ",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "4mpB_sxweC0J",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "1941766854431586792",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "5102703327512875492",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "10722651966485208480",
+            "target": "5102703327512875492"
+        },
+        {
+            "source": "rAn1huSS4owJ",
+            "target": "5102703327512875492"
+        },
+        {
+            "source": "4885641904396092029",
+            "target": "5664763969123002418"
+        },
+        {
+            "source": "lq19AP4devwJ",
+            "target": "4885641904396092029"
         }
     ]
 }
