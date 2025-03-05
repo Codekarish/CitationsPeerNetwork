@@ -22,9 +22,17 @@
 <body>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
+        // Correct GitHub Raw URL to fetch graph.json
+        const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
+
         function loadGraph() {
-            fetch("/assets/graph.json") // Loads dynamically from Dash assets folder
-                .then(response => response.json())
+            fetch(jsonURL)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
                 .then(graph => initializeGraph(graph))
                 .catch(error => console.log("Error loading graph data:", error));
         }
@@ -104,8 +112,8 @@
         // Reload the graph when the page loads
         loadGraph();
 
-        // Refresh every 5 seconds to check for new updates
-        setInterval(loadGraph, 5000);
+        // Refresh every 10 seconds to check for new updates
+        setInterval(loadGraph, 10000);
     </script>
 </body>
 </html>
