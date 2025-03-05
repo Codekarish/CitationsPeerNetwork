@@ -180,11 +180,11 @@
                 .force("link", d3.forceLink(graph.links).id(d => d.id).distance(200)) // Increase link distance
                 .force("charge", d3.forceManyBody().strength(-600)) // Stronger repulsion
                 .force("collision", d3.forceCollide().radius(d => 
-                    d.label === "Understanding cybersecurity..." ? 30 : 15
+                    d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? 30 : 15
                 )) // Prevent overlapping
                 .force("center", d3.forceCenter(width / 2, height / 2));
 
-            // Define color scale based on modularity or another unique property
+            // Define color scale based on modularity
             const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
                 .domain(graph.nodes.map(d => d.modularity)); // Use modularity for coloring
 
@@ -203,10 +203,10 @@
                 .enter().append("path")
                 .attr("class", "link")
                 .attr("stroke-dasharray", d => 
-                    (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "5,5" : "none"
+                    (d.source.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." || d.target.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence...") ? "5,5" : "none"
                 )
                 .attr("stroke", d => 
-                    (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "red" : "#aaa"
+                    (d.source.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." || d.target.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence...") ? "red" : "#aaa"
                 );
 
             // Draw nodes with gradients and shapes
@@ -214,8 +214,8 @@
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)) // Root node is 2x larger
-                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "url(#root-gradient)" : colorScale(d.modularity)) // Node colors
+                .attr("r", d => d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)) // Root node is 2x larger
+                .attr("fill", d => d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? "url(#root-gradient)" : colorScale(d.modularity)) // Node colors
                 .attr("filter", "url(#glow)") // Node Glow
                 .attr("class", "node")
                 .call(d3.drag()
@@ -247,14 +247,14 @@
                     .style("top", (event.pageY - 10) + "px");
                 d3.select(this).transition()
                     .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 35 : 25) : (isLarge ? 20 : 15)); // Enlarge node on hover
+                    .attr("r", d => d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? (isLarge ? 35 : 25) : (isLarge ? 20 : 15)); // Enlarge node on hover
                 label.filter(label => label.id === d.id)
                     .style("visibility", "visible"); // Show label on hover
             }).on("mouseout", function(event, d) {
                 tooltip.style("opacity", 0);
                 d3.select(this).transition()
                     .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)); // Reset node size
+                    .attr("r", d => d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)); // Reset node size
                 label.filter(label => label.id === d.id)
                     .style("visibility", "hidden"); // Hide label on mouseout
             });
@@ -330,7 +330,7 @@
             // Node Size Toggle
             document.getElementById("nodeSizeToggle").addEventListener("change", function(event) {
                 isLarge = event.target.checked;
-                node.attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10));
+                node.attr("r", d => d.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10));
             });
         }
 
