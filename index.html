@@ -169,7 +169,7 @@
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10) // Root node is bigger
+                .attr("r", d => d.label === "Understanding cybersecurity..." ? 20 : 10) // Root node is bigger
                 .attr("fill", d => d.label === "Understanding cybersecurity..." ? "url(#root-gradient)" : colorScale(d.modularity || 0)) // Node Gradients
                 .attr("filter", "url(#glow)") // Node Glow
                 .attr("class", "node")
@@ -202,7 +202,7 @@
                     .style("top", (event.pageY - 10) + "px");
                 d3.select(this).transition()
                     .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? 18 : 12); // Enlarge node on hover
+                    .attr("r", d => d.label === "Understanding cybersecurity..." ? 25 : 15); // Enlarge node on hover
                 link.filter(l => l.source === d || l.target === d)
                     .transition()
                     .duration(200)
@@ -211,7 +211,7 @@
                 tooltip.style("opacity", 0);
                 d3.select(this).transition()
                     .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10); // Reset node size
+                    .attr("r", d => d.label === "Understanding cybersecurity..." ? 20 : 10); // Reset node size
                 link.filter(l => l.source === d || l.target === d)
                     .transition()
                     .duration(200)
