@@ -5,10 +5,9 @@
     <title>Citation Network Visualization</title>
     <style>
         body {
-            overflow: hidden;
             margin: 0;
             font-family: sans-serif;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Background Gradient */
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
         }
         .node {
             stroke: #fff;
@@ -28,9 +27,6 @@
         }
         .tooltip {
             position: absolute;
-            text-align: center;
-            width: auto;
-            height: auto;
             padding: 5px;
             font: 14px sans-serif;
             background: rgba(0, 0, 0, 0.7);
@@ -40,35 +36,16 @@
             opacity: 0;
             transition: opacity 0.3s;
         }
-        #controls {
+        #controls, #legend, #sidePanel {
             position: absolute;
-            top: 10px;
-            left: 10px;
             background: rgba(255, 255, 255, 0.9);
             padding: 10px;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
-        #legend {
-            position: absolute;
-            top: 100px;
-            left: 10px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        }
-        #sidePanel {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 300px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            display: none;
-        }
+        #controls { top: 10px; left: 10px; }
+        #legend { top: 100px; left: 10px; }
+        #sidePanel { right: 10px; top: 60px; width: 300px; display: none; }
     </style>
 </head>
 
@@ -84,247 +61,92 @@
         </div>
     </div>
 
-    <div id="legend">
-        <strong>Legend</strong>
-        <div id="legendItems"></div>
-    </div>
-
-    <div id="sidePanel">
-        <strong>Article Details</strong>
-        <div id="articleDetails"></div>
-    </div>
+    <div id="legend"><strong>Legend</strong><div id="legendItems"></div></div>
+    <div id="sidePanel"><strong>Article Details</strong><div id="articleDetails"></div></div>
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
-        const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
+        window.onload = function () {
+            const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
 
-        // Function to validate year values
-        function isValidYear(year) {
-            // Convert year to a number if it's a string
-            const yearNumber = Number(year);
-            // Check if the year is a number and within a reasonable range
-            return !isNaN(yearNumber) && yearNumber >= 1900 && yearNumber <= new Date().getFullYear();
-        }
+            function isValidYear(year) {
+                const yearNumber = Number(year);
+                return !isNaN(yearNumber) && yearNumber >= 1900 && yearNumber <= new Date().getFullYear();
+            }
 
-        function loadGraph() {
-            console.log("Loading graph data..."); // Debugging
-            fetch(jsonURL)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(graph => {
-                    console.log("Graph data loaded successfully:", graph); // Debugging
+            function loadGraph() {
+                fetch(jsonURL)
+                    .then(response => response.json())
+                    .then(graph => {
+                        graph.nodes.forEach(node => {
+                            if (!isValidYear(node.year)) {
+                                node.year = "N/A";
+                            }
+                        });
+                        initializeGraph(graph);
+                    })
+                    .catch(error => console.error("Error loading graph data:", error));
+            }
 
-                    // Validate and clean year values
-                    graph.nodes.forEach(node => {
-                        if (!isValidYear(node.year)) {
-                            console.warn(`Invalid year value for node ${node.label}: ${node.year}`);
-                            node.year = "N/A"; // Set invalid years to "N/A"
-                        }
-                    });
+            function initializeGraph(graph) {
+                d3.select("svg").remove();
+                const width = window.innerWidth, height = window.innerHeight;
 
-                    initializeGraph(graph);
-                })
-                .catch(error => {
-                    console.error("Error loading graph data:", error); // Debugging
-                    alert("Error loading graph data. Please check the console for details.");
-                });
-        }
+                const svg = d3.select("body").append("svg")
+                    .attr("width", width).attr("height", height)
+                    .call(d3.zoom().scaleExtent([0.5, 5]).on("zoom", function (event) { g.attr("transform", event.transform); }))
+                    .append("g");
 
-        function initializeGraph(graph) {
-            console.log("Initializing graph with data:", graph); // Debugging
+                const g = svg.append("g");
 
-            d3.select("svg").remove();
+                // Glow Filter
+                const defs = svg.append("defs");
+                defs.append("filter").attr("id", "glow")
+                    .append("feGaussianBlur").attr("stdDeviation", 3).attr("result", "coloredBlur");
 
-            const width = window.innerWidth;
-            const height = window.innerHeight;
+                // Root Node Gradient
+                const gradient = defs.append("linearGradient").attr("id", "root-gradient")
+                    .attr("x1", "0%").attr("y1", "0%").attr("x2", "100%").attr("y2", "100%");
+                gradient.append("stop").attr("offset", "0%").attr("stop-color", "gold");
+                gradient.append("stop").attr("offset", "100%").attr("stop-color", "orange");
 
-            const svg = d3.select("body").append("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .call(d3.zoom().scaleExtent([0.5, 5]).on("zoom", function(event) {
-                    g.attr("transform", event.transform); // Zoom and Pan Controls
-                }))
-                .append("g");
+                const simulation = d3.forceSimulation(graph.nodes)
+                    .force("link", d3.forceLink(graph.links).id(d => d.id).distance(200))
+                    .force("charge", d3.forceManyBody().strength(-600))
+                    .force("collision", d3.forceCollide().radius(30))
+                    .force("center", d3.forceCenter(width / 2, height / 2));
 
-            const g = svg.append("g");
+                const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-            // Add glow filter for nodes
-            svg.append("defs").append("filter")
-                .attr("id", "glow")
-                .append("feGaussianBlur")
-                .attr("stdDeviation", 3)
-                .attr("result", "coloredBlur");
+                const link = g.selectAll(".link")
+                    .data(graph.links)
+                    .enter().append("path")
+                    .attr("class", "link")
+                    .attr("stroke-dasharray", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "5,5" : "none")
+                    .attr("stroke", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "red" : "#aaa");
 
-            // Add gradient for root node
-            svg.append("defs").append("linearGradient")
-                .attr("id", "root-gradient")
-                .attr("x1", "0%").attr("y1", "0%")
-                .attr("x2", "100%").attr("y2", "100%")
-                .selectAll("stop")
-                .data([
-                    { offset: "0%", color: "gold" },
-                    { offset: "100%", color: "orange" }
-                ])
-                .enter().append("stop")
-                .attr("offset", d => d.offset)
-                .attr("stop-color", d => d.color);
+                let isLarge = false;
+                const node = g.selectAll(".node")
+                    .data(graph.nodes)
+                    .enter().append("circle")
+                    .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10))
+                    .attr("fill", d => d.label === "Understanding cybersecurity..." ? "url(#root-gradient)" : colorScale(d.modularity || 0))
+                    .attr("filter", "url(#glow)")
+                    .attr("class", "node");
 
-            // Adjust forces for better spacing
-            const simulation = d3.forceSimulation(graph.nodes)
-                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(200)) // Increase link distance
-                .force("charge", d3.forceManyBody().strength(-600)) // Stronger repulsion
-                .force("collision", d3.forceCollide().radius(30)) // Prevent overlapping
-                .force("center", d3.forceCenter(width / 2, height / 2));
-
-            // Define color scale
-            const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-
-            // Extract unique categories for filtering
-            const categories = [...new Set(graph.nodes.map(d => d.modularity))];
-            const categoryFilter = d3.select("#categoryFilter");
-            categories.forEach(category => {
-                categoryFilter.append("option")
-                    .attr("value", category)
-                    .text(`Category ${category}`);
-            });
-
-            // Draw links (edges) with curves
-            const link = g.selectAll(".link")
-                .data(graph.links)
-                .enter().append("path")
-                .attr("class", "link")
-                .attr("stroke-dasharray", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "5,5" : "none") // Dashed links for root node
-                .attr("stroke", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "red" : "#aaa");
-
-            // Draw nodes with gradients and shapes
-            let isLarge = false; // Default to small nodes
-            const node = g.selectAll(".node")
-                .data(graph.nodes)
-                .enter().append("circle")
-                .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)) // Root node is 2x larger
-                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "url(#root-gradient)" : colorScale(d.modularity || 0)) // Node Gradients
-                .attr("filter", "url(#glow)") // Node Glow
-                .attr("class", "node")
-                .call(d3.drag()
-                    .on("start", dragStarted)
-                    .on("drag", dragged)
-                    .on("end", dragEnded));
-
-            // Hide labels by default, show only on hover
-            const label = g.selectAll(".label")
-                .data(graph.nodes)
-                .enter().append("text")
-                .attr("class", "label")
-                .attr("dx", 12)
-                .attr("dy", ".35em")
-                .text(d => d.label)
-                .style("font-size", "10px")
-                .style("fill", "black")
-                .style("visibility", "hidden");
-
-            // Tooltip for better readability
-            const tooltip = d3.select("body").append("div")
-                .attr("class", "tooltip");
-
-            // Interactive Animations
-            node.on("mouseover", function(event, d) {
-                tooltip.style("opacity", 1)
-                    .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY - 10) + "px");
-                d3.select(this).transition()
-                    .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 35 : 25) : (isLarge ? 20 : 15)); // Enlarge node on hover
-                link.filter(l => l.source === d || l.target === d)
-                    .transition()
-                    .duration(200)
-                    .style("stroke", "red");
-            }).on("mouseout", function(event, d) {
-                tooltip.style("opacity", 0);
-                d3.select(this).transition()
-                    .duration(200)
-                    .attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10)); // Reset node size
-                link.filter(l => l.source === d || l.target === d)
-                    .transition()
-                    .duration(200)
-                    .style("stroke", "#aaa");
-            });
-
-            // Filtering by category
-            categoryFilter.on("change", function() {
-                const selectedCategory = this.value;
-                node.style("visibility", d => selectedCategory === "all" || d.modularity == selectedCategory ? "visible" : "hidden");
-                link.style("visibility", d => selectedCategory === "all" || d.source.modularity == selectedCategory || d.target.modularity == selectedCategory ? "visible" : "hidden");
-            });
-
-            // Add legend
-            const legendItems = d3.select("#legendItems");
-            categories.forEach(category => {
-                legendItems.append("div")
-                    .style("display", "flex")
-                    .style("align-items", "center")
-                    .style("margin-bottom", "5px")
-                    .html(`<div style="width: 10px; height: 10px; background: ${colorScale(category)}; margin-right: 5px;"></div>Category ${category}`);
-            });
-
-            // Side panel for article details
-            const sidePanel = d3.select("#sidePanel");
-            const articleDetails = d3.select("#articleDetails");
-
-            node.on("click", function(event, d) {
-                sidePanel.style("display", "block");
-                articleDetails.html(`
-                    <strong>${d.label}</strong><br>
-                    Author: ${d.authors || "Unknown"}<br>
-                    Year: ${d.year || "N/A"}<br>
-                    Abstract: ${d.abstract || "N/A"}
-                `);
-            });
-
-            simulation.on("tick", () => {
-                link.attr("d", d => {
-                    const dx = d.target.x - d.source.x,
-                          dy = d.target.y - d.source.y,
-                          dr = Math.sqrt(dx * dx + dy * dy);
-                    return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`; // Curved links
+                document.getElementById("nodeSizeToggle").addEventListener("change", function (event) {
+                    isLarge = event.target.checked;
+                    node.attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10));
                 });
 
-                node.attr("cx", d => d.x)
-                    .attr("cy", d => d.y);
-
-                label.attr("x", d => d.x)
-                    .attr("y", d => d.y);
-            });
-
-            function dragStarted(event, d) {
-                if (!event.active) simulation.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
+                simulation.on("tick", () => {
+                    link.attr("d", d => `M${d.source.x},${d.source.y}Q${(d.source.x + d.target.x) / 2},${(d.source.y + d.target.y) / 2} ${d.target.x},${d.target.y}`);
+                    node.attr("cx", d => d.x).attr("cy", d => d.y);
+                });
             }
 
-            function dragged(event, d) {
-                d.fx = event.x;
-                d.fy = event.y;
-            }
-
-            function dragEnded(event, d) {
-                if (!event.active) simulation.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
-            }
-
-            // Node Size Toggle
-            document.getElementById("nodeSizeToggle").addEventListener("change", function(event) {
-                isLarge = event.target.checked;
-                node.attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10));
-            });
-        }
-
-        loadGraph();
+            loadGraph();
+        };
     </script>
 </body>
 </html>
