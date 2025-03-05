@@ -8,6 +8,7 @@
             overflow: hidden;
             margin: 0;
             font-family: sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Background Gradient */
         }
         .node {
             stroke: #fff;
@@ -109,12 +110,19 @@
             const svg = d3.select("body").append("svg")
                 .attr("width", width)
                 .attr("height", height)
-                .call(d3.zoom().on("zoom", function(event) {
-                    g.attr("transform", event.transform);
+                .call(d3.zoom().scaleExtent([0.5, 5]).on("zoom", function(event) {
+                    g.attr("transform", event.transform); // Zoom and Pan Controls
                 }))
                 .append("g");
 
             const g = svg.append("g");
+
+            // Add glow filter for nodes
+            svg.append("defs").append("filter")
+                .attr("id", "glow")
+                .append("feGaussianBlur")
+                .attr("stdDeviation", 3)
+                .attr("result", "coloredBlur");
 
             // Adjust forces for better spacing
             const simulation = d3.forceSimulation(graph.nodes)
@@ -135,24 +143,42 @@
                     .text(`Category ${category}`);
             });
 
-            // Draw links (edges)
+            // Draw links (edges) with curves
             const link = g.selectAll(".link")
                 .data(graph.links)
-                .enter().append("line")
-                .attr("class", "link");
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("stroke-dasharray", d => (d.source === rootNode || d.target === rootNode) ? "5,5" : "none") // Dashed links for root node
+                .attr("stroke", d => (d.source === rootNode || d.target === rootNode) ? "red" : "#aaa");
 
-            // Draw nodes (circles)
+            // Draw nodes with gradients and shapes
             const node = g.selectAll(".node")
                 .data(graph.nodes)
-                .enter().append("circle")
-                .attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10) // Root node is bigger
-                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "gold" : colorScale(d.modularity || 0)) // Root node is gold
+                .enter().append("path")
+                .attr("d", d3.symbol()
+                    .type(d => d.modularity === 1 ? d3.symbolCircle : d3.symbolSquare) // Category-specific shapes
+                    .size(100))
+                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "url(#root-gradient)" : colorScale(d.modularity || 0)) // Node Gradients
+                .attr("filter", "url(#glow)") // Node Glow
                 .attr("class", "node")
-                .attr("data-category", d => d.modularity)
                 .call(d3.drag()
                     .on("start", dragStarted)
                     .on("drag", dragged)
                     .on("end", dragEnded));
+
+            // Add gradient for root node
+            svg.append("defs").append("linearGradient")
+                .attr("id", "root-gradient")
+                .attr("x1", "0%").attr("y1", "0%")
+                .attr("x2", "100%").attr("y2", "100%")
+                .selectAll("stop")
+                .data([
+                    { offset: "0%", color: "gold" },
+                    { offset: "100%", color: "orange" }
+                ])
+                .enter().append("stop")
+                .attr("offset", d => d.offset)
+                .attr("stop-color", d => d.color);
 
             // Hide labels by default, show only on hover
             const label = g.selectAll(".label")
@@ -170,17 +196,28 @@
             const tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip");
 
+            // Interactive Animations
             node.on("mouseover", function(event, d) {
                 tooltip.style("opacity", 1)
                     .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
-                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 18 : 12); // Highlight node
-                label.filter(l => l.id === d.id).style("visibility", "visible");
-            }).on("mouseout", function() {
+                d3.select(this).transition()
+                    .duration(200)
+                    .attr("d", d3.symbol().size(200)); // Enlarge node on hover
+                link.filter(l => l.source === d || l.target === d)
+                    .transition()
+                    .duration(200)
+                    .style("stroke", "red");
+            }).on("mouseout", function(event, d) {
                 tooltip.style("opacity", 0);
-                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10); // Reset node size
-                label.style("visibility", "hidden");
+                d3.select(this).transition()
+                    .duration(200)
+                    .attr("d", d3.symbol().size(100)); // Reset node size
+                link.filter(l => l.source === d || l.target === d)
+                    .transition()
+                    .duration(200)
+                    .style("stroke", "#aaa");
             });
 
             // Filtering by category
@@ -215,14 +252,14 @@
             });
 
             simulation.on("tick", () => {
-                link.attr("x1", d => d.source.x)
-                    .attr("y1", d => d.source.y)
-                    .attr("x2", d => d.target.x)
-                    .attr("y2", d => d.target.y);
+                link.attr("d", d => {
+                    const dx = d.target.x - d.source.x,
+                          dy = d.target.y - d.source.y,
+                          dr = Math.sqrt(dx * dx + dy * dy);
+                    return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`; // Curved links
+                });
 
-                node.attr("cx", d => d.x)
-                    .attr("cy", d => d.y);
-
+                node.attr("transform", d => `translate(${d.x},${d.y})`);
                 label.attr("x", d => d.x)
                     .attr("y", d => d.y);
             });
