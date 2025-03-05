@@ -145,8 +145,8 @@
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", d => d.label === "Understanding cybersecurity..." ? 20 : 10) // Root node is bigger
-                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "red" : colorScale(d.modularity || 0)) // Root node is red
+                .attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10) // Root node is bigger
+                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "gold" : colorScale(d.modularity || 0)) // Root node is gold
                 .attr("class", "node")
                 .attr("data-category", d => d.modularity)
                 .call(d3.drag()
@@ -175,11 +175,11 @@
                     .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
-                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 25 : 15); // Highlight node
+                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 18 : 12); // Highlight node
                 label.filter(l => l.id === d.id).style("visibility", "visible");
             }).on("mouseout", function() {
                 tooltip.style("opacity", 0);
-                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 20 : 10); // Reset node size
+                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10); // Reset node size
                 label.style("visibility", "hidden");
             });
 
