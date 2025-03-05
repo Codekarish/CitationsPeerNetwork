@@ -98,6 +98,14 @@
     <script>
         const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
 
+        // Function to validate year values
+        function isValidYear(year) {
+            // Convert year to a number if it's a string
+            const yearNumber = Number(year);
+            // Check if the year is a number and within a reasonable range
+            return !isNaN(yearNumber) && yearNumber >= 1900 && yearNumber <= new Date().getFullYear();
+        }
+
         function loadGraph() {
             console.log("Loading graph data..."); // Debugging
             fetch(jsonURL)
@@ -109,6 +117,15 @@
                 })
                 .then(graph => {
                     console.log("Graph data loaded successfully:", graph); // Debugging
+
+                    // Validate and clean year values
+                    graph.nodes.forEach(node => {
+                        if (!isValidYear(node.year)) {
+                            console.warn(`Invalid year value for node ${node.label}: ${node.year}`);
+                            node.year = "N/A"; // Set invalid years to "N/A"
+                        }
+                    });
+
                     initializeGraph(graph);
                 })
                 .catch(error => {
