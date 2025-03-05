@@ -69,20 +69,26 @@
         window.onload = function () {
             const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
 
-            function isValidYear(year) {
+            // Function to validate and fix year values
+            function cleanYearValue(year) {
+                // If year is a number and within range (1900 - 2024), return it
                 const yearNumber = Number(year);
-                return !isNaN(yearNumber) && yearNumber >= 1900 && yearNumber <= new Date().getFullYear();
+                if (!isNaN(yearNumber) && yearNumber >= 1900 && yearNumber <= 2024) {
+                    return yearNumber;
+                }
+                // If the year is incorrect (e.g., a URL), return "N/A"
+                return "N/A";
             }
 
             function loadGraph() {
                 fetch(jsonURL)
                     .then(response => response.json())
                     .then(graph => {
+                        // Validate and clean all year values in nodes
                         graph.nodes.forEach(node => {
-                            if (!isValidYear(node.year)) {
-                                node.year = "N/A";
-                            }
+                            node.year = cleanYearValue(node.year);
                         });
+
                         initializeGraph(graph);
                     })
                     .catch(error => console.error("Error loading graph data:", error));
@@ -122,8 +128,7 @@
                     .data(graph.links)
                     .enter().append("path")
                     .attr("class", "link")
-                    .attr("stroke-dasharray", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "5,5" : "none")
-                    .attr("stroke", d => (d.source.label === "Understanding cybersecurity..." || d.target.label === "Understanding cybersecurity...") ? "red" : "#aaa");
+                    .attr("stroke", "#aaa");
 
                 let isLarge = false;
                 const node = g.selectAll(".node")
