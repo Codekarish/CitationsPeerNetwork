@@ -14,6 +14,11 @@
             stroke-width: 1.5px;
             cursor: pointer;
         }
+        .root-node {
+            stroke: #000;
+            stroke-width: 3px;
+            r: 15px; /* Larger root node */
+        }
         .link {
             stroke: #aaa;
             stroke-opacity: 0.6;
@@ -48,10 +53,32 @@
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
+        #legend {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        #side-panel {
+            position: absolute;
+            right: 10px;
+            top: 60px;
+            width: 300px;
+            height: auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            display: none;
+        }
     </style>
 </head>
 
 <body>
+    <!-- Category Filter -->
     <div id="controls">
         <label for="categoryFilter">Filter by Category:</label>
         <select id="categoryFilter">
@@ -59,9 +86,24 @@
         </select>
     </div>
 
+    <!-- Legend (Color Key) -->
+    <div id="legend">
+        <strong>Legend:</strong>
+        <div id="legend-content"></div>
+    </div>
+
+    <!-- Side Panel for Article Info -->
+    <div id="side-panel">
+        <h3 id="article-title"></h3>
+        <p id="article-authors"></p>
+        <p id="article-year"></p>
+        <p><a id="article-link" href="#" target="_blank">View Paper</a></p>
+    </div>
+
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
         const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
+        const rootNodeTitle = "Understanding cybersecurity capacity building and its relationship to norms and confidence";
 
         function loadGraph() {
             fetch(jsonURL)
@@ -86,39 +128,38 @@
 
             const g = svg.append("g");
 
-            // Adjust forces for better spacing
-            const simulation = d3.forceSimulation(graph.nodes)
-                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(200)) // Increase link distance
-                .force("charge", d3.forceManyBody().strength(-600)) // Stronger repulsion
-                .force("collision", d3.forceCollide().radius(30)) // Prevent overlapping
-                .force("center", d3.forceCenter(width / 2, height / 2));
-
-            // Define color scale
+            // Color scale and root node identification
             const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+            const rootNode = graph.nodes.find(node => node.label.startsWith(rootNodeTitle));
 
-            // Extract unique categories for filtering
+            // Build legend dynamically
             const categories = [...new Set(graph.nodes.map(d => d.modularity))];
-            const categoryFilter = d3.select("#categoryFilter");
-            categories.forEach(category => {
-                categoryFilter.append("option")
-                    .attr("value", category)
-                    .text(`Category ${category}`);
+            const legend = d3.select("#legend-content");
+            categories.forEach((category, i) => {
+                legend.append("div")
+                    .html(`<span style="display:inline-block;width:12px;height:12px;background:${colorScale(category)}"></span> Category ${category}`);
             });
 
-            // Draw links (edges)
+            // Adjust force simulation for better spacing
+            const simulation = d3.forceSimulation(graph.nodes)
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(180))
+                .force("charge", d3.forceManyBody().strength(-600))
+                .force("collision", d3.forceCollide().radius(25))
+                .force("center", d3.forceCenter(width / 2, height / 2));
+
+            // Draw links
             const link = g.selectAll(".link")
                 .data(graph.links)
                 .enter().append("line")
                 .attr("class", "link");
 
-            // Draw nodes (circles)
+            // Draw nodes
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 10)
-                .attr("fill", d => colorScale(d.modularity || 0))
-                .attr("class", "node")
-                .attr("data-category", d => d.modularity)
+                .attr("r", d => d === rootNode ? 15 : 10) // Root node is larger
+                .attr("fill", d => d === rootNode ? "#FF5733" : colorScale(d.modularity || 0)) // Root node color change
+                .attr("class", d => d === rootNode ? "node root-node" : "node")
                 .call(d3.drag()
                     .on("start", dragStarted)
                     .on("drag", dragged)
@@ -136,28 +177,27 @@
                 .style("fill", "black")
                 .style("visibility", "hidden");
 
-            // Tooltip for better readability
-            const tooltip = d3.select("body").append("div")
-                .attr("class", "tooltip");
+            // Tooltip
+            const tooltip = d3.select("body").append("div").attr("class", "tooltip");
 
             node.on("mouseover", function(event, d) {
                 tooltip.style("opacity", 1)
-                    .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
+                    .html(`<strong>${d.label}</strong>`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
-                d3.select(this).attr("r", 15); // Highlight node
                 label.filter(l => l.id === d.id).style("visibility", "visible");
             }).on("mouseout", function() {
                 tooltip.style("opacity", 0);
-                d3.select(this).attr("r", 10); // Reset node size
                 label.style("visibility", "hidden");
             });
 
-            // Filtering by category
-            categoryFilter.on("change", function() {
-                const selectedCategory = this.value;
-                node.style("visibility", d => selectedCategory === "all" || d.modularity == selectedCategory ? "visible" : "hidden");
-                link.style("visibility", d => selectedCategory === "all" || d.source.modularity == selectedCategory || d.target.modularity == selectedCategory ? "visible" : "hidden");
+            // Click event to show details in side panel
+            node.on("click", function(event, d) {
+                d3.select("#side-panel").style("display", "block");
+                d3.select("#article-title").text(d.label);
+                d3.select("#article-authors").text(`Authors: ${d.authors || "Unknown"}`);
+                d3.select("#article-year").text(`Year: ${d.year || "N/A"}`);
+                d3.select("#article-link").attr("href", d.url).text("View Paper");
             });
 
             simulation.on("tick", () => {
@@ -172,23 +212,6 @@
                 label.attr("x", d => d.x)
                     .attr("y", d => d.y);
             });
-
-            function dragStarted(event, d) {
-                if (!event.active) simulation.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
-            }
-
-            function dragged(event, d) {
-                d.fx = event.x;
-                d.fy = event.y;
-            }
-
-            function dragEnded(event, d) {
-                if (!event.active) simulation.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
-            }
         }
 
         loadGraph();
