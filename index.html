@@ -48,6 +48,26 @@
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
         }
+        #legend {
+            position: absolute;
+            top: 100px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        #sidePanel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 300px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
     </style>
 </head>
 
@@ -57,6 +77,16 @@
         <select id="categoryFilter">
             <option value="all">Show All</option>
         </select>
+    </div>
+
+    <div id="legend">
+        <strong>Legend</strong>
+        <div id="legendItems"></div>
+    </div>
+
+    <div id="sidePanel">
+        <strong>Article Details</strong>
+        <div id="articleDetails"></div>
     </div>
 
     <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -115,8 +145,8 @@
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 10)
-                .attr("fill", d => colorScale(d.modularity || 0))
+                .attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10) // Root node is bigger
+                .attr("fill", d => d.label === "Understanding cybersecurity..." ? "red" : colorScale(d.modularity || 0)) // Root node is red
                 .attr("class", "node")
                 .attr("data-category", d => d.modularity)
                 .call(d3.drag()
@@ -145,11 +175,11 @@
                     .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
-                d3.select(this).attr("r", 15); // Highlight node
+                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 20 : 15); // Highlight node
                 label.filter(l => l.id === d.id).style("visibility", "visible");
             }).on("mouseout", function() {
                 tooltip.style("opacity", 0);
-                d3.select(this).attr("r", 10); // Reset node size
+                d3.select(this).attr("r", d => d.label === "Understanding cybersecurity..." ? 15 : 10); // Reset node size
                 label.style("visibility", "hidden");
             });
 
@@ -158,6 +188,30 @@
                 const selectedCategory = this.value;
                 node.style("visibility", d => selectedCategory === "all" || d.modularity == selectedCategory ? "visible" : "hidden");
                 link.style("visibility", d => selectedCategory === "all" || d.source.modularity == selectedCategory || d.target.modularity == selectedCategory ? "visible" : "hidden");
+            });
+
+            // Add legend
+            const legendItems = d3.select("#legendItems");
+            categories.forEach(category => {
+                legendItems.append("div")
+                    .style("display", "flex")
+                    .style("align-items", "center")
+                    .style("margin-bottom", "5px")
+                    .html(`<div style="width: 10px; height: 10px; background: ${colorScale(category)}; margin-right: 5px;"></div>Category ${category}`);
+            });
+
+            // Side panel for article details
+            const sidePanel = d3.select("#sidePanel");
+            const articleDetails = d3.select("#articleDetails");
+
+            node.on("click", function(event, d) {
+                sidePanel.style("display", "block");
+                articleDetails.html(`
+                    <strong>${d.label}</strong><br>
+                    Author: ${d.authors || "Unknown"}<br>
+                    Year: ${d.year || "N/A"}<br>
+                    Abstract: ${d.abstract || "N/A"}
+                `);
             });
 
             simulation.on("tick", () => {
