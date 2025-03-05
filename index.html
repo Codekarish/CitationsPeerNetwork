@@ -69,6 +69,39 @@
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
             display: none;
         }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        body.dark-mode {
+            background: #121212;
+            color: #ffffff;
+        }
+        body.dark-mode .node {
+            stroke: #333;
+        }
+        body.dark-mode .link {
+            stroke: #555;
+        }
+        body.dark-mode text {
+            fill: #ffffff;
+        }
     </style>
 </head>
 
@@ -78,6 +111,15 @@
         <select id="categoryFilter">
             <option value="all">Show All</option>
         </select>
+        <button id="forceLayout">Force-Directed</button>
+        <button id="radialLayout">Radial</button>
+        <input type="range" id="timeSlider" min="2000" max="2023" value="2023">
+        <button id="resetButton">Reset</button>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <div>
+            <label for="nodeSizeToggle">Node Size:</label>
+            <input type="checkbox" id="nodeSizeToggle"> Large Nodes
+        </div>
     </div>
 
     <div id="legend">
@@ -90,14 +132,23 @@
         <div id="articleDetails"></div>
     </div>
 
+    <div id="loading">
+        <div class="spinner"></div>
+        <p>Loading graph data...</p>
+    </div>
+
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
         const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
 
         function loadGraph() {
+            d3.select("#loading").style("display", "block");
             fetch(jsonURL)
                 .then(response => response.json())
-                .then(graph => initializeGraph(graph))
+                .then(graph => {
+                    initializeGraph(graph);
+                    d3.select("#loading").style("display", "none");
+                })
                 .catch(error => console.log("Error loading graph data:", error));
         }
 
@@ -188,7 +239,11 @@
                 .text(d => d.label)
                 .style("font-size", "10px")
                 .style("fill", "black")
-                .style("visibility", "hidden");
+                .style("visibility", "hidden")
+                .style("paint-order", "stroke")
+                .style("stroke", "white")
+                .style("stroke-width", "3px")
+                .style("stroke-linejoin", "round");
 
             // Tooltip for better readability
             const tooltip = d3.select("body").append("div")
@@ -280,6 +335,41 @@
                 d.fx = null;
                 d.fy = null;
             }
+
+            // Force-Directed Layout Toggle
+            document.getElementById("radialLayout").addEventListener("click", function() {
+                simulation.force("radial", d3.forceRadial(width / 2, height / 2).strength(0.1));
+            });
+
+            document.getElementById("forceLayout").addEventListener("click", function() {
+                simulation.force("radial", null);
+            });
+
+            // Time Slider for Dynamic Networks
+            document.getElementById("timeSlider").addEventListener("input", function(event) {
+                const year = event.target.value;
+                node.style("opacity", d => d.year <= year ? 1 : 0.2);
+                link.style("opacity", d => d.source.year <= year && d.target.year <= year ? 1 : 0.2);
+            });
+
+            // Reset Button
+            document.getElementById("resetButton").addEventListener("click", function() {
+                simulation.alpha(1).restart();
+                node.attr("cx", d => d.x).attr("cy", d => d.y);
+                link.attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+            });
+
+            // Dark Mode Toggle
+            document.getElementById("darkModeToggle").addEventListener("click", function() {
+                document.body.classList.toggle("dark-mode");
+            });
+
+            // Node Size Toggle
+            document.getElementById("nodeSizeToggle").addEventListener("change", function(event) {
+                const isLarge = event.target.checked;
+                node.attr("r", d => d.label === "Understanding cybersecurity..." ? (isLarge ? 30 : 20) : (isLarge ? 15 : 10));
+            });
         }
 
         loadGraph();
