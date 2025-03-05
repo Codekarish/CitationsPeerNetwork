@@ -18,6 +18,7 @@
         .node {
             stroke: #fff;
             stroke-width: 1.5px;
+            cursor: pointer;
         }
         .link {
             stroke: #aaa;
@@ -38,10 +39,27 @@
             opacity: 0;
             transition: opacity 0.3s;
         }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
 <body>
+    <!-- Category Filter Dropdown -->
+    <div id="controls">
+        <label for="categoryFilter">Filter by Category:</label>
+        <select id="categoryFilter">
+            <option value="all">Show All</option>
+        </select>
+    </div>
+
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script>
         const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
@@ -69,16 +87,25 @@
 
             const linkForce = d3.forceLink(graph.links)
                 .id(d => d.id)
-                .distance(120) // Increase distance to avoid overlaps
+                .distance(100)
                 .strength(0.5);
 
             const simulation = d3.forceSimulation(graph.nodes)
                 .force("link", linkForce)
-                .force("charge", d3.forceManyBody().strength(-150)) // Adjust repulsion to spread nodes out
+                .force("charge", d3.forceManyBody().strength(-120))
                 .force("center", d3.forceCenter(width / 2, height / 2));
 
             // Define color scale
             const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+            // Extract unique categories for filtering
+            const categories = [...new Set(graph.nodes.map(d => d.modularity))];
+            const categoryFilter = d3.select("#categoryFilter");
+            categories.forEach(category => {
+                categoryFilter.append("option")
+                    .attr("value", category)
+                    .text(`Category ${category}`);
+            });
 
             // Draw links (edges)
             const link = svg.selectAll(".link")
@@ -90,15 +117,16 @@
             const node = svg.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 10)  // Increase node size for better visibility
+                .attr("r", 8)
                 .attr("fill", d => colorScale(d.modularity || 0))
                 .attr("class", "node")
+                .attr("data-category", d => d.modularity)
                 .call(d3.drag()
                     .on("start", dragStarted)
                     .on("drag", dragged)
                     .on("end", dragEnded));
 
-            // Add labels (titles)
+            // Add labels (Initially Hidden)
             const label = svg.selectAll(".label")
                 .data(graph.nodes)
                 .enter().append("text")
@@ -107,19 +135,32 @@
                 .attr("dy", ".35em")
                 .text(d => d.label)
                 .style("font-size", "10px")
-                .style("fill", "black");
+                .style("fill", "black")
+                .style("visibility", "hidden"); // Hide initially
 
             // Add tooltip
             const tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip");
 
+            // Hover Effects: Show Tooltip and Label
             node.on("mouseover", function(event, d) {
                 tooltip.style("opacity", 1)
                     .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
+                d3.select(this).attr("r", 12); // Highlight node
+                label.filter(l => l.id === d.id).style("visibility", "visible"); // Show label
             }).on("mouseout", function() {
                 tooltip.style("opacity", 0);
+                d3.select(this).attr("r", 8); // Reset node size
+                label.style("visibility", "hidden"); // Hide labels again
+            });
+
+            // Filtering Functionality
+            categoryFilter.on("change", function() {
+                const selectedCategory = this.value;
+                node.style("visibility", d => selectedCategory === "all" || d.modularity == selectedCategory ? "visible" : "hidden");
+                link.style("visibility", d => selectedCategory === "all" || d.source.modularity == selectedCategory || d.target.modularity == selectedCategory ? "visible" : "hidden");
             });
 
             simulation.on("tick", () => {
