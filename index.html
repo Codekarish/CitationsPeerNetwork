@@ -75,7 +75,6 @@
 
             const width = window.innerWidth;
             const height = window.innerHeight;
-            const radius = Math.min(width, height) / 2 - 50; // Used for radial layout
 
             const svg = d3.select("body").append("svg")
                 .attr("width", width)
@@ -85,22 +84,14 @@
                 }))
                 .append("g");
 
-            const linkForce = d3.forceLink(graph.links)
-                .id(d => d.id)
-                .distance(150) // Increased distance
-                .strength(0.5);
+            const g = svg.append("g");
 
+            // Adjust forces for better spacing
             const simulation = d3.forceSimulation(graph.nodes)
-                .force("link", linkForce)
-                .force("charge", d3.forceManyBody().strength(-300)) // More repulsion
-                .force("collision", d3.forceCollide().radius(15)) // Avoids node overlap
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(200)) // Increase link distance
+                .force("charge", d3.forceManyBody().strength(-600)) // Stronger repulsion
+                .force("collision", d3.forceCollide().radius(30)) // Prevent overlapping
                 .force("center", d3.forceCenter(width / 2, height / 2));
-
-            // Apply radial layout to position nodes
-            graph.nodes.forEach((d, i) => {
-                d.x = radius * Math.cos((2 * Math.PI * i) / graph.nodes.length) + width / 2;
-                d.y = radius * Math.sin((2 * Math.PI * i) / graph.nodes.length) + height / 2;
-            });
 
             // Define color scale
             const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
@@ -114,15 +105,17 @@
                     .text(`Category ${category}`);
             });
 
-            const link = svg.selectAll(".link")
+            // Draw links (edges)
+            const link = g.selectAll(".link")
                 .data(graph.links)
                 .enter().append("line")
                 .attr("class", "link");
 
-            const node = svg.selectAll(".node")
+            // Draw nodes (circles)
+            const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 8)
+                .attr("r", 10)
                 .attr("fill", d => colorScale(d.modularity || 0))
                 .attr("class", "node")
                 .attr("data-category", d => d.modularity)
@@ -131,7 +124,8 @@
                     .on("drag", dragged)
                     .on("end", dragEnded));
 
-            const label = svg.selectAll(".label")
+            // Hide labels by default, show only on hover
+            const label = g.selectAll(".label")
                 .data(graph.nodes)
                 .enter().append("text")
                 .attr("class", "label")
@@ -142,6 +136,7 @@
                 .style("fill", "black")
                 .style("visibility", "hidden");
 
+            // Tooltip for better readability
             const tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip");
 
@@ -150,43 +145,20 @@
                     .html(`<strong>${d.label}</strong><br>Author: ${d.authors || "Unknown"}<br>Year: ${d.year || "N/A"}`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
-                d3.select(this).attr("r", 12);
+                d3.select(this).attr("r", 15); // Highlight node
                 label.filter(l => l.id === d.id).style("visibility", "visible");
             }).on("mouseout", function() {
                 tooltip.style("opacity", 0);
-                d3.select(this).attr("r", 8);
+                d3.select(this).attr("r", 10); // Reset node size
                 label.style("visibility", "hidden");
             });
 
+            // Filtering by category
             categoryFilter.on("change", function() {
                 const selectedCategory = this.value;
                 node.style("visibility", d => selectedCategory === "all" || d.modularity == selectedCategory ? "visible" : "hidden");
                 link.style("visibility", d => selectedCategory === "all" || d.source.modularity == selectedCategory || d.target.modularity == selectedCategory ? "visible" : "hidden");
             });
-
-            node.on("click", function(event, d) {
-                const connectedNodes = graph.links
-                    .filter(link => link.source.id === d.id || link.target.id === d.id)
-                    .map(link => link.source.id === d.id ? link.target.id : link.source.id);
-
-                svg.selectAll(".node")
-                    .filter(n => connectedNodes.includes(n.id))
-                    .transition().style("visibility", "visible");
-
-                svg.selectAll(".link")
-                    .filter(l => l.source.id === d.id || l.target.id === d.id)
-                    .transition().style("visibility", "visible");
-            });
-
-            const zoomHandler = d3.zoom()
-                .scaleExtent([1, 5])
-                .on("zoom", function(event) {
-                    g.attr("transform", event.transform);
-                    const zoomLevel = event.transform.k;
-                    svg.selectAll(".label").style("visibility", zoomLevel > 2 ? "visible" : "hidden");
-                });
-
-            svg.call(zoomHandler);
 
             simulation.on("tick", () => {
                 link.attr("x1", d => d.source.x)
