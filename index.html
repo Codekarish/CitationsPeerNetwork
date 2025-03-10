@@ -79,7 +79,7 @@
     </style>
 </head>
 <body>
-    <svg></svg>
+    <svg width="100%" height="100%"></svg>
 
     <div id="legend">
         <strong>Legend</strong>
@@ -121,30 +121,30 @@
         }
 
         function initializeGraph(graph) {
-            d3.select("svg").remove();
-
             const width = window.innerWidth;
             const height = window.innerHeight;
 
-            const svg = d3.select("body").append("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .call(d3.zoom().scaleExtent([0.5, 5]).on("zoom", function(event) {
-                    g.attr("transform", event.transform);
-                }))
-                .append("g");
+            const svg = d3.select("svg");
+            svg.selectAll("*").remove(); // Ensure previous graph is cleared
 
             const g = svg.append("g");
 
-            const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
-                .domain(graph.nodes.map(d => d.modularity));
+            svg.call(d3.zoom()
+                .scaleExtent([0.5, 5])
+                .on("zoom", function(event) {
+                    g.attr("transform", event.transform);
+                })
+            );
 
-            const categories = [...new Set(graph.nodes.map(d => d.modularity))];
+            const colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+                .domain(graph.nodes.map(d => d.modularity || "Unknown"));
+
+            const categories = [...new Set(graph.nodes.map(d => d.modularity || "Unknown"))];
 
             // Populate the legend dynamically
-            const legendItems = d3.select("#legendItems");
+            const legendItems = d3.select("#legendItems").html(""); // Clear previous items
             categories.forEach(category => {
-                let legendEntry = legendItems.append("div")
+                legendItems.append("div")
                     .attr("class", "legend-item")
                     .html(`
                         <div class="legend-color-box" style="background: ${colorScale(category)};"></div>
@@ -196,7 +196,7 @@
                 .data(graph.nodes)
                 .enter().append("circle")
                 .attr("r", d => d.label === "Root Paper" ? 20 : 10) // Root node 2x larger
-                .attr("fill", d => colorScale(d.modularity))
+                .attr("fill", d => colorScale(d.modularity || "Unknown"))
                 .attr("class", "node")
                 .call(d3.drag()
                     .on("start", dragStarted)
