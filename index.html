@@ -97,12 +97,16 @@
     <script>
         const jsonURL = "https://raw.githubusercontent.com/Codekarish/CitationsPeerNetwork/master/graph.json";
 
-        // Define category explanations
+        // Define category explanations based on depth=3 approach
         const categoryExplanations = {
-            "1": "Highly cited papers that are central to multiple disciplines.",
-            "2": "Niche papers with strong intra-group citations.",
-            "3": "Papers with limited citations, often newer research.",
-            "4": "Older publications that form the foundation of other works."
+            "1": "Directly connected papers with significant citations and interdisciplinary impact.",
+            "2": "Niche papers with highly focused intra-group citations.",
+            "3": "Recent works with growing citations, mostly cited by the first two categories.",
+            "4": "Foundational papers forming the basis of the most cited works.",
+            "5": "Derived from depth-2 citations of category 3 papers, indicating early-stage influence.",
+            "6": "Papers cited mainly by category 5, often representing emerging subfields.",
+            "7": "Specialized research with citations primarily limited to niche areas.",
+            "8": "Papers appearing at depth-3, representing the outermost layer of influence."
         };
 
         function loadGraph() {
@@ -156,7 +160,7 @@
             d3.selectAll(".legend-info").on("mouseover", function(event) {
                 const category = d3.select(this).attr("data-category");
                 tooltip.style("opacity", 1)
-                    .html(categoryExplanations[category] || "No description available.")
+                    .html(categoryExplanations[category] || "Derived based on citation depth of 3.")
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px");
             }).on("mouseout", function() {
@@ -191,7 +195,7 @@
             const node = g.selectAll(".node")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 10)
+                .attr("r", d => d.label === "Root Paper" ? 20 : 10) // Root node 2x larger
                 .attr("fill", d => colorScale(d.modularity))
                 .attr("class", "node")
                 .call(d3.drag()
@@ -208,23 +212,6 @@
                 node.attr("cx", d => d.x)
                     .attr("cy", d => d.y);
             });
-
-            function dragStarted(event, d) {
-                if (!event.active) simulation.alphaTarget(0.3).restart();
-                d.fx = d.x;
-                d.fy = d.y;
-            }
-
-            function dragged(event, d) {
-                d.fx = event.x;
-                d.fy = event.y;
-            }
-
-            function dragEnded(event, d) {
-                if (!event.active) simulation.alphaTarget(0);
-                d.fx = null;
-                d.fy = null;
-            }
         }
 
         loadGraph();
