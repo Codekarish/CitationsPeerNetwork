@@ -197,10 +197,10 @@
                     .text(`Category ${category}`);
             });
 
-            // Draw links (edges) with curves
+            // Draw links (edges) as straight lines
             const link = g.selectAll(".link")
                 .data(graph.links)
-                .enter().append("path")
+                .enter().append("line")
                 .attr("class", "link")
                 .attr("stroke-dasharray", d => 
                     (d.source.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence..." || d.target.label === "Understanding cybersecurity capacity building and its relationship to norms and confidence...") ? "5,5" : "none"
@@ -296,16 +296,17 @@
             });
 
             simulation.on("tick", () => {
-                link.attr("d", d => {
-                    const dx = d.target.x - d.source.x,
-                          dy = d.target.y - d.source.y,
-                          dr = Math.sqrt(dx * dx + dy * dy);
-                    return `M${d.source.x},${d.source.y}A${dr},${dr} 0 0,1 ${d.target.x},${d.target.y}`; // Curved links
-                });
+                // Update link positions
+                link.attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
 
+                // Update node positions
                 node.attr("cx", d => d.x)
                     .attr("cy", d => d.y);
 
+                // Update label positions
                 label.attr("x", d => d.x)
                     .attr("y", d => d.y);
             });
